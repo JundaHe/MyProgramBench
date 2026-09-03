@@ -111,4 +111,69 @@ solved task.
 Evaluating:  25%|█████████████                                       | 1/4 [03:00<06:27, 129.16s/it]                                                                                                    [nachoparker__dutree.44e877d] branch 674fd4666e90 failed (results_read_failed), continuing with remaining branches
 Evaluating:  25%|█████████████                                       | 1/4 [03:03<06:27, 129.16s/it]Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:24<03:15, 97.51s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 302473.85it/s]
-Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [04:47<01:30, 90.81s/it]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [04:47<01:30, 90.81s/it]                                                                                                    [nikoladucak__caps-log.2cf2d1e] branch c0e6b8d64108: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [24:47<01:30, 90.81s/it]                                                                                                    [nikoladucak__caps-log.2cf2d1e] branch c0e6b8d64108 failed (results_read_failed), continuing with remaining branches
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [24:51<01:30, 90.81s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [27:55<00:00, 602.91s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                       Score  Comment                                  
+ nachoparker__dutree.44e877d       84  ERRORS: BRANCH: 674fd4666e90:            
+                                       results_read_failed                      
+ naggie__dstask.ff57396            99  1305 tests                               
+ nikoladucak__caps-log.2cf2d1e     99  ERRORS: BRANCH: c0e6b8d64108:            
+                                       results_read_failed                      
+ nikolassv__bartib.6b9b5ce         ✅  721 tests                                
+ Average                           96  4 instances                              
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-03 21:49:30 round: ^(ogham__dog\.721440b|oppiliappan__eva\.41ae245|oppiliappan__statix\.e9df54c|orf__gping\.26eb5b9)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 231845.95it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 322638.77it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [01:23<04:09, 83.13s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 324421.30it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [02:13<02:07, 63.58s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 299593.14it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:09<01:55, 115.16s/it]Evaluating: 100%|███████████████████████████████████████████████████| 4/4 [54:54<00:00, 1247.97s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ ogham__dog.721440b              98  1356 tests  
+ oppiliappan__eva.41ae245        ✅  913 tests   
+ oppiliappan__statix.e9df54c     ✅  815 tests   
+ orf__gping.26eb5b9              97  359 tests   
+ Average                         99  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-03 22:44:25 round: ^(rbakbashev__elfcat\.52f8cc7|rcoh__angle\-grinder\.9c2fc88|rhysd__kiro\-editor\.4157485|riquito__tuc\.16fb471)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  2.35it/s][AFetching ... files: 4it [00:00,  8.60it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 4it [00:00, 25.38it/s][AFetching ... files: 15it [00:00, 66.95it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:13<06:40, 133.50s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  1.77it/s][A
+Fetching ... files: 3it [00:01,  3.01it/s][AFetching ... files: 10it [00:01,  9.37it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [06:23<06:44, 202.16s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 303.55it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [07:11<02:11, 131.72s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [09:50<00:00, 142.43s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ rbakbashev__elfcat.52f8cc7      ✅  564 tests   
+ rcoh__angle-grinder.9c2fc88     ✅  1129 tests  
+ rhysd__kiro-editor.4157485      ✅  589 tests   
+ riquito__tuc.16fb471            ✅  1196 tests  
+ Average                        100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-03 22:54:15 round: ^(rs__curlie\.5dfcbb1|rs__jplot\.2a54bcc|rust\-embedded__svd2rust\.1760b5e|rust\-ethereum__ethabi\.b1710ad)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 476.45it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 121.37it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [01:14<03:43, 74.49s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 826.99it/s]

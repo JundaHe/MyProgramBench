@@ -98,3 +98,12 @@
     at risk.
   - `truncate` setup errors in dutree: the target directory does not exist in the branch tar (git
     keeps no empty dirs) — same under Docker.
+- Hourly check #4 (22:55): 144/200, jobs healthy, 7 excluded (new: muffet 0.890). **Network-namespace
+  problem found**: apptainer containers share the host network, and this host listens on many
+  ports (22 sshd, 53, 80, 3306, 8000, 19999 netdata, …). Tests that expect `localhost:19999` /
+  `:22` to refuse connections pass under Docker (private netns) but fail here (muffet: 135
+  failures on :19999; dropbear: :22/:19999; pixterm), and parallel containers collide on fixed
+  ports (bore, oha, quinn: `Address already in use`). ~12 evaluated tasks show port-related
+  failures. Plan: give each container its own netns with rootless outbound connectivity (pasta or
+  slirp4netns attached to apptainer's `--network none` namespace), then re-evaluate the affected
+  tasks. Time-boxed; current jobs keep running meanwhile.
