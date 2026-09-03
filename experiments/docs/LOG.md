@@ -137,3 +137,13 @@
     reference binary's.
   - Survey: every branch tar contains `build.sh`; 33 C / 12 C++ tasks, many of whose build.sh run
     `apt-get`, so source-built golds are not generally possible under the build-time internet block.
+- **v1 pass complete** (01:13): 200/200, no instance-level errors, 9 branch errors (all the pytest-9.1
+  × libtmux collection failure). Scored into `results/v1-hostnet/` (host-network shim, binary-copy
+  gold incl. tinycc): 9 excluded (< 0.9) → 191 remain. Excluded: tinycc 0.718, pingu 0.723,
+  oranda 0.745, ffmpeg 0.798, revive 0.809, dutree 0.843, dust 0.868, muffet 0.890, doxygen 0.899.
+  Of these, tinycc/pingu/muffet (and part of dust/dutree) are attributable to our environment, not
+  the tests — hence the v2 pass.
+- Shim swapped: `scripts/pbdocker` is now the isolated-netns + proxy version (old one kept as
+  `scripts/pbdocker.v1-hostnet`). Jobs **5532** (12 c, 2 workers) and **5533** (4 c, 1 worker) started
+  the v2 pass into `/scratch/jundahe/pb-runs/gold-eval-v2/` (tinycc gold = source build).
+  Removed 5 orphaned container dirs left by the v1 jobs.

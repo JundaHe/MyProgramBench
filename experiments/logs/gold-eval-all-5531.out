@@ -341,3 +341,13 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 2264.04it/s]
 Evaluating:  50%|█████████████████████████▌                         | 1/2 [43:44<43:44, 2624.95s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 1132.45it/s]
+Evaluating: 100%|█████████████████████████████████████████████████| 2/2 [1:20:16<00:00, 2370.10s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ skeema__skeema.6a76243    100  1719 tests  
+ sqlite__sqlite.839433d    100  13527 tests 
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 0 pending
+2026-09-04 00:40:37 done

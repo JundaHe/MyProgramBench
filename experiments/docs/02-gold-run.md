@@ -38,9 +38,10 @@ Points that need a decision once data is in:
 | Job | Scope | Partition/CPUs | Status |
 |---|---|---|---|
 | 5501, 5503, 5504, 5506 | `abishekvashok__cmatrix` (smoke; 4 rounds while fixing the shim) | debug / 8 | 100 ✅ on the 4th run |
-| 5510 → 5530 + 5531 | v1 pass (host network), all tasks | normal / 12+4 | finishing |
-| (next) | v2 pass: isolated netns + proxy (`pbdocker.v2`) → `gold-eval-v2` | normal / 12+4 | planned |
+| 5510 → 5530 + 5531 | v1 pass (host network), all tasks → `results/v1-hostnet/` | normal / 12+4 | done: 9 excluded / 191 remain |
+| 5532 + 5533 | v2 pass: isolated netns + proxy, tinycc source-built gold → `gold-eval-v2` | normal / 12+4 | running |
 
 ## Results
 
-(pending)
+v1 (host network, binary-copy gold) — `results/v1-hostnet/`: 9 excluded, 191 remain. See LOG for the
+per-task diagnosis; v2 is the pass intended as the final answer, v1 serves as the flakiness reference.

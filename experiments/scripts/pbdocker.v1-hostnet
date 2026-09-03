@@ -14,12 +14,7 @@ Layout under $PBDOCKER_ROOT (default /scratch/jundahe/pb-apptainer):
     containers/<name>/{upper,work,tmp,meta.json}
 
 A container is an apptainer instance: base rootfs (read-only) + per-container overlay dir, fakeroot,
---containall, own PID namespace and its own network namespace (loopback only, like Docker's bridge
-isolation). Outbound access goes through a per-job HTTP proxy on a unix socket (see pbproxy.py):
-a relay inside the container listens on 127.0.0.1:3128 and HTTP(S)_PROXY is set for every exec.
-Set PBDOCKER_HOST_NETWORK=1 to share the host network instead (old behaviour). `--network none`
-(mini-swe-agent) gives an isolated netns with no proxy. `--cpus` etc. are accepted and ignored
-(Slurm cgroups cap us).
+--containall, own PID namespace, host network. `--cpus` is accepted and ignored (Slurm cgroups cap us).
 
 PBDOCKER_EXPOSE_REFERENCE=1 copies /workspace/executable (the task's reference binary, which the eval
 wipes before compile.sh runs) to /opt/programbench-reference/executable at container start. Only for
@@ -36,36 +31,6 @@ from pathlib import Path
 ROOT = Path(os.environ.get("PBDOCKER_ROOT", "/scratch/jundahe/pb-apptainer"))
 IMAGES, CONTAINERS, TOOLBOX = ROOT / "images", ROOT / "containers", ROOT / "toolbox" / "rootfs"
 REFERENCE_DIR = "/opt/programbench-reference"
-PROXY_DIR = Path(os.environ.get("PBDOCKER_PROXY_DIR", str(ROOT / "proxy" / "default")))
-PROXY_PORT = 3128
-PROXY_ENV = {k: f"http://127.0.0.1:{PROXY_PORT}" for k in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY")}
-PROXY_ENV.update({"no_proxy": "localhost,127.0.0.1", "NO_PROXY": "localhost,127.0.0.1"})
-PBPROXY = Path(__file__).resolve().parent / "pbproxy.py"
-
-
-def ensure_proxy() -> Path:
-    """Start the host-side unix-socket HTTP proxy for this job if it is not already answering."""
-    import socket
-
-    PROXY_DIR.mkdir(parents=True, exist_ok=True)
-    sock = PROXY_DIR / "proxy.sock"
-    try:
-        with socket.socket(socket.AF_UNIX) as s:
-            s.settimeout(2)
-            s.connect(str(sock))
-        return sock
-    except OSError:
-        pass
-    subprocess.Popen(
-        ["setsid", sys.executable, str(PBPROXY), "serve", str(sock)],
-        stdin=subprocess.DEVNULL, stdout=(PROXY_DIR / "proxy.log").open("ab"), stderr=subprocess.STDOUT, start_new_session=True,
-    )
-    for _ in range(50):
-        if sock.exists():
-            return sock
-        import time
-        time.sleep(0.1)
-    die("proxy did not start")
 
 
 def san(ref: str) -> str:
@@ -136,32 +101,21 @@ def cmd_run(argv: list[str]) -> None:
     rootfs = IMAGES / base / "rootfs"
     if not rootfs.is_dir():
         die(f"run: image {image} not prepared (expected {rootfs}); run scripts/prep_image.sh first")
+    (cdir / "meta.json").write_text(json.dumps({"cwd": cwd, "env": env, "base": base, "image": image, "user": user}))
     if network not in ("", "none"):
         die(f"run: unsupported --network {network}")
-    host_net = os.environ.get("PBDOCKER_HOST_NETWORK") == "1" and network != "none"
-    proxied = not host_net and network != "none"
-    (cdir / "meta.json").write_text(json.dumps({
-        "cwd": cwd, "env": {**(PROXY_ENV if proxied else {}), **env}, "base": base, "image": image, "user": user,
-    }))
-    proxy_binds = ["-B", f"{ensure_proxy().parent}:/run/pbproxy", "-B", f"{PBPROXY}:/opt/pbproxy.py"] if proxied else []
     subprocess.run(
         [
             # --containall would mask $HOME and /tmp,/var/tmp with empty (64 MiB) session dirs; docker
             # semantics are the image's own /root (holds .gitconfig safe.directory) and unbounded tmp dirs.
             "apptainer", "instance", "start", "--fakeroot", "--containall", "--no-home",
-            *([] if host_net else ["--net", "--network", "none"]),
-            "--no-mount", "/etc/resolv.conf", *proxy_binds,
+            *(["--net", "--network", "none"] if network == "none" else []),
+            "--no-mount", "/etc/resolv.conf",
             "-B", f"{cdir / 'tmp'}:/tmp", "-B", f"{cdir / 'vartmp'}:/var/tmp", "--overlay", str(cdir),
             str(rootfs), name,
         ],
         check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
     )
-    if proxied:
-        instance_exec(
-            name, "sh", "-c",
-            f"nohup python3 /opt/pbproxy.py relay /run/pbproxy/proxy.sock {PROXY_PORT} >/dev/null 2>&1 &",
-            cwd="/", check=True,
-        )
     # apptainer would bind the host's resolv.conf read-only; the eval needs to rewrite it, so seed a writable copy.
     instance_exec(name, "sh", "-c", "cat > /etc/resolv.conf", cwd="/", input=Path("/etc/resolv.conf").read_bytes(), check=True)
     if os.environ.get("PBDOCKER_EXPOSE_REFERENCE") == "1" and not (img / "commit.json").exists():
@@ -187,14 +141,7 @@ def cmd_exec(argv: list[str]) -> None:
     meta = json.loads((CONTAINERS / name / "meta.json").read_text())
     if meta.get("user"):
         cmd = ["runuser", "-u", meta["user"], "--", *cmd]  # docker --user: instance runs as fakeroot, drop per exec
-    rc = instance_exec(name, *cmd, cwd=cwd or meta["cwd"], env=meta["env"]).returncode
-    # programbench blackholes DNS (resolv.conf -> 0.0.0.0) around compile.sh so builds cannot download. The
-    # proxy would bypass that, so freeze the in-container relay while the blackhole is in place.
-    joined = " ".join(cmd)
-    if "resolv.conf.programbench-build-bak" in joined and "http_proxy" in meta["env"]:
-        sig = "-CONT" if "rm -f" in joined else "-STOP"
-        instance_exec(name, "pkill", sig, "-f", "pbproxy.py relay", cwd="/")
-    sys.exit(rc)
+    sys.exit(instance_exec(name, *cmd, cwd=cwd or meta["cwd"], env=meta["env"]).returncode)
 
 
 def cmd_cp(src: str, dst: str) -> None:

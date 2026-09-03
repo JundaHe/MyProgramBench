@@ -1,0 +1,5 @@
+HOST=pro5000-soar JOB=5533 CPUS=4 WORKERS=1 DOCKER_CPUS=4
+# 2 pending
+=== 2026-09-04 01:13:40 round: ^(abishekvashok__cmatrix\.5c082c6|agourlay__zip\-password\-finder\.704700d)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 340654.13it/s]

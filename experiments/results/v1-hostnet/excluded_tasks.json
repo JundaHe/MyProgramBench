@@ -1,0 +1,14 @@
+{
+ "threshold": 0.9,
+ "excluded": [
+  "axodotdev__oranda.27d60c7",
+  "bootandy__dust.62bf1e1",
+  "doxygen__doxygen.966d98e",
+  "ffmpeg__ffmpeg.360a402",
+  "mgechev__revive.201451e",
+  "nachoparker__dutree.44e877d",
+  "raviqqe__muffet.a882908",
+  "sheepla__pingu.926d475",
+  "tinycc__tinycc.9b8765d"
+ ]
+}
