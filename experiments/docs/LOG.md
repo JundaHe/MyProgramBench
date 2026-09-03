@@ -107,3 +107,15 @@
   failures. Plan: give each container its own netns with rootless outbound connectivity (pasta or
   slirp4netns attached to apptainer's `--network none` namespace), then re-evaluate the affected
   tasks. Time-boxed; current jobs keep running meanwhile.
+- Network isolation solved (23:10). slirp4netns and pasta both fail here (`/dev/net/tun: Operation not
+  permitted` inside the user namespace — AppArmor), but filesystem unix sockets cross network
+  namespaces, so: `scripts/pbproxy.py serve <sock>` runs one HTTP/CONNECT proxy per Slurm job on a
+  unix socket; the shim starts each container with `--net --network none` (loopback only, like
+  Docker), binds the socket in, starts `pbproxy.py relay` inside (127.0.0.1:3128) and sets
+  `http(s)_proxy` for every exec. Verified: HTTPS/HTTP via proxy, `pip install`, `git ls-remote`,
+  `localhost:19999` refused, relay survives across execs and into committed images, and the harness's
+  build-time DNS blackhole still blocks downloads (the relay is SIGSTOPped while the blackhole is in
+  place). Cost: programs that resolve DNS/connect to the internet without honouring proxy env vars
+  cannot reach it. Implemented as `scripts/pbdocker.v2`; swapped in once the v1 (host-network) pass
+  finishes so v1 stays internally consistent. Plan: full second pass (`gold-eval-v2`) under the
+  final configuration; v1 vs v2 disagreement doubles as a flakiness signal.

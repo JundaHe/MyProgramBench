@@ -38,7 +38,8 @@ Points that need a decision once data is in:
 | Job | Scope | Partition/CPUs | Status |
 |---|---|---|---|
 | 5501, 5503, 5504, 5506 | `abishekvashok__cmatrix` (smoke; 4 rounds while fixing the shim) | debug / 8 | 100 ✅ on the 4th run |
-| 5510 | all prepared images, rounds | normal / 12 (2×6) | running |
+| 5510 → 5530 + 5531 | v1 pass (host network), all tasks | normal / 12+4 | finishing |
+| (next) | v2 pass: isolated netns + proxy (`pbdocker.v2`) → `gold-eval-v2` | normal / 12+4 | planned |
 
 ## Results
 

@@ -27,7 +27,7 @@ Internet is available (PyPI, GitHub, Docker Hub, HuggingFace all reachable).
 | stdin passthrough to `apptainer exec` | OK | `docker exec -i ... tar -xzf -` |
 | `/etc/resolv.conf` | bound read-only from host by default → `--no-mount /etc/resolv.conf` + seed a writable copy; DNS blackhole then works (`curl: Could not resolve host`) | build-time internet block |
 | `/tmp` | `--containall` makes it a 64 MiB tmpfs (`sessiondir max size`) → bind a per-container host dir instead | builds writing to /tmp |
-| Network | host network namespace, no isolation; parallel containers share ports | keep `-b 1`; watch for port clashes when `-w > 1` |
+| Network | v1: host netns (shared ports: host runs sshd/netdata/mysql…, parallel containers collide). v2: `--net --network none` + unix-socket HTTP proxy (`scripts/pbproxy.py`), since slirp4netns/pasta need `/dev/net/tun` which AppArmor denies in user namespaces | Docker-like port isolation with outbound access |
 | `$HOME` | `--containall` masks it with an empty session dir → `--no-home` so the image's `/root` (with `.gitconfig` `safe.directory`) is used | `seed_git` step |
 | host env | `apptainer exec` inherits it (a leaked `$TMUX` broke all tmux tests) → `--cleanenv`; `$TERM` is forwarded regardless → `env -u TERM` | docker-exec parity |
 | `--cpus` | no equivalent; ignored — Slurm's cgroup (`-c N`) is the cap. `PYTEST_XDIST_AUTO_NUM_WORKERS` is still passed through | |

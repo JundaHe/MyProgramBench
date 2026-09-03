@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 IMAGES = Path("/scratch/jundahe/pb-apptainer/images")
-EVAL = Path("/scratch/jundahe/pb-runs/gold-eval/gold")
+EVAL = Path(os.environ.get("PB_GOLD_EVAL_DIR", "/scratch/jundahe/pb-runs/gold-eval/gold"))
 TASKS = Path("/scratch/jundahe/ProgramBench/src/programbench/data/tasks")
 LOGS = Path("/scratch/jundahe/ProgramBench/experiments/logs")
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Gold-evaluate every task whose image is prepared, in rounds, until the image-prep job (PREP_JOB) is
 # gone and nothing is pending. Instances that already have an eval.json are skipped by programbench.
-#   sbatch --export=ALL,PREP_JOB=5502 scripts/gold_eval_loop.slurm
+#   sbatch --export=ALL[,OUT=/scratch/jundahe/pb-runs/gold-eval-v2,WORKERS=2,DOCKER_CPUS=6] scripts/gold_eval_loop.slurm
 #SBATCH -p normal
 #SBATCH --qos=normal
 #SBATCH -J pb-gold-all
@@ -17,6 +17,8 @@ export HF_HOME=/scratch/jundahe/huggingface
 export PROGRAMBENCH_DOCKER_EXECUTABLE=/scratch/jundahe/ProgramBench/experiments/scripts/pbdocker
 export PROGRAMBENCH_DOCKER_RUN_TIMEOUT=1800 PROGRAMBENCH_DOCKER_CP_TIMEOUT=1800
 export PBDOCKER_EXPOSE_REFERENCE=1
+export PBDOCKER_PROXY_DIR=/scratch/jundahe/pb-apptainer/proxy/$SLURM_JOB_ID   # per-job outbound proxy (pbproxy.py)
+export PB_GOLD_EVAL_DIR=${OUT:-/scratch/jundahe/pb-runs/gold-eval}/gold           # read by pending_tasks.py
 S=/scratch/jundahe/ProgramBench/experiments/scripts
 echo "HOST=$(hostname) JOB=$SLURM_JOB_ID CPUS=$SLURM_CPUS_PER_TASK WORKERS=${WORKERS:-3} DOCKER_CPUS=${DOCKER_CPUS:-8}"
 cd /scratch/jundahe/ProgramBench
@@ -27,6 +29,6 @@ while true; do
     echo "$(date '+%F %T') done"; break
   fi
   echo "=== $(date '+%F %T') round: $filter"
-  uv run programbench eval /scratch/jundahe/pb-runs/gold --filter "$filter" -o /scratch/jundahe/pb-runs/gold-eval \
+  uv run programbench eval /scratch/jundahe/pb-runs/gold --filter "$filter" -o "${OUT:-/scratch/jundahe/pb-runs/gold-eval}" \
     --docker-cpus "${DOCKER_CPUS:-8}" -w "${WORKERS:-3}" -b 1
 done

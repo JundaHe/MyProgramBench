@@ -1,0 +1,259 @@
+#!/usr/bin/env python3
+"""docker-CLI shim over Apptainer, covering exactly the subset programbench's eval uses.
+
+    run -d --init --name N -w CWD --cpus X [-e K=V]* IMAGE sleep 2h
+    exec [-i] [-w CWD] ID CMD...
+    cp LOCAL ID:PATH | cp ID:PATH LOCAL
+    commit ID REF
+    stop ID | rm -f ID | rmi -f REF
+
+Layout under $PBDOCKER_ROOT (default /scratch/jundahe/pb-apptainer):
+    toolbox/rootfs                 alpine sandbox used for fakeroot fs ops (cp -a / rm -rf of subuid-owned files)
+    images/<ref>/rootfs            base sandbox built by scripts/prep_image.sh (docker:// pull)
+    images/<ref>/{upper,commit.json}   committed image = base ref + overlay upper snapshot
+    containers/<name>/{upper,work,tmp,meta.json}
+
+A container is an apptainer instance: base rootfs (read-only) + per-container overlay dir, fakeroot,
+--containall, own PID namespace and its own network namespace (loopback only, like Docker's bridge
+isolation). Outbound access goes through a per-job HTTP proxy on a unix socket (see pbproxy.py):
+a relay inside the container listens on 127.0.0.1:3128 and HTTP(S)_PROXY is set for every exec.
+Set PBDOCKER_HOST_NETWORK=1 to share the host network instead (old behaviour). `--network none`
+(mini-swe-agent) gives an isolated netns with no proxy. `--cpus` etc. are accepted and ignored
+(Slurm cgroups cap us).
+
+PBDOCKER_EXPOSE_REFERENCE=1 copies /workspace/executable (the task's reference binary, which the eval
+wipes before compile.sh runs) to /opt/programbench-reference/executable at container start. Only for
+the gold run; never set it when an agent is inside the container.
+"""
+
+import json
+import os
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(os.environ.get("PBDOCKER_ROOT", "/scratch/jundahe/pb-apptainer"))
+IMAGES, CONTAINERS, TOOLBOX = ROOT / "images", ROOT / "containers", ROOT / "toolbox" / "rootfs"
+REFERENCE_DIR = "/opt/programbench-reference"
+PROXY_DIR = Path(os.environ.get("PBDOCKER_PROXY_DIR", str(ROOT / "proxy" / "default")))
+PROXY_PORT = 3128
+PROXY_ENV = {k: f"http://127.0.0.1:{PROXY_PORT}" for k in ("http_proxy", "https_proxy", "HTTP_PROXY", "HTTPS_PROXY")}
+PROXY_ENV.update({"no_proxy": "localhost,127.0.0.1", "NO_PROXY": "localhost,127.0.0.1"})
+PBPROXY = Path(__file__).resolve().parent / "pbproxy.py"
+
+
+def ensure_proxy() -> Path:
+    """Start the host-side unix-socket HTTP proxy for this job if it is not already answering."""
+    import socket
+
+    PROXY_DIR.mkdir(parents=True, exist_ok=True)
+    sock = PROXY_DIR / "proxy.sock"
+    try:
+        with socket.socket(socket.AF_UNIX) as s:
+            s.settimeout(2)
+            s.connect(str(sock))
+        return sock
+    except OSError:
+        pass
+    subprocess.Popen(
+        ["setsid", sys.executable, str(PBPROXY), "serve", str(sock)],
+        stdin=subprocess.DEVNULL, stdout=(PROXY_DIR / "proxy.log").open("ab"), stderr=subprocess.STDOUT, start_new_session=True,
+    )
+    for _ in range(50):
+        if sock.exists():
+            return sock
+        import time
+        time.sleep(0.1)
+    die("proxy did not start")
+
+
+def san(ref: str) -> str:
+    return ref.replace("/", "__").replace(":", "--")
+
+
+def die(msg: str) -> None:
+    print(f"pbdocker: {msg}", file=sys.stderr)
+    sys.exit(1)
+
+
+def fakeroot_fs(*cmd: str, binds: dict[Path, str]) -> None:
+    """Run a filesystem command as fakeroot inside the toolbox so subuid-owned files are handled."""
+    bind_args = [x for p, dst in binds.items() for x in ("-B", f"{p}:{dst}")]
+    subprocess.run(["apptainer", "exec", "--cleanenv", "--fakeroot", *bind_args, str(TOOLBOX), *cmd], check=True)
+
+
+def instance_exec(name: str, *cmd: str, cwd: str | None = None, env: dict[str, str] | None = None, **kw):
+    # --cleanenv: docker exec does not inherit the host environment either (a leaked $TMUX broke every TUI test)
+    args = ["apptainer", "exec", "--cleanenv", "--pwd", cwd or json.loads((CONTAINERS / name / "meta.json").read_text())["cwd"]]
+    for k, v in (env or {}).items():
+        args += ["--env", f"{k}={v}"]
+    # apptainer forwards the host $TERM even with --cleanenv; docker exec (no -t) has none. ncurses programs
+    # must fail fast ("Error opening terminal") instead of drawing into a pipe until the test times out.
+    return subprocess.run([*args, f"instance://{name}", "env", "-u", "TERM", *cmd], **kw)
+
+
+def cmd_run(argv: list[str]) -> None:
+    name, cwd, env, image, network, user = "", "/", {}, "", "", ""
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if a in ("-d", "--init"):
+            i += 1
+        elif a == "--name":
+            name, i = argv[i + 1], i + 2
+        elif a == "-w":
+            cwd, i = argv[i + 1], i + 2
+        elif a in ("--cpus", "--memory", "--memory-swap", "--cap-drop"):
+            i += 2  # resource caps come from the Slurm cgroup; ptrace on the reference binary is a rules matter
+        elif a == "--rm":
+            i += 1
+        elif a == "--network":
+            network, i = argv[i + 1], i + 2
+        elif a == "--user":
+            user, i = argv[i + 1], i + 2
+        elif a == "-e":
+            k, v = argv[i + 1].split("=", 1)
+            env[k], i = v, i + 2
+        elif a.startswith("-"):
+            die(f"run: unsupported flag {a}")
+        else:
+            image = a
+            break  # the trailing command (sleep 2h) is irrelevant: the instance stays alive on its own
+    if not (name and image):
+        die("run: need --name and IMAGE")
+    img = IMAGES / san(image)
+    cdir = CONTAINERS / name
+    for d in ("upper", "work", "tmp", "vartmp"):
+        (cdir / d).mkdir(parents=True)
+    for d in ("tmp", "vartmp"):
+        (cdir / d).chmod(0o1777)  # like a real /tmp: unprivileged users (apt's _apt, `agent`) must be able to write
+    if (img / "commit.json").exists():
+        base = json.loads((img / "commit.json").read_text())["base"]
+        fakeroot_fs("cp", "-a", "/src/.", "/dst/", binds={img / "upper": "/src", cdir / "upper": "/dst"})
+    else:
+        base = san(image)
+    rootfs = IMAGES / base / "rootfs"
+    if not rootfs.is_dir():
+        die(f"run: image {image} not prepared (expected {rootfs}); run scripts/prep_image.sh first")
+    if network not in ("", "none"):
+        die(f"run: unsupported --network {network}")
+    host_net = os.environ.get("PBDOCKER_HOST_NETWORK") == "1" and network != "none"
+    proxied = not host_net and network != "none"
+    (cdir / "meta.json").write_text(json.dumps({
+        "cwd": cwd, "env": {**(PROXY_ENV if proxied else {}), **env}, "base": base, "image": image, "user": user,
+    }))
+    proxy_binds = ["-B", f"{ensure_proxy().parent}:/run/pbproxy", "-B", f"{PBPROXY}:/opt/pbproxy.py"] if proxied else []
+    subprocess.run(
+        [
+            # --containall would mask $HOME and /tmp,/var/tmp with empty (64 MiB) session dirs; docker
+            # semantics are the image's own /root (holds .gitconfig safe.directory) and unbounded tmp dirs.
+            "apptainer", "instance", "start", "--fakeroot", "--containall", "--no-home",
+            *([] if host_net else ["--net", "--network", "none"]),
+            "--no-mount", "/etc/resolv.conf", *proxy_binds,
+            "-B", f"{cdir / 'tmp'}:/tmp", "-B", f"{cdir / 'vartmp'}:/var/tmp", "--overlay", str(cdir),
+            str(rootfs), name,
+        ],
+        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+    )
+    if proxied:
+        instance_exec(
+            name, "sh", "-c",
+            f"nohup python3 /opt/pbproxy.py relay /run/pbproxy/proxy.sock {PROXY_PORT} >/dev/null 2>&1 &",
+            cwd="/", check=True,
+        )
+    # apptainer would bind the host's resolv.conf read-only; the eval needs to rewrite it, so seed a writable copy.
+    instance_exec(name, "sh", "-c", "cat > /etc/resolv.conf", cwd="/", input=Path("/etc/resolv.conf").read_bytes(), check=True)
+    if os.environ.get("PBDOCKER_EXPOSE_REFERENCE") == "1" and not (img / "commit.json").exists():
+        instance_exec(
+            name, "sh", "-c",
+            f"mkdir -p {REFERENCE_DIR} && cp /workspace/executable {REFERENCE_DIR}/executable && chmod 755 {REFERENCE_DIR}/executable",
+            cwd="/", check=True,
+        )
+    print(name)
+
+
+def cmd_exec(argv: list[str]) -> None:
+    cwd = None
+    i = 0
+    while argv[i].startswith("-"):
+        if argv[i] == "-i":
+            i += 1
+        elif argv[i] == "-w":
+            cwd, i = argv[i + 1], i + 2
+        else:
+            die(f"exec: unsupported flag {argv[i]}")
+    name, cmd = argv[i], argv[i + 1 :]
+    meta = json.loads((CONTAINERS / name / "meta.json").read_text())
+    if meta.get("user"):
+        cmd = ["runuser", "-u", meta["user"], "--", *cmd]  # docker --user: instance runs as fakeroot, drop per exec
+    rc = instance_exec(name, *cmd, cwd=cwd or meta["cwd"], env=meta["env"]).returncode
+    # programbench blackholes DNS (resolv.conf -> 0.0.0.0) around compile.sh so builds cannot download. The
+    # proxy would bypass that, so freeze the in-container relay while the blackhole is in place.
+    joined = " ".join(cmd)
+    if "resolv.conf.programbench-build-bak" in joined and "http_proxy" in meta["env"]:
+        sig = "-CONT" if "rm -f" in joined else "-STOP"
+        instance_exec(name, "pkill", sig, "-f", "pbproxy.py relay", cwd="/")
+    sys.exit(rc)
+
+
+def cmd_cp(src: str, dst: str) -> None:
+    if ":" in dst:
+        name, path = dst.split(":", 1)
+        with open(src, "rb") as f:
+            instance_exec(name, "sh", "-c", f"cat > '{path}'", stdin=f, check=True)
+    else:
+        name, path = src.split(":", 1)
+        with open(dst, "wb") as f:
+            instance_exec(name, "cat", path, stdout=f, check=True)
+
+
+def cmd_commit(name: str, ref: str) -> None:
+    meta = json.loads((CONTAINERS / name / "meta.json").read_text())
+    img = IMAGES / san(ref)
+    (img / "upper").mkdir(parents=True)
+    fakeroot_fs("cp", "-a", "/src/.", "/dst/", binds={CONTAINERS / name / "upper": "/src", img / "upper": "/dst"})
+    (img / "commit.json").write_text(json.dumps({"base": meta["base"]}))
+    print(ref)
+
+
+def remove_tree(path: Path) -> None:
+    if path.exists():
+        fakeroot_fs("sh", "-c", "rm -rf /d/* /d/.[!.]* 2>/dev/null; true", binds={path: "/d"})
+        shutil.rmtree(path)
+
+
+def cmd_rm(name: str) -> None:
+    subprocess.run(["apptainer", "instance", "stop", name], capture_output=True)
+    remove_tree(CONTAINERS / name)
+
+
+def cmd_rmi(ref: str) -> None:
+    img = IMAGES / san(ref)
+    if not (img / "commit.json").exists():
+        die(f"rmi: refusing to delete base image {ref}")
+    remove_tree(img)
+
+
+def main() -> None:
+    cmd, argv = sys.argv[1], sys.argv[2:]
+    if cmd == "run":
+        cmd_run(argv)
+    elif cmd == "exec":
+        cmd_exec(argv)
+    elif cmd == "cp":
+        cmd_cp(*argv)
+    elif cmd == "commit":
+        cmd_commit(*argv)
+    elif cmd == "stop":
+        subprocess.run(["apptainer", "instance", "stop", argv[-1]], capture_output=True)
+    elif cmd == "rm":
+        cmd_rm(argv[-1])
+    elif cmd == "rmi":
+        cmd_rmi(argv[-1])
+    else:
+        die(f"unsupported command {cmd}")
+
+
+if __name__ == "__main__":
+    main()

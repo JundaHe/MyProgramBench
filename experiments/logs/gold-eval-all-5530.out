@@ -177,3 +177,33 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 121.37it/s]
 Evaluating:  25%|█████████████▎                                       | 1/4 [01:14<03:43, 74.49s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 826.99it/s]
+                                                                                                    [rust-embedded__svd2rust.1760b5e] branch c1c694f9aa4f: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  25%|█████████████▎                                       | 1/4 [03:15<03:43, 74.49s/it]                                                                                                    [rust-embedded__svd2rust.1760b5e] branch c1c694f9aa4f failed (results_read_failed), continuing with remaining branches
+Evaluating:  25%|█████████████▎                                       | 1/4 [03:18<03:43, 74.49s/it]Evaluating:  50%|██████████████████████████                          | 2/4 [03:40<03:53, 116.80s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 242.51it/s]
+                                                                                                    [rust-ethereum__ethabi.b1710ad] branch 7f66c86dd224: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  50%|██████████████████████████                          | 2/4 [04:35<03:53, 116.80s/it]                                                                                                    [rust-ethereum__ethabi.b1710ad] branch 7f66c86dd224 failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|██████████████████████████                          | 2/4 [04:37<03:53, 116.80s/it]Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [04:37<01:29, 89.27s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [06:46<00:00, 104.85s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                         Score  Comment                                
+ rs__curlie.5dfcbb1                  ✅  693 tests                              
+ rs__jplot.2a54bcc                   ✅  585 tests                              
+ rust-embedded__svd2rust.1760b5e     99  ERRORS: BRANCH: c1c694f9aa4f:          
+                                         results_read_failed                    
+ rust-ethereum__ethabi.b1710ad       97  ERRORS: BRANCH: 7f66c86dd224:          
+                                         results_read_failed                    
+ Average                             99  4 instances                            
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-03 23:01:02 round: ^(sclevine__yj\.8016400|segmentio__chamber\.5f93f5f|sharkdp__bat\.f822bd0|sharkdp__fd\.40d8eb3)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 551.24it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 3it [00:00, 25.07it/s][AFetching ... files: 11it [00:00, 91.81it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [00:51<02:35, 51.98s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 279.47it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [01:18<01:14, 37.28s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 3395.97it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [02:22<00:49, 49.25s/it]

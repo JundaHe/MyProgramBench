@@ -238,3 +238,22 @@ solved task.
 === 2026-09-03 22:55:02 round: ^(rust\-lang__mdbook\.37273ba|rvben__rumdl\.2d75c4d)$
 Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 1291.35it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:13<02:13, 133.32s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 1087.69it/s]
+                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  50%|██████████████████████████                          | 1/2 [04:35<02:13, 133.32s/it]                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|██████████████████████████                          | 1/2 [04:38<02:13, 133.32s/it]Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:44<00:00, 143.93s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                   Score  Comment                                      
+ rust-lang__mdbook.37273ba     99  1148 tests                                   
+ rvben__rumdl.2d75c4d         100  ERRORS: BRANCH: 75b32744b65c:                
+                                   results_read_failed                          
+ Average                       99  2 instances                                  
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 22:59:47 round: ^(samtools__samtools\.aa823b5|sayanarijit__xplr\.1751065)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 420.32it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:47<01:47, 107.36s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 339.68it/s]
