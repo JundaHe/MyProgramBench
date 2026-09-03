@@ -38,7 +38,7 @@ Points that need a decision once data is in:
 | Job | Scope | Partition/CPUs | Status |
 |---|---|---|---|
 | 5501, 5503, 5504, 5506 | `abishekvashok__cmatrix` (smoke; 4 rounds while fixing the shim) | debug / 8 | 100 ✅ on the 4th run |
-| 5508 | all prepared images, rounds | normal / 24 (3×8) | running |
+| 5509 | all prepared images, rounds | normal / 24 (3×8) | running |
 
 ## Results
 
