@@ -43,3 +43,99 @@ HOST=pro5000-soar JOB=5510 CPUS=12 WORKERS=2 DOCKER_CPUS=6
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 332222.10it/s]
 Evaluating:  27%|████████████▌                                 | 18/66 [1:21:28<1:50:47, 138.48s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 91180.52it/s]
+Evaluating:  29%|█████████████▏                                | 19/66 [1:24:00<1:51:30, 142.36s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 241979.08it/s]
+                                                                                                    [bootandy__dust.62bf1e1] branch d42ad55b3a4b: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  29%|█████████████▏                                | 19/66 [1:25:10<1:51:30, 142.36s/it]                                                                                                    [bootandy__dust.62bf1e1] branch d42ad55b3a4b failed (results_read_failed), continuing with remaining branches
+Evaluating:  29%|█████████████▏                                | 19/66 [1:25:15<1:51:30, 142.36s/it]Evaluating:  30%|█████████████▉                                | 20/66 [1:25:41<1:39:47, 130.15s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 85019.68it/s]
+Evaluating:  32%|██████████████▉                                | 21/66 [1:26:08<1:14:14, 98.98s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 255750.24it/s]
+Evaluating:  33%|███████████████▋                               | 22/66 [1:27:16<1:05:56, 89.93s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 325982.18it/s]
+Evaluating:  35%|█████████████████                                | 23/66 [1:28:17<58:13, 81.24s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 257544.98it/s]
+Evaluating:  36%|█████████████████▊                               | 24/66 [1:28:50<46:33, 66.51s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 225500.22it/s]
+Evaluating:  38%|██████████████████▌                              | 25/66 [1:29:43<42:40, 62.46s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 205054.86it/s]
+Evaluating:  39%|███████████████████▎                             | 26/66 [1:31:38<52:19, 78.49s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 277309.36it/s]
+Evaluating:  41%|████████████████████                             | 27/66 [1:32:52<50:08, 77.14s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 96791.63it/s]
+Evaluating:  42%|████████████████████▊                            | 28/66 [1:33:21<39:39, 62.63s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 116508.44it/s]
+Evaluating:  44%|█████████████████████▌                           | 29/66 [1:34:04<34:53, 56.58s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 329889.08it/s]
+Evaluating:  45%|██████████████████████▎                          | 30/66 [1:35:53<43:21, 72.26s/it]Evaluating:  47%|███████████████████████                          | 31/66 [1:35:54<29:41, 50.89s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 292625.86it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 299593.14it/s]
+Evaluating:  48%|███████████████████████▊                         | 32/66 [1:37:13<33:41, 59.44s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 282308.92it/s]
+Evaluating:  50%|████████████████████████▌                        | 33/66 [1:37:23<24:34, 44.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 312134.25it/s]
+Evaluating:  52%|█████████████████████████▏                       | 34/66 [1:38:36<28:24, 53.26s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 205054.86it/s]
+Evaluating:  53%|█████████████████████████▉                       | 35/66 [1:39:04<23:36, 45.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 297820.40it/s]
+Evaluating:  55%|██████████████████████████▏                     | 36/66 [1:43:33<56:14, 112.48s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 213827.26it/s]
+Evaluating:  56%|██████████████████████████▉                     | 37/66 [1:45:00<50:44, 105.00s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 344737.32it/s]
+Evaluating:  58%|███████████████████████████▋                    | 38/66 [1:47:34<55:49, 119.63s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 285049.79it/s]
+Evaluating:  59%|████████████████████████████▎                   | 39/66 [1:48:32<45:29, 101.10s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 288497.10it/s]
+Evaluating:  61%|█████████████████████████████                   | 40/66 [1:50:22<44:58, 103.77s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 282517.89it/s]
+Evaluating:  62%|██████████████████████████████▍                  | 41/66 [1:51:25<38:10, 91.63s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 276781.48it/s]
+Evaluating:  64%|███████████████████████████████▏                 | 42/66 [1:52:40<34:36, 86.52s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 259198.56it/s]
+                                                                                                    [danmar__cppcheck.0a5b103] branch 1d3bd4a2de11: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  64%|███████████████████████████████▏                 | 42/66 [1:54:11<34:36, 86.52s/it]                                                                                                    [danmar__cppcheck.0a5b103] branch 1d3bd4a2de11 failed (results_read_failed), continuing with remaining branches
+Evaluating:  64%|███████████████████████████████▏                 | 42/66 [1:54:16<34:36, 86.52s/it]Evaluating:  65%|███████████████████████████████▉                 | 43/66 [1:54:23<35:07, 91.62s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 239674.51it/s]
+Evaluating:  67%|████████████████████████████████▋                | 44/66 [1:54:48<26:13, 71.55s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 253501.89it/s]
+Evaluating:  68%|█████████████████████████████████▍               | 45/66 [1:55:25<21:24, 61.18s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 5it [00:00, 173318.35it/s]
+Evaluating:  70%|██████████████████████████████████▏              | 46/66 [1:56:56<23:21, 70.08s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 305834.67it/s]
+Evaluating:  71%|██████████████████████████████████▏             | 47/66 [2:01:41<42:35, 134.52s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 306325.57it/s]
+Evaluating:  73%|██████████████████████████████████▉             | 48/66 [2:04:04<41:07, 137.07s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 265157.15it/s]
+Evaluating:  74%|██████████████████████████████████▏           | 49/66 [2:11:30<1:05:08, 229.91s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 8it [00:00, 212369.82it/s]
+Evaluating:  76%|████████████████████████████████████▎           | 50/66 [2:12:41<48:33, 182.07s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 297956.02it/s]
+Evaluating:  77%|███████████████████████████████████▌          | 51/66 [2:22:06<1:14:16, 297.12s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 319363.25it/s]
+Evaluating:  79%|████████████████████████████████████▏         | 52/66 [2:27:18<1:10:22, 301.62s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 265980.25it/s]
+Evaluating:  80%|██████████████████████████████████████▌         | 53/66 [2:29:30<54:18, 250.62s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 347114.81it/s]
+Evaluating:  82%|███████████████████████████████████████▎        | 54/66 [2:33:30<49:30, 247.55s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 290031.66it/s]
+Evaluating:  83%|████████████████████████████████████████        | 55/66 [2:33:56<33:11, 181.00s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 319566.02it/s]
+Evaluating:  85%|████████████████████████████████████████▋       | 56/66 [2:35:25<25:33, 153.32s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 101680.10it/s]
+Evaluating:  86%|█████████████████████████████████████████▍      | 57/66 [2:40:30<29:50, 198.98s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 351618.30it/s]
+Evaluating:  88%|██████████████████████████████████████████▏     | 58/66 [2:41:19<20:30, 153.83s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 134217.73it/s]
+Evaluating:  89%|██████████████████████████████████████████▉     | 59/66 [2:42:24<14:50, 127.16s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 322638.77it/s]
+Evaluating:  91%|███████████████████████████████████████████▋    | 60/66 [2:43:19<10:33, 105.61s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 301129.52it/s]
+Evaluating:  92%|████████████████████████████████████████████▎   | 61/66 [2:45:10<08:55, 107.19s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 298072.37it/s]
+Evaluating:  94%|██████████████████████████████████████████████   | 62/66 [2:46:04<06:04, 91.19s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 299593.14it/s]
+Evaluating:  95%|██████████████████████████████████████████████▊  | 63/66 [2:47:13<04:13, 84.50s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 266305.02it/s]
+                                                                                                    [go-critic__go-critic.9aea378] branch ec1048831c4c: 4/4 expected tests missing from JUnit XML
+Evaluating:  95%|██████████████████████████████████████████████▊  | 63/66 [2:50:21<04:13, 84.50s/it]

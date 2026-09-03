@@ -60,3 +60,12 @@
   Log copied from the pre-move directory into `logs/prep-images-5502.out`.
 - Gold eval throughput so far: 19 tasks in ~80 min with 2 workers (~4 min/task) → ~13 h for 200
   with two workers; the second job 5512 adds a third once it gets CPUs (QoS also caps CPUs per user).
+- Hourly check #1 (18:40): 66/200 evaluated, jobs 5510 (12 c) + 5512 (4 c) running. Partial
+  `score_gold.py`: 3/66 below 0.9 (oranda 0.745 — GitHub API 429/404 + proxy TLS errors, i.e.
+  network-dependent tests; dust 0.868; doxygen 0.899 — `xmllint` missing from the image).
+  **Branch errors** (`results_read_failed`) in deadnix, dust, cppcheck: the branch's `run.sh` does
+  `pip install --upgrade pytest ...` at test time, pulling pytest 9.1.1 (image ships 9.0.3); 9.1
+  turns "Marks cannot be applied to fixtures" into a collection error inside the image's libtmux
+  0.58.0 pytest plugin → no results.xml. Upstream test-suite drift, not the shim; identical under
+  Docker today. Kept as measured (protocol = gold as run); open question for the user whether to
+  pin pytest to the image version (`PIP_CONSTRAINT`) to get closer to the model card's conditions.
