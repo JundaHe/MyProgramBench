@@ -26,7 +26,7 @@ while true; do
     if [ -n "${PREP_JOB:-}" ] && squeue -j "$PREP_JOB" -h -o %T | grep -q .; then echo "$(date '+%F %T') nothing pending, prep job still running"; sleep 120; continue; fi
     echo "$(date '+%F %T') done"; break
   fi
-  echo "=== $(date '+%F %T') round: $filter" | cut -c1-300
+  echo "=== $(date '+%F %T') round: $filter"
   uv run programbench eval /scratch/jundahe/pb-runs/gold --filter "$filter" -o /scratch/jundahe/pb-runs/gold-eval \
     --docker-cpus "${DOCKER_CPUS:-8}" -w "${WORKERS:-3}" -b 1
 done

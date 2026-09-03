@@ -5,3 +5,13 @@ HOST=pro5000-soar JOB=5510 CPUS=12 WORKERS=2 DOCKER_CPUS=6
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 285975.27it/s]
 
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 104857.60it/s]
+Evaluating:   2%|▋                                              | 1/66 [24:51<26:56:03, 1491.74s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 88612.06it/s]
+Evaluating:   3%|█▍                                              | 2/66 [26:34<11:59:30, 674.53s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 19it [00:00, 287695.94it/s]
+Evaluating:   5%|██▏                                              | 3/66 [26:59<6:36:51, 377.96s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 19it [00:00, 311296.00it/s]
+Evaluating:   6%|██▉                                              | 4/66 [34:18<6:55:36, 402.21s/it]Evaluating:   8%|███▋                                             | 5/66 [34:19<4:21:46, 257.48s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 24it [00:00, 362098.19it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 268057.02it/s]

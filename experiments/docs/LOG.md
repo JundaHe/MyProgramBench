@@ -50,3 +50,9 @@
   every prepared image in rounds until the prep job 5502 finishes and nothing is pending.
   Results: `/scratch/jundahe/pb-runs/gold-eval/gold/<iid>/`.
 - Pushed branch `experiments` to the fork (SSH key `~/.ssh/id_ed25519` added to the GitHub account; remote `fork` = `git@github.com:JundaHe/MyProgramBench.git`).
+- Throughput: node fully allocated (32/32 cores, load ~40; other users hold 16 cores), so no room to
+  widen job 5510. Made `pending_tasks.py` cooperative — it skips tasks another running `pb-gold-all`
+  job is evaluating (parsed from that job's `=== round:` log line, or `logs/claims-<job>.txt`; the
+  5510 round line was truncated by `cut`, so its 66-task list was reconstructed from the prep log
+  order into `claims-5510.txt`). Queued a second loop job (4 cores / 16 GB, 1 worker) that starts
+  automatically when the image-prep job releases its memory (72 GB per-user cap).
