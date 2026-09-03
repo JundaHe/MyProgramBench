@@ -119,3 +119,21 @@
   cannot reach it. Implemented as `scripts/pbdocker.v2`; swapped in once the v1 (host-network) pass
   finishes so v1 stays internally consistent. Plan: full second pass (`gold-eval-v2`) under the
   final configuration; v1 vs v2 disagreement doubles as a flakiness signal.
+- Hourly check #5 (00:05–00:15): 187/200 in v1, 9 excluded so far. Two new low scores are environment
+  artefacts of the binary-copy gold / host network:
+  - **pingu 0.723**: `socket: permission denied` — ICMP raw sockets need CAP_NET_RAW in the netns owner's
+    user namespace; in v1 the container shares the host netns (owned by the init userns) so fakeroot
+    has no such capability. Docker grants CAP_NET_RAW. The v2 isolated netns is owned by our userns,
+    so raw sockets should work there (to be confirmed in the v2 pass).
+  - **tinycc 0.718**: `include file 'stddef.h' not found` — tcc needs `/usr/local/lib/tcc` (libtcc1.a,
+    headers) which `make install` creates; the cleanroom image does not contain it at all (the
+    reference binary is unusable there even for the agent). "Copy the reference binary" cannot be a
+    faithful gold for programs whose build installs support files. The branch tars carry the
+    test-generation agent's source snapshot + `build.sh`, but it is incomplete (`conftest.c`
+    missing → make fails), so the gold for tinycc is now built from the **upstream source at the task
+    commit** (`git clone tinycc/tinycc @ 9b8765d`, configure/make/make install — no network needed,
+    3 s). `make_gold_run.py --source-overrides /scratch/jundahe/pb-runs/gold-src` packages such
+    overrides; tinycc is the only one so far. Its executable hash therefore differs from the
+    reference binary's.
+  - Survey: every branch tar contains `build.sh`; 33 C / 12 C++ tasks, many of whose build.sh run
+    `apt-get`, so source-built golds are not generally possible under the build-time internet block.
