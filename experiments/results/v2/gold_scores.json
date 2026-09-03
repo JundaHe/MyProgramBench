@@ -718,6 +718,22 @@
   },
   "raw_rate": 0.9883540372670807
  },
+ "duckdb__duckdb.bdb65ec": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c54976b5d93a1be1c7da19d656a234de4e734ebdcb7b73f5ea71515422c25b5c",
+  "kept": {
+   "failure": 6,
+   "passed": 5655
+  },
+  "kept_rate": 0.9989401165871754,
+  "raw": {
+   "failure": 1613,
+   "passed": 9436,
+   "skipped": 1134
+  },
+  "raw_rate": 0.774521874743495
+ },
  "dundee__gdu.ede21d2": {
   "branch_errors": [],
   "error_code": null,

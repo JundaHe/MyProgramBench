@@ -26,7 +26,7 @@ def main() -> None:
             scores[iid] = 0.0
             continue
         passed = {f"{t['branch']}/{t['name']}" for t in json.loads(p.read_text())["test_results"] if t["status"] == "passed"}
-        scores[iid] = len(passed & set(tests)) / len(tests)
+        scores[iid] = len(passed & set(tests)) / len(set(tests))
     for iid, s in scores.items():
         print(f"{s:.3f}  {iid}")
     print(f"benchmark score: {sum(scores.values()) / len(scores):.4f} over {len(scores)} tasks "

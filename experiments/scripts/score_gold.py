@@ -41,7 +41,7 @@ def main() -> None:
             "error_code": r["error_code"], "branch_errors": sorted(r["test_branch_errors"]),
             "executable_hash": r["executable_hash"],
         }
-        passing[iid] = sorted(f"{t['branch']}/{t['name']}" for t in r["test_results"] if t["status"] == "passed")
+        passing[iid] = sorted({f"{t['branch']}/{t['name']}" for t in r["test_results"] if t["status"] == "passed"})  # set: reruns/params can repeat a name
     excluded = sorted(i for i, x in rows.items() if x["raw_rate"] < THRESHOLD)
     (out / "gold_scores.json").write_text(json.dumps(rows, indent=1, sort_keys=True))
     (out / "excluded_tasks.json").write_text(json.dumps({"threshold": THRESHOLD, "excluded": excluded}, indent=1))
