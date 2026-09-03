@@ -91,6 +91,8 @@ def cmd_run(argv: list[str]) -> None:
     cdir = CONTAINERS / name
     for d in ("upper", "work", "tmp", "vartmp"):
         (cdir / d).mkdir(parents=True)
+    for d in ("tmp", "vartmp"):
+        (cdir / d).chmod(0o1777)  # like a real /tmp: unprivileged users (apt's _apt, `agent`) must be able to write
     if (img / "commit.json").exists():
         base = json.loads((img / "commit.json").read_text())["base"]
         fakeroot_fs("cp", "-a", "/src/.", "/dst/", binds={img / "upper": "/src", cdir / "upper": "/dst"})

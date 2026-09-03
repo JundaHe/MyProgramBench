@@ -69,3 +69,18 @@
   0.58.0 pytest plugin → no results.xml. Upstream test-suite drift, not the shim; identical under
   Docker today. Kept as measured (protocol = gold as run); open question for the user whether to
   pin pytest to the image version (`PIP_CONSTRAINT`) to get closer to the model card's conditions.
+- Hourly check #2 (19:25): 86/200 evaluated. Two problems found and fixed:
+  1. **Scheduling bug**: job 5510 exited early ("0 pending") because job 5512's single round had
+     claimed every remaining task, leaving the 4-core job to do everything alone. Fix: rounds are
+     now bounded (`pending_tasks.py --limit 2*WORKERS`) so loop jobs interleave. Cancelled 5512,
+     cleaned its orphan container/committed image, relaunched as jobs **5530** (12 c, 2 workers) and
+     **5531** (4 c, 1 worker).
+  2. **Shim bug**: the per-container `/tmp` and `/var/tmp` bind dirs were mode 0775, so unprivileged
+     users inside the container could not write there — pandoc's big branch (5213 tests) died in
+     `apt-get update` (`apt-key` runs as `_apt`: "Couldn't create temporary file /tmp/apt.conf…"),
+     giving a bogus gold score of 0.048. Fix: `chmod 1777`. Affected results (pandoc, treemd,
+     fselect — the only eval.jsons with /tmp permission symptoms) moved to
+     `gold-eval/redo-tmpperm/` so they are re-evaluated.
+  Also seen: ffmpeg gold = 0.798 kept (426 tests fail with "Unknown command type: unknown",
+  `$(PROGSSUF)` paths — broken generated tests, so a genuine exclusion), pytest-9.1 branch
+  collection errors now in 5 tasks.

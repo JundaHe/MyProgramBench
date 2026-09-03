@@ -138,4 +138,83 @@ HOST=pro5000-soar JOB=5510 CPUS=12 WORKERS=2 DOCKER_CPUS=6
 Evaluating:  95%|██████████████████████████████████████████████▊  | 63/66 [2:47:13<04:13, 84.50s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 266305.02it/s]
                                                                                                     [go-critic__go-critic.9aea378] branch ec1048831c4c: 4/4 expected tests missing from JUnit XML
-Evaluating:  95%|██████████████████████████████████████████████▊  | 63/66 [2:50:21<04:13, 84.50s/it]
+Evaluating:  95%|██████████████████████████████████████████████▊  | 63/66 [2:50:21<04:13, 84.50s/it]Evaluating:  97%|██████████████████████████████████████████████▌ | 64/66 [2:51:05<04:17, 128.92s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 144631.17it/s]
+Evaluating:  98%|████████████████████████████████████████████████▎| 65/66 [2:51:33<01:38, 98.55s/it]Evaluating: 100%|█████████████████████████████████████████████████| 66/66 [2:51:33<00:00, 69.02s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                             Score  Comment                            
+ agourlay__zip-password-finder.7047…     ✅  680 tests                          
+ ajeetdsouza__zoxide.67ca1bc             ✅  535 tests                          
+ alecthomas__chroma.8d04def              99  515 tests                          
+ alexpovel__srgn.89f943b                 ✅  1852 tests                         
+ altdesktop__i3-style.f93821b            ✅  539 tests                          
+ ammarabouzor__tui-journal.2b4540d      100  1410 tests                         
+ anordal__shellharden.6a6ffd4           100  1097 tests                         
+ antonmedv__fx.86d0d34                   ✅  2044 tests                         
+ antonmedv__walk.bf802ef                 99  435 tests                          
+ ariga__atlas.6d81150                   100  1325 tests                         
+ arq5x__bedtools2.dd57059                ✅  1053 tests                         
+ arthursonzogni__json-tui.17a22b6        ✅  755 tests                          
+ ast-grep__ast-grep.dde0fe0              99  893 tests                          
+ astaxie__bat.17d1080                    99  1104 tests                         
+ astro__deadnix.d590041                 100  ERRORS: BRANCH: 151142429bed:      
+                                             results_read_failed                
+ axodotdev__oranda.27d60c7               75  1531 tests                         
+ bellard__quickjs.d7ae12a               100  3058 tests                         
+ bensadeh__tailspin.6278437              ✅  614 tests                          
+ blacknon__hwatch.edfcb62                ✅  1016 tests                         
+ blake3-team__blake3.15e83a5             ✅  647 tests                          
+ bootandy__dust.62bf1e1                  87  ERRORS: BRANCH: d42ad55b3a4b:      
+                                             results_read_failed                
+ boyter__scc.515f91c                    100  467 tests                          
+ brocode__fblog.3b54330                  ✅  978 tests                          
+ burntsushi__ripgrep.3b7fd44             ✅  1992 tests                         
+ burntsushi__xsv.f430466                100  1186 tests                         
+ byron__dua-cli.8570c15                  96  765 tests                          
+ canop__broot.d6c798e                    99  549 tests                          
+ canop__rhit.ae90bcb                    100  819 tests                          
+ cheat__cheat.b8098dc                    ✅  297 tests                          
+ chirlu__sox.42b3557                     ✅  1196 tests                         
+ chmln__handlr.90e78ba                   99  738 tests                          
+ chmln__sd.87d1ba5                      100  812 tests                          
+ clog-tool__clog-cli.7066cba             ✅  575 tests                          
+ cmatsuoka__figlet.202a0a8               ✅  872 tests                          
+ codesnap-rs__codesnap.f81e4f3           ✅  577 tests                          
+ cordx56__rustowl.655bc5c               100  594 tests                          
+ crowdagger__crowbook.ea214d7            ✅  807 tests                          
+ cslarsen__jp2a.61d205f                  ✅  631 tests                          
+ cweill__gotests.2a672c5                100  624 tests                          
+ dalance__amber.69a0f52                 100  567 tests                          
+ dandavison__delta.acd758f               99  967 tests                          
+ danmar__cppcheck.0a5b103               100  ERRORS: BRANCH: 1d3bd4a2de11:      
+                                             results_read_failed                
+ direnv__direnv.02040c7                 100  851 tests                          
+ doxygen__doxygen.966d98e                90  287 tests                          
+ drew-alleman__datasurgeon.d257cee      100  506 tests                          
+ ducaale__xh.4a6e44f                    100  1174 tests                         
+ duckdb__duckdb.bdb65ec                  ✅  5650 tests                         
+ dundee__gdu.ede21d2                    100  1172 tests                         
+ ecumene__rust-sloth.051c559             ✅  380 tests                          
+ ekzhang__bore.8e059cd                   99  401 tests                          
+ eliukblau__pixterm.1a93fd5              ✅  430 tests                          
+ elkowar__pipr.fae0b17                   99  532 tests                          
+ epistates__treemd.825c6dd               ✅  1570 tests                         
+ eradman__entr.8e2e8b4                  100  590 tests                          
+ esubaalew__run.0fb9dec                  ✅  1212 tests                         
+ eudoxia0__hashcards.48aa136            100  1022 tests                         
+ facebook__zstd.1168da0                  99  2071 tests                         
+ facebookresearch__fasttext.1142dc4      ✅  315 tests                          
+ ffmpeg__ffmpeg.360a402                  80  5117 tests                         
+ filosottile__age.706dfc1                ✅  676 tests                          
+ foriequal0__git-trim.07c2f50            99  523 tests                          
+ gabotechs__dep-tree.60a95a2             ✅  865 tests                          
+ ggreer__the_silver_searcher.a61f178     98  1036 tests                         
+ git-bahn__git-graph.87b4473             98  596 tests                          
+ go-critic__go-critic.9aea378            99  516 tests                          
+ google__brotli.b3dc9cc                  ✅  441 tests                          
+ Average                                 99  66 instances                       
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 0 pending
+slurm_load_jobs error: Invalid job id specified
+2026-09-03 19:21:39 done

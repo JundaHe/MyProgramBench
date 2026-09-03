@@ -7,3 +7,43 @@ HOST=pro5000-soar JOB=5512 CPUS=4 WORKERS=1 DOCKER_CPUS=4
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 371647.19it/s]
 Evaluating:   2%|▋                                               | 2/133 [03:32<3:45:11, 103.14s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 274393.72it/s]
+Evaluating:   2%|█                                              | 3/133 [20:02<18:20:36, 507.97s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 286440.27it/s]
+Evaluating:   3%|█▍                                             | 4/133 [25:48<15:54:22, 443.90s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 289262.34it/s]
+Evaluating:   4%|█▊                                             | 5/133 [32:58<15:36:00, 438.75s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 318554.73it/s]
+Evaluating:   5%|██                                             | 6/133 [33:41<10:44:13, 304.35s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 301248.35it/s]
+Evaluating:   5%|██▌                                             | 7/133 [35:26<8:22:38, 239.35s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 140985.01it/s]
+Evaluating:   6%|██▉                                             | 8/133 [36:06<6:06:17, 175.82s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 285975.27it/s]
+                                                                                                    [hush-shell__hush.560c33a] branch 10c7b30aafc4: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   6%|██▉                                             | 8/133 [37:29<6:06:17, 175.82s/it]                                                                                                    [hush-shell__hush.560c33a] branch 10c7b30aafc4 failed (results_read_failed), continuing with remaining branches
+Evaluating:   6%|██▉                                             | 8/133 [37:32<6:06:17, 175.82s/it]Evaluating:   7%|███▏                                            | 9/133 [37:53<5:18:38, 154.18s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 293150.28it/s]
+Evaluating:   8%|███▌                                           | 10/133 [38:45<4:11:46, 122.82s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 134217.73it/s]
+Evaluating:   8%|███▉                                           | 11/133 [39:49<3:32:45, 104.63s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 1600.79it/s]
+Evaluating:   9%|████▎                                           | 12/133 [40:36<2:55:58, 87.26s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 283398.92it/s]
+Evaluating:  10%|████▌                                          | 13/133 [45:41<5:06:28, 153.24s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 132104.06it/s]
+Evaluating:  11%|████▉                                          | 14/133 [46:02<3:44:08, 113.01s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 395115.59it/s]
+Evaluating:  11%|█████▏                                        | 15/133 [58:47<10:09:13, 309.77s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 360246.97it/s]
+Evaluating:  12%|█████▎                                      | 16/133 [1:10:13<13:44:34, 422.86s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 137518.16it/s]
+                                                                                                    [jgm__pandoc.5caad90] branch ea7a9f0674dc: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  12%|█████▎                                      | 16/133 [1:10:45<13:44:34, 422.86s/it]                                                                                                    [jgm__pandoc.5caad90] branch ea7a9f0674dc failed (results_read_failed), continuing with remaining branches
+Evaluating:  12%|█████▎                                      | 16/133 [1:10:55<13:44:34, 422.86s/it]Evaluating:  13%|█████▊                                       | 17/133 [1:10:55<9:56:02, 308.30s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 131072.00it/s]
+Evaluating:  14%|██████                                       | 18/133 [1:13:40<8:28:25, 265.27s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  2.74it/s][AFetching ... files: 14it [00:00, 35.86it/s]
+Evaluating:  14%|██████▍                                      | 19/133 [1:14:43<6:28:49, 204.64s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 299593.14it/s]
+slurmstepd-pro5000-soar: error: *** JOB 5512 ON pro5000-soar CANCELLED AT 2026-09-03T20:23:04 ***

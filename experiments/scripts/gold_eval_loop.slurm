@@ -21,7 +21,7 @@ S=/scratch/jundahe/ProgramBench/experiments/scripts
 echo "HOST=$(hostname) JOB=$SLURM_JOB_ID CPUS=$SLURM_CPUS_PER_TASK WORKERS=${WORKERS:-3} DOCKER_CPUS=${DOCKER_CPUS:-8}"
 cd /scratch/jundahe/ProgramBench
 while true; do
-  filter=$("$S/pending_tasks.py")
+  filter=$("$S/pending_tasks.py" --limit $(( ${WORKERS:-3} * 2 )))   # small rounds so several loop jobs interleave
   if [ "$filter" = "^$" ]; then
     if [ -n "${PREP_JOB:-}" ] && squeue -j "$PREP_JOB" -h -o %T | grep -q .; then echo "$(date '+%F %T') nothing pending, prep job still running"; sleep 120; continue; fi
     echo "$(date '+%F %T') done"; break

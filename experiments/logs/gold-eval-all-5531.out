@@ -1,0 +1,5 @@
+HOST=pro5000-soar JOB=5531 CPUS=4 WORKERS=1 DOCKER_CPUS=4
+# 2 pending
+=== 2026-09-03 20:23:50 round: ^(epistates__treemd\.825c6dd|jgm__pandoc\.5caad90)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 327680.00it/s]
