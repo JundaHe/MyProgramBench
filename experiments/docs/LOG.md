@@ -42,3 +42,10 @@
   `/scratch/jundahe/programbench-experiments` is a symlink to it. Jobs started before the move keep
   writing their logs into `/scratch/jundahe/programbench-experiments.old/logs/` (copy over when done).
 - Job **5506**: cmatrix gold, 4th run, with `env -u TERM`.
+- Job 5506 done (6 min): cmatrix gold = **100 ✅** (506/506 kept; raw 770/771, 14 branches, no
+  branch errors). Pipeline validated. Raw test counts differed across the four runs (1145 → 815 →
+  771): the extra entries in the bad runs came with the failures (rerun/setup-error entries), to be
+  checked on a task with genuine gold failures before trusting raw counts.
+- Job **5507** (`normal`, 24 cores, 3 workers × 8 xdist): `scripts/gold_eval_loop.slurm` — evaluates
+  every prepared image in rounds until the prep job 5502 finishes and nothing is pending.
+  Results: `/scratch/jundahe/pb-runs/gold-eval/gold/<iid>/`.
