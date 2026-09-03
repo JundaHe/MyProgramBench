@@ -1,0 +1,8 @@
+# Merged on top of mini-swe-agent's builtin benchmarks/programbench.yaml:
+#   mini-extra programbench -c <builtin programbench.yaml> -c configs/programbench-no-time-limit.yaml ...
+# Model card: "the same mini-swe-agent harness ... without the six-hour time limit".
+agent:
+  wall_time_limit_seconds: 0        # builtin default is 21600 (6 h)
+environment:
+  container_timeout: "168h"         # builtin 7h would kill the container once the 6 h limit is gone
+  executable: /scratch/jundahe/programbench-experiments/scripts/pbdocker   # no Docker on this host

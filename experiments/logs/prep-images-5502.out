@@ -1,0 +1,245 @@
+=== 2026-09-03 15:53:38 abishekvashok__cmatrix.5c082c6
+already prepared: /scratch/jundahe/pb-apptainer/images/programbench__abishekvashok_1776_cmatrix.5c082c6--task_cleanroom_v6/rootfs
+=== 2026-09-03 15:53:38 agourlay__zip-password-finder.704700d
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/01/166275df61b5e03047b79c246832ac2947a2c1} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/1b/d0b5f58f26e50423808574bf4d5ad347d0f39d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/33/ee0b4a1cf5db0ab2a11fdd3490741e9ce4271c} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/43/a1482843fdf554a0ef2fbf9ac00550710785d1} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/44/b1eb774551df7d9ac2b2b6e9972ed92a8b5e2d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/59/b072e4138c9066cf8a45bdb59af361cd062ee2} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/8b/a774a1f2a43093fd7ac3d5b8d5f19595f487d4} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/99/6db05d75d1e013a8aa94369383ef013b3db78c} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/a8/b72b03f4b75746a9e38df9b9d2e29f8676bd19} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/ae/0246ec8082f43fed2e41fac62ed134b02362cc} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/db/ef71ae253d9ab9f0c51dc376437fe3929488ad} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:53:59  warn rootless{workspace/.git/objects/f2/3fdf9843c25b09f511a6e07d61933b9cfd72d0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__agourlay_1776_zip-password-finder.704700d--task_cleanroom_v6/rootfs.partial
+programbench/agourlay_1776_zip-password-finder.704700d:task_cleanroom_v6: re-applied ownership of 96 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__agourlay_1776_zip-password-finder.704700d--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__agourlay_1776_zip-password-finder.704700d--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__agourlay_1776_zip-password-finder.704700d--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:54:09 ajeetdsouza__zoxide.67ca1bc
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:54:29  warn rootless{workspace/.git/objects/49/dbca302882424de9a1820c5158695f3a793d89} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:54:29  warn rootless{workspace/.git/objects/81/cee70b89ec655bfc21076f3aa6d61e73004a87} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:54:29  warn rootless{workspace/.git/objects/97/8d5f2e425c75369914778551180ece0a8d1845} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:54:29  warn rootless{workspace/.git/objects/fd/94bad6afa1d520f9c1ea382d8008863dda55ba} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__ajeetdsouza_1776_zoxide.67ca1bc--task_cleanroom_v6/rootfs.partial
+programbench/ajeetdsouza_1776_zoxide.67ca1bc:task_cleanroom_v6: re-applied ownership of 70 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ajeetdsouza_1776_zoxide.67ca1bc--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ajeetdsouza_1776_zoxide.67ca1bc--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__ajeetdsouza_1776_zoxide.67ca1bc--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:54:38 alecthomas__chroma.8d04def
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:55:01  warn rootless{workspace/.git/objects/33/da48981724d7494dd7cc35bee5eca54ae2acba} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:01  warn rootless{workspace/.git/objects/45/1b77f108d5e4bd3e238d1a6f30ec1495e8f5f2} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:01  warn rootless{workspace/.git/objects/9f/dc978801b2d65edf088380652a9ac2bb52a919} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:01  warn rootless{workspace/.git/objects/a7/47dbf804db96473bffa217fb5aead7a18c3b7f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:01  warn rootless{workspace/.git/objects/d3/47506bd0d44297836dff21ea22e988830f9b12} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__alecthomas_1776_chroma.8d04def--task_cleanroom_v6/rootfs.partial
+programbench/alecthomas_1776_chroma.8d04def:task_cleanroom_v6: re-applied ownership of 73 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__alecthomas_1776_chroma.8d04def--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__alecthomas_1776_chroma.8d04def--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__alecthomas_1776_chroma.8d04def--task_cleanroom_v6/rootfs (2.6G)
+=== 2026-09-03 15:55:10 alexpovel__srgn.89f943b
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:55:33  warn rootless{workspace/.git/objects/6b/a1ee38e27cec14a25aedf68af6286235574234} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:33  warn rootless{workspace/.git/objects/6c/f20411eab449df3de3708e7fb9d6c0bb121547} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:33  warn rootless{workspace/.git/objects/ba/d5252ae50d98c6655fe93fee0ff20e227297b9} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:55:33  warn rootless{workspace/.git/objects/d8/61920288b9d9e3cf6b6e6f8c3dc359d60f7b36} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__alexpovel_1776_srgn.89f943b--task_cleanroom_v6/rootfs.partial
+programbench/alexpovel_1776_srgn.89f943b:task_cleanroom_v6: re-applied ownership of 70 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__alexpovel_1776_srgn.89f943b--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__alexpovel_1776_srgn.89f943b--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__alexpovel_1776_srgn.89f943b--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:55:43 altdesktop__i3-style.f93821b
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/14/6284ebb94a59259173ed1b320a5ebb1c38a01e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/26/030ed32b224761fba0a97dee4a6ebbfa561418} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/2a/546b941b2e45c4ee6859bdb39ac1bfaa499239} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/66/9d520a63483efded0e2a229d3a157bb9829cb7} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/94/14b524af6e513fb143d7deb08cb1aa63d474f5} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/a9/ea4c3eb479cd7682a9ac7671f0529b9fea0a6d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/ad/e8aa8b854db3b64a10d74763c2d3b09e73237f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/bf/8c8eaf759d89d35e74055a73d41aed7d9bd345} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:05  warn rootless{workspace/.git/objects/c0/363d975c32c0ef34e4b1946334a21b54019a2b} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__altdesktop_1776_i3-style.f93821b--task_cleanroom_v6/rootfs.partial
+programbench/altdesktop_1776_i3-style.f93821b:task_cleanroom_v6: re-applied ownership of 86 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__altdesktop_1776_i3-style.f93821b--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__altdesktop_1776_i3-style.f93821b--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__altdesktop_1776_i3-style.f93821b--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:56:14 ammarabouzor__tui-journal.2b4540d
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/19/4d9193ecc8d7b70b345325d38d9e5d56da72d9} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/25/fbeb147071882bdef123636fc59b79a11905fb} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/2b/e88177c5abdd372c0f636a4c975e73d5c91a0f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/43/39cec8b76decfd4b98a90efbc5c33a5b473284} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/90/869469888b75f12b41ea82cc657d41e2f3733d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/9d/0d7855dc1f1366137ea545f4c139613fe2febf} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/de/2c9bcf72bc8677c8f0ef6642b8c3cc51a71e61} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:56:35  warn rootless{workspace/.git/objects/fe/ce1f1bda9350bceece00d7fadad8bde552513f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__ammarabouzor_1776_tui-journal.2b4540d--task_cleanroom_v6/rootfs.partial
+programbench/ammarabouzor_1776_tui-journal.2b4540d:task_cleanroom_v6: re-applied ownership of 82 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ammarabouzor_1776_tui-journal.2b4540d--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ammarabouzor_1776_tui-journal.2b4540d--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__ammarabouzor_1776_tui-journal.2b4540d--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:56:45 anordal__shellharden.6a6ffd4
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/09/e883cd8022d6756d75198248f8aef536d8730a} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/0c/ac7a761e5af8848dc1823dd352590f92fcb5f9} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/1f/bdaa819c07db47fb9153b937cc05310f255935} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/27/68d010a58abb9779b68bd9ee5bfb88dacdaf5f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/34/ac773225c46f066c68707d060f5a6025a7e92e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/39/8385c9fb9b5241b4649d92d92070671c137675} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/55/27552716dc0ed365507869fbbe4df8fb9604e5} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/b2/34ce01bc03fb24aaee0b9c81e0689c682efc22} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:04  warn rootless{workspace/.git/objects/f8/4f458b1a2589a9d0dc16a31d2b6e735157c576} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__anordal_1776_shellharden.6a6ffd4--task_cleanroom_v6/rootfs.partial
+programbench/anordal_1776_shellharden.6a6ffd4:task_cleanroom_v6: re-applied ownership of 85 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__anordal_1776_shellharden.6a6ffd4--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__anordal_1776_shellharden.6a6ffd4--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__anordal_1776_shellharden.6a6ffd4--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:57:13 antonmedv__fx.86d0d34
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:57:35  warn rootless{workspace/.git/objects/1b/27f24608f6bd6f7ac7eb0fe07a833523fa14a0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:35  warn rootless{workspace/.git/objects/2c/82d0ceb74a68335fe9e18fe8a5ae6ccea7c19e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:35  warn rootless{workspace/.git/objects/51/3b4e40df26b4f6872ee6672029d9f4640a26e1} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:57:35  warn rootless{workspace/.git/objects/ec/46ce324ebf3046575845b60fb26fce7a5b1d04} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_fx.86d0d34--task_cleanroom_v6/rootfs.partial
+programbench/antonmedv_1776_fx.86d0d34:task_cleanroom_v6: re-applied ownership of 70 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_fx.86d0d34--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_fx.86d0d34--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_fx.86d0d34--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:57:45 antonmedv__walk.bf802ef
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/16/53c2b92409af661c06d48456875019afc5362b} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/34/7edfc940f32afd7c4674a7ec9c830e5d76e580} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/3c/028d48b4af0aec236e348a2951c05379aae86d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/3c/5d04a361b17b5b3c231903663984c4d1e13cd8} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/51/964d5e92bca66e85131f5e3b20eedb68b76b8e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/70/8a2d1b932ce63a973a53befa7155ceb9d75931} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/9f/e8f029fb4135f4a93a35b1426e350bec69abc9} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/b0/18fdbfe531ec95d2d9c8098387ba4e5608ac20} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:05  warn rootless{workspace/.git/objects/e6/352f5b75b20317083ffd9dd0cc4fdaa8083ceb} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_walk.bf802ef--task_cleanroom_v6/rootfs.partial
+programbench/antonmedv_1776_walk.bf802ef:task_cleanroom_v6: re-applied ownership of 85 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_walk.bf802ef--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_walk.bf802ef--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__antonmedv_1776_walk.bf802ef--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:58:14 ariga__atlas.6d81150
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/25/1459a41f512e8719b412e7cd385a6742504627} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/38/f8850944fceb5b96fee0d08a61644c14f4bf59} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/72/c4ff4bc8db6810a238ce1fd80bbcda077cde1c} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/7a/4a3ea2424c09fbe48d455aed1eaa94d9124835} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/81/04384ac002368ebd53a196af86dee0590609a0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/8c/16333d7bc16d5723e8b38231d258004fb26a10} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/8e/f3bc4236ea0488b98caba84c7398c5fe92a568} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/92/a574aef554c01061b6af38d332daa0ccb080d0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/9d/abe3a993bde0c2ee5d050b261c3b19cd49d6d0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/9f/e8f029fb4135f4a93a35b1426e350bec69abc9} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/e4/ece853eb1cbf9d01a318b4046875299e4e04c6} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/e5/d16ef8e80e2e9fc2af98e2382cafab48c737c1} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:58:40  warn rootless{workspace/.git/objects/f7/b4e9d430d8d9c5b165924ef73b899860a6757c} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__ariga_1776_atlas.6d81150--task_cleanroom_v6/rootfs.partial
+programbench/ariga_1776_atlas.6d81150:task_cleanroom_v6: re-applied ownership of 97 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ariga_1776_atlas.6d81150--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__ariga_1776_atlas.6d81150--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__ariga_1776_atlas.6d81150--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:58:51 arq5x__bedtools2.dd57059
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/27/295ffef33183bf4d6805a7526b7b91d0a449b2} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/2e/978062e9b978a66e0cf2caec374f8b64966981} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/34/61805a42f957c757426dce3096c5dbbe5aff0a} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/3b/ddbd652dcc3785cb1db504217ac7267b648ee6} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/3d/993880fa31861ca6dfc5842d00ffda1131f211} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/3f/222390bcc7ad132cc082462cd6e946daea1e3e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/44/698c5d693eab140d23cce831d0dc942aa70181} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/47/3a41ebcc9221b6c86cde6c7e187b97ab5586f8} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/51/2c39656cccefa58fd4663365242ce8e22a7a1d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/54/c38cee382e18bf838ba11dcc15727dea7788b6} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/58/d2e380fe5b7a90ac820156faf606c71feed4d5} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/5a/6bdced951cb01e62ad785c76110b1bf59816ec} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/64/69bedb6829eee78d14d294ea7f77506553716e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/68/f3584491c208ee2cbded88eaad35dc9b155642} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/6b/eb2708f4cfc4e723bab8dcaf1482aca1fcaee8} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/6d/c87865d2e0d6a45470ea66a2ddc2cb53701ba4} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/80/8943cee55bd676cf378a34ae232fd2286ce0e0} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/8d/2f71949058d2bde279254b393bbe44eaa62976} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/8e/03a623eb8d50da534a93fb70855a32a2c5998a} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/94/c1aab6688055677a70b5ef6e4ada830b8a621d} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/ad/bc418946dad20bd0cea89a7688370ebec3c76f} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/b2/812e183146a102190b5235a00b698eac08f145} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/c1/de3ff9ba7a6fb3900135f4eabcd6dce784fec8} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/c1/f05c388553548ead4d2a44a947b58ebc5a17a4} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/d8/a7e6b7144d8d56c179ad74b9f920e21ec3d1cb} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:10  warn rootless{workspace/.git/objects/fa/0bb85d9a56cd8281c183f22e6a2329a5c9254e} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__arq5x_1776_bedtools2.dd57059--task_cleanroom_v6/rootfs.partial
+programbench/arq5x_1776_bedtools2.dd57059:task_cleanroom_v6: re-applied ownership of 135 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__arq5x_1776_bedtools2.dd57059--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__arq5x_1776_bedtools2.dd57059--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__arq5x_1776_bedtools2.dd57059--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:59:21 arthursonzogni__json-tui.17a22b6
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+2026/09/03 15:59:42  warn rootless{workspace/.git/objects/22/2b0694dac1739bab738095b21f5d12f2d72cef} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:42  warn rootless{workspace/.git/objects/51/366476a767c9898b71404dafe5da780e7373a5} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:42  warn rootless{workspace/.git/objects/9b/12f8c6b624ff823426c0b3f8a26231014f24a5} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:42  warn rootless{workspace/.git/objects/b8/9402526b7448fc0d095c573d48db72bb9b8d29} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+2026/09/03 15:59:42  warn rootless{workspace/.git/objects/f3/83308ecd85252378030dbbd8eb2d1b5cf5bce3} ignoring (usually) harmless EPERM on setxattr "user.rootlesscontainers"
+INFO:    Inserting Apptainer configuration...
+INFO:    Creating sandbox directory...
+INFO:    Build complete: /scratch/jundahe/pb-apptainer/images/programbench__arthursonzogni_1776_json-tui.17a22b6--task_cleanroom_v6/rootfs.partial
+programbench/arthursonzogni_1776_json-tui.17a22b6:task_cleanroom_v6: re-applied ownership of 73 entries
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__arthursonzogni_1776_json-tui.17a22b6--task_cleanroom_v6/rootfs/var/cache/apt/archives/partial': Permission denied
+du: cannot read directory '/scratch/jundahe/pb-apptainer/images/programbench__arthursonzogni_1776_json-tui.17a22b6--task_cleanroom_v6/rootfs/home/agent': Permission denied
+prepared: /scratch/jundahe/pb-apptainer/images/programbench__arthursonzogni_1776_json-tui.17a22b6--task_cleanroom_v6/rootfs (3.0G)
+=== 2026-09-03 15:59:51 astaxie__bat.17d1080
+INFO:    Starting build...
+INFO:    Fetching OCI image...
