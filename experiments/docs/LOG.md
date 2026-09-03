@@ -49,3 +49,4 @@
 - Job **5510** (`normal`, 12 cores / 48 GB, 2 workers × 6 xdist; 5508/5509 were cancelled: QoS caps a user at 72 GB total and the node is shared — 28/32 cores were taken by other users): `scripts/gold_eval_loop.slurm` — evaluates
   every prepared image in rounds until the prep job 5502 finishes and nothing is pending.
   Results: `/scratch/jundahe/pb-runs/gold-eval/gold/<iid>/`.
+- Pushed branch `experiments` to the fork (SSH key `~/.ssh/id_ed25519` added to the GitHub account; remote `fork` = `git@github.com:JundaHe/MyProgramBench.git`).
