@@ -132,4 +132,19 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 337472.74it/s]
 Evaluating:  50%|██████████████████████████                          | 2/4 [06:30<06:50, 205.04s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 328469.59it/s]
-Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:44<02:52, 172.52s/it]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:44<02:52, 172.52s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [23:19<00:00, 450.02s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ ducaale__xh.4a6e44f             99  1183 tests  
+ duckdb__duckdb.bdb65ec         100  5661 tests  
+ dundee__gdu.ede21d2            100  1167 tests  
+ ecumene__rust-sloth.051c559     ✅  380 tests   
+ Average                        100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 02:22:16 round: ^(eradman__entr\.8e2e8b4|esubaalew__run\.0fb9dec|eudoxia0__hashcards\.48aa136|facebook__zstd\.1168da0)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 267284.08it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 275036.33it/s]

@@ -17,7 +17,8 @@ Target protocol (quoted from the model card):
 | `docs/00-plan.md` | Overall plan and the decisions taken along the way |
 | `docs/01-environment.md` | Workstation constraints (no Docker, Slurm, Apptainer) and what was probed |
 | `docs/02-gold-run.md` | Step 1: reference-binary ("gold") evaluation → task exclusion list |
-| `docs/03-mini-swe-agent.md` | Step 2: mini-swe-agent harness setup |
+| `docs/03-mini-swe-agent.md` | mini-swe-agent harness setup (configured, out of scope) |
+| `docs/04-exclusion-logic.md` | 剔除逻辑说明（中文）：gold run、raw 口径、阈值、mask 计分、已知偏差 |
 | `docs/LOG.md` | Chronological experiment log (append-only) |
 | `scripts/` | Every script used; nothing is run by hand without being recorded here |
 | `results/` | Generated artefacts (exclusion lists, per-task gold pass rates) |
