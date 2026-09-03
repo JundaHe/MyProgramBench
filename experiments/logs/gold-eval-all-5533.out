@@ -191,3 +191,303 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 279620.27it/s]
 Evaluating:  50%|██████████████████████████                          | 1/2 [12:32<12:32, 752.68s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 287281.10it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [30:05<00:00, 929.39s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ elkowar__pipr.fae0b17         99  532 tests   
+ epistates__treemd.825c6dd     ✅  1569 tests  
+ Average                      100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 02:36:47 round: ^(gabotechs__dep\-tree\.60a95a2|ggreer__the_silver_searcher\.a61f178)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 298072.37it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:23<02:23, 143.96s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 289262.34it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [03:27<00:00, 96.78s/it]                                                                                                    
+                   Evaluation Summary                    
+ Instance                             Score  Comment     
+ gabotechs__dep-tree.60a95a2             ✅  865 tests   
+ ggreer__the_silver_searcher.a61f178     98  1036 tests  
+ Average                                 99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 02:40:16 round: ^(git\-bahn__git\-graph\.87b4473|go\-critic__go\-critic\.9aea378)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 287609.42it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:43<01:43, 103.66s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 278075.40it/s]
+                                                                                                    [go-critic__go-critic.9aea378] branch ec1048831c4c: 4/4 expected tests missing from JUnit XML
+Evaluating:  50%|██████████████████████████                          | 1/2 [06:08<01:43, 103.66s/it]Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [07:22<00:00, 241.77s/it]                                                                                                    
+                Evaluation Summary                
+ Instance                      Score  Comment     
+ git-bahn__git-graph.87b4473      98  596 tests   
+ go-critic__go-critic.9aea378     99  514 tests   
+ Average                          98  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 02:47:38 round: ^(halitechallenge__halite\.822cfb6|hatoo__oha\.8dc6349)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 304250.03it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [05:45<05:45, 345.51s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 396758.49it/s]
+                                                                                                    [hatoo__oha.8dc6349] branch 901bbba586b2: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  50%|█████████████████████████                         | 1/2 [1:09:37<05:45, 345.51s/it]                                                                                                    [hatoo__oha.8dc6349] branch 901bbba586b2 failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|█████████████████████████                         | 1/2 [2:09:38<05:45, 345.51s/it]Evaluating: 100%|█████████████████████████████████████████████████| 2/2 [2:23:57<00:00, 5020.17s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                         Score  Comment                                
+ halitechallenge__halite.822cfb6     ✅  277 tests                              
+ hatoo__oha.8dc6349                  48  ERRORS: BRANCH: 901bbba586b2:          
+                                         results_read_failed                    
+ Average                             74  2 instances                            
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:11:37 round: ^(oppiliappan__eva\.41ae245|oppiliappan__statix\.e9df54c)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 259198.56it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:29<01:29, 89.10s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 299593.14it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:20<00:00, 66.76s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ oppiliappan__eva.41ae245        ✅  913 tests   
+ oppiliappan__statix.e9df54c     ✅  815 tests   
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:13:57 round: ^(orf__gping\.26eb5b9|osgeo__gdal\.0847f12)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 238312.73it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:48<02:48, 168.81s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 104206.31it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:59<00:00, 111.29s/it]                                                                                                    
+           Evaluation Summary            
+ Instance             Score  Comment     
+ orf__gping.26eb5b9      93  392 tests   
+ osgeo__gdal.0847f12     ✅  657 tests   
+ Average                 97  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:17:58 round: ^(osgeo__proj\.75d455c|paradigmxyz__solar\.5190d0e)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 117323.19it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [07:48<07:48, 468.28s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 269153.20it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [09:13<00:00, 242.85s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ osgeo__proj.75d455c            ✅  5319 tests  
+ paradigmxyz__solar.5190d0e    100  1991 tests  
+ Average                       100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:27:11 round: ^(pier\-cli__pier\.5e1bde9|pls\-rs__pls\.4e1ae50)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 5585.70it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:04<01:04, 64.11s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 562.64it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:26<00:00, 39.43s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ pier-cli__pier.5e1bde9     ✅  692 tests   
+ pls-rs__pls.4e1ae50        96  363 tests   
+ Average                    98  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:28:39 round: ^(psampaz__go\-mod\-outdated\.bb79367|quinn\-rs__quinn\.bb359cc)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 1449.63it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:39<00:39, 39.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 438.91it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:49<00:00, 128.02s/it]                                                                                                    
+                  Evaluation Summary                  
+ Instance                          Score  Comment     
+ psampaz__go-mod-outdated.bb79367     ✅  285 tests   
+ quinn-rs__quinn.bb359cc             100  524 tests   
+ Average                             100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:32:29 round: ^(riquito__tuc\.16fb471|robertdavidgraham__masscan\.b99d433)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 123.29it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:06<01:06, 66.69s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 9it [00:00, 754.87it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:31<00:00, 148.20s/it]                                                                                                    
+                   Evaluation Summary                   
+ Instance                            Score  Comment     
+ riquito__tuc.16fb471                   ✅  1196 tests  
+ robertdavidgraham__masscan.b99d433    100  2551 tests  
+ Average                               100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:37:01 round: ^(rochacbruno__marmite\.7d4bc2d|rs__curlie\.5dfcbb1)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 727.08it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:51<01:51, 111.61s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  7.30it/s][AFetching ... files: 12it [00:00, 81.90it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [03:13<00:00, 94.20s/it]                                                                                                    
+                Evaluation Summary                
+ Instance                      Score  Comment     
+ rochacbruno__marmite.7d4bc2d     ✅  668 tests   
+ rs__curlie.5dfcbb1              100  699 tests   
+ Average                         100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:40:15 round: ^(rvben__rumdl\.2d75c4d|samtools__samtools\.aa823b5)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 3it [00:00, 21.24it/s][AFetching ... files: 14it [00:00, 93.70it/s]
+                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   0%|                                                             | 0/2 [02:34<?, ?it/s]                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c failed (results_read_failed), continuing with remaining branches
+Evaluating:   0%|                                                             | 0/2 [02:37<?, ?it/s]Evaluating:  50%|██████████████████████████                          | 1/2 [02:44<02:44, 164.97s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 1007.46it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:29<00:00, 129.39s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                    Score  Comment                                     
+ rvben__rumdl.2d75c4d          100  ERRORS: BRANCH: 75b32744b65c:               
+                                    results_read_failed                         
+ samtools__samtools.aa823b5     ✅  1425 tests                                  
+ Average                       100  2 instances                                 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:44:45 round: ^(sayanarijit__xplr\.1751065|sclevine__yj\.8016400)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 900.07it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [06:38<06:38, 398.54s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 724.23it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [07:21<00:00, 189.60s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ sayanarijit__xplr.1751065     98  437 tests   
+ sclevine__yj.8016400         100  769 tests   
+ Average                       99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:52:07 round: ^(sharkdp__hyperfine\.327d5f4|sharkdp__pastel\.b60e899)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 179.75it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:14<01:14, 74.08s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 541.40it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:07<00:00, 62.14s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ sharkdp__hyperfine.327d5f4     ✅  291 tests   
+ sharkdp__pastel.b60e899        ✅  1114 tests  
+ Average                       100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:54:15 round: ^(shashwatah__jot\.a92aad8|sheepla__pingu\.926d475)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 1075.03it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:49<00:49, 49.21s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 2043.81it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:56<00:00, 130.29s/it]                                                                                                    
+             Evaluation Summary              
+ Instance                 Score  Comment     
+ shashwatah__jot.a92aad8     99  762 tests   
+ sheepla__pingu.926d475      73  812 tests   
+ Average                     86  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:58:12 round: ^(sibprogrammer__xq\.b89f681|sigoden__argc\.04a08f1)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 764.51it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:43<00:43, 43.21s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 517.58it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:10<00:00, 33.79s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ sibprogrammer__xq.b89f681     ✅  792 tests   
+ sigoden__argc.04a08f1         ✅  995 tests   
+ Average                      100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 05:59:23 round: ^(simeg__eureka\.df3796c|sirwart__ripsecrets\.34c9e03)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 2050.07it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:13<01:13, 73.79s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 1659.58it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:02<00:00, 59.11s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ simeg__eureka.df3796c           ✅  344 tests   
+ sirwart__ripsecrets.34c9e03     ✅  611 tests   
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 06:01:26 round: ^(sitkevij__hex\.61ae69b|skeema__skeema\.6a76243)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 1628.96it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:43<00:43, 43.60s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 735.23it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [12:43<00:00, 441.16s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ sitkevij__hex.61ae69b      ✅  823 tests   
+ skeema__skeema.6a76243    100  1720 tests  
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 06:14:09 round: ^(sqlite__sqlite\.839433d|sstadick__hck\.b66c751)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 399.81it/s]
+Evaluating:  50%|█████████████████████████▌                         | 1/2 [37:34<37:34, 2254.82s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 3it [00:00, 13.26it/s][AFetching ... files: 11it [00:00, 46.89it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [38:32<00:00, 962.51s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ sqlite__sqlite.839433d    100  13527 tests 
+ sstadick__hck.b66c751      ✅  855 tests   
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 06:52:42 round: ^(wintermute\-cell__ngrrram\.8ea13c3|xampprocky__tokei\.505d648)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 8it [00:00, 635.68it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:30<01:30, 90.39s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 603.31it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:20<00:00, 66.54s/it]                                                                                                    
+                  Evaluation Summary                  
+ Instance                          Score  Comment     
+ wintermute-cell__ngrrram.8ea13c3     ✅  303 tests   
+ xampprocky__tokei.505d648            ✅  732 tests   
+ Average                             100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 06:55:02 round: ^(yoav\-lavi__melody\.f4af9b4|ys\-l__flamelens\.0b4dc33)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 591.74it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:37<02:37, 157.43s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 879.27it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [07:03<00:00, 221.41s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ yoav-lavi__melody.f4af9b4     ✅  1205 tests  
+ ys-l__flamelens.0b4dc33       ✅  223 tests   
+ Average                      100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 0 pending
+2026-09-04 07:02:06 done

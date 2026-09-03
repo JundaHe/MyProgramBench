@@ -153,3 +153,18 @@
 - Decision recorded earlier tonight: exclusion uses the **raw** hidden-suite pass rate (v1 under that
   criterion would have been 22 excluded / 178 remain — closer to the model card's 34/166 than the
   9/191 the post-ignore-list criterion gives). v1 is archived only; v2 is the single authoritative run.
+- **v2 pass complete** (07:03, ~6 h with 3 workers): 200/200, no instance-level errors, 10 pytest-9.1
+  branch collection failures, no `/tmp` symptoms. Raw criterion: **23 excluded / 177 remain**
+  (`results/v2/`, committed as a snapshot). Fixes confirmed: tinycc 0.998 (was 0.718), pandoc 0.983,
+  muffet 0.964 (was 0.890), pixterm 0.998, dropbear 0.947.
+- Audit of v2's own artefacts (isolated netns has no raw outbound network):
+  - **dog** 0.728 (DNS client: 668 "Network is unreachable"), **gping** (19), **oha** 0.455 (its big
+    branch hung for the full 3600 s run_tests timeout — load tests against unreachable hosts — so
+    601 tests are `not_run`), plus a handful of internet-touching tests in bat, bore, ffmpeg, xh,
+    dropbear, curlie, gomplate, quinn. These need real outbound network, which only the host-network
+    mode gives here. Job **5534** re-runs these 11 tasks with `PBDOCKER_HOST_NETWORK=1` into
+    `gold-eval-v2-hostnet/` (1 worker to avoid our own port collisions). Final per-task result =
+    the network mode with the higher raw pass rate, recorded as `network_mode` in `gold_scores.json`.
+  - **pingu** 0.729: Go ICMP via unprivileged datagram sockets needs `net.ipv4.ping_group_range`,
+    which is netns-local and can be opened inside our own netns (`0 65535`); verified pingu pings
+    localhost. Shim now sets it at container start (isolated mode); pingu re-run under v2 (job below).

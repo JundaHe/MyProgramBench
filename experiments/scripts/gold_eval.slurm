@@ -18,8 +18,9 @@ export HF_HOME=/scratch/jundahe/huggingface
 export PROGRAMBENCH_DOCKER_EXECUTABLE=/scratch/jundahe/programbench-experiments/scripts/pbdocker
 export PROGRAMBENCH_DOCKER_RUN_TIMEOUT=1800 PROGRAMBENCH_DOCKER_CP_TIMEOUT=1800
 export PBDOCKER_EXPOSE_REFERENCE=1
+export PBDOCKER_PROXY_DIR=/scratch/jundahe/pb-apptainer/proxy/$SLURM_JOB_ID
 echo "HOST=$(hostname) JOB=$SLURM_JOB_ID CPUS=$SLURM_CPUS_PER_TASK FILTER=${FILTER:-}"
 cd /scratch/jundahe/ProgramBench
 uv run programbench eval /scratch/jundahe/pb-runs/gold \
-  --filter "${FILTER:-}" -o /scratch/jundahe/pb-runs/gold-eval \
+  --filter "${FILTER:-}" -o "${OUT:-/scratch/jundahe/pb-runs/gold-eval}" \
   --docker-cpus "${DOCKER_CPUS:-8}" -w "${WORKERS:-1}" -b "${BRANCH_WORKERS:-1}" ${FORCE:+--force}

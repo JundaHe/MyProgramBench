@@ -810,5 +810,2255 @@
    "skipped": 2
   },
   "raw_rate": 0.9770642201834863
+ },
+ "epistates__treemd.825c6dd": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8e4dafa6d47023d9c257e7521f60ec673f141cfbdf5f5aa8b9f7ed51d199023e",
+  "kept": {
+   "passed": 1569
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 74,
+   "passed": 2032,
+   "skipped": 4
+  },
+  "raw_rate": 0.9630331753554502
+ },
+ "eradman__entr.8e2e8b4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9ae8cf6abf4e5cb8ccbc4d5981401da7b760d6d58cfd0827deea9d624edc3d82",
+  "kept": {
+   "passed": 586
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 684,
+   "skipped": 1
+  },
+  "raw_rate": 0.9985401459854014
+ },
+ "esubaalew__run.0fb9dec": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9fcc8acc81e8d98e79efb64e125e8003ee678519c1ec2cc3a6995bc82f1b31f9",
+  "kept": {
+   "passed": 1212
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 1345,
+   "skipped": 165
+  },
+  "raw_rate": 0.8901389808074123
+ },
+ "eudoxia0__hashcards.48aa136": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "57e5d660c1263d93bfc520cde0506b516fdc68b30d7a2b65424e8805c987fd5f",
+  "kept": {
+   "failure": 1,
+   "passed": 1021
+  },
+  "kept_rate": 0.9990215264187867,
+  "raw": {
+   "failure": 1,
+   "passed": 1292,
+   "skipped": 4
+  },
+  "raw_rate": 0.9961449498843485
+ },
+ "facebook__zstd.1168da0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "525c346a3cce131470a74e66f498b269033ff5cd51cc6621bd3ca4762f51030a",
+  "kept": {
+   "failure": 21,
+   "passed": 2059
+  },
+  "kept_rate": 0.9899038461538462,
+  "raw": {
+   "failure": 28,
+   "passed": 2382,
+   "skipped": 16
+  },
+  "raw_rate": 0.9818631492168178
+ },
+ "facebookresearch__fasttext.1142dc4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "80310c0ae4d92165b7a94b17439a1931d99567ae4c1d54706bb557e87bdcd51c",
+  "kept": {
+   "passed": 313
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 4,
+   "passed": 363
+  },
+  "raw_rate": 0.989100817438692
+ },
+ "ffmpeg__ffmpeg.360a402": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "42607a4b2a5a70793adda811f4f1226a3e2e2c5faa40cbe723858ee836823731",
+  "kept": {
+   "failure": 1052,
+   "passed": 4100
+  },
+  "kept_rate": 0.7958074534161491,
+  "raw": {
+   "failure": 1461,
+   "passed": 5028,
+   "skipped": 605
+  },
+  "raw_rate": 0.7087679729348746
+ },
+ "filosottile__age.706dfc1": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "3b856165eefa36ac5a5bf71bbd7b4129f71aaa13604d9fef991b9c2b5c0be4cf",
+  "kept": {
+   "passed": 676
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 795,
+   "skipped": 44
+  },
+  "raw_rate": 0.9475566150178785
+ },
+ "foriequal0__git-trim.07c2f50": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fffa8cb92a4e7af7bb4e09913f11261e91f9f2b7c38602f277e506e6a6805c77",
+  "kept": {
+   "failure": 7,
+   "passed": 516
+  },
+  "kept_rate": 0.9866156787762906,
+  "raw": {
+   "failure": 9,
+   "passed": 719
+  },
+  "raw_rate": 0.9876373626373627
+ },
+ "gabotechs__dep-tree.60a95a2": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c15379769f1b21a0ffe66db20faff6bb70349ff4868c2b859acd1d3c54066077",
+  "kept": {
+   "passed": 865
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 98,
+   "passed": 1524,
+   "skipped": 2
+  },
+  "raw_rate": 0.9384236453201971
+ },
+ "ggreer__the_silver_searcher.a61f178": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "07ae1b9a4e4943556996b3917b0bba5a43dedea19c738c274d9beb58cb4ed561",
+  "kept": {
+   "failure": 16,
+   "passed": 1020
+  },
+  "kept_rate": 0.9845559845559846,
+  "raw": {
+   "failure": 16,
+   "passed": 1207,
+   "skipped": 1
+  },
+  "raw_rate": 0.9861111111111112
+ },
+ "git-bahn__git-graph.87b4473": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "afbb84bd11fa4a50285b65c294861e4dd52d919aa8ad6301ad6a84a0e50c71e5",
+  "kept": {
+   "failure": 14,
+   "passed": 582
+  },
+  "kept_rate": 0.9765100671140939,
+  "raw": {
+   "failure": 67,
+   "passed": 798,
+   "skipped": 2
+  },
+  "raw_rate": 0.9204152249134948
+ },
+ "go-critic__go-critic.9aea378": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4a7709d12c70ca3b141e3d945e496ebefa87a3b974f52aaeff4d02596d12b7a2",
+  "kept": {
+   "failure": 1,
+   "not_run": 4,
+   "passed": 509
+  },
+  "kept_rate": 0.9902723735408561,
+  "raw": {
+   "error": 1,
+   "failure": 35,
+   "not_run": 4,
+   "passed": 967,
+   "skipped": 15
+  },
+  "raw_rate": 0.9461839530332681
+ },
+ "google__brotli.b3dc9cc": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "97e485712c93b89276a653f8abc8cfb5d9e6afe6fd8d4f99bf9b17a677b84daa",
+  "kept": {
+   "passed": 441
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 606
+  },
+  "raw_rate": 1.0
+ },
+ "gromacs__gromacs.665ea4c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1fa13b3ec5e74f16cc43b9cff168f4bbc1242d377938c6e2b9c8894fc674ea73",
+  "kept": {
+   "passed": 1234
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 40,
+   "passed": 1394,
+   "skipped": 29
+  },
+  "raw_rate": 0.9528366370471634
+ },
+ "guumaster__hostctl.d6d9699": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fd2cf1b53498caa455e56c0b7273c96dd63793cdf86cab4031a93e86a05c0ef2",
+  "kept": {
+   "failure": 16,
+   "passed": 1067
+  },
+  "kept_rate": 0.9852262234533703,
+  "raw": {
+   "failure": 16,
+   "passed": 1391
+  },
+  "raw_rate": 0.9886282871357498
+ },
+ "hairyhenderson__gomplate.05eb3aa": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "939e9a3694acaf1bd5f7b842be56e158f915b0e1cce40d4be48a018b43e6bd4e",
+  "kept": {
+   "failure": 59,
+   "passed": 2985
+  },
+  "kept_rate": 0.9806176084099869,
+  "raw": {
+   "failure": 522,
+   "passed": 4038,
+   "skipped": 21
+  },
+  "raw_rate": 0.8814669286182056
+ },
+ "halitechallenge__halite.822cfb6": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9d5e3ec763bbfa7c1091054c3a746ee25af7d4368edc4395eb3e3d8f7f9feac3",
+  "kept": {
+   "passed": 277
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "error": 25,
+   "failure": 34,
+   "passed": 458,
+   "skipped": 4
+  },
+  "raw_rate": 0.8790786948176583
+ },
+ "hatoo__oha.8dc6349": {
+  "branch_errors": [
+   "901bbba586b2"
+  ],
+  "error_code": null,
+  "executable_hash": "83e97f5ac90ac8ed1eb47001e17f8143e78102575b37a56ff4847c6e4a5e850e",
+  "kept": {
+   "error": 1,
+   "failure": 2,
+   "not_run": 466,
+   "passed": 431,
+   "skipped": 1
+  },
+  "kept_rate": 0.47835738068812433,
+  "raw": {
+   "error": 1,
+   "failure": 14,
+   "not_run": 601,
+   "passed": 515,
+   "skipped": 2
+  },
+  "raw_rate": 0.45454545454545453
+ },
+ "hooklift__gowsdl.2a06cec": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "002bca44b1de8c0c73471f21f6b353ef6da8aaab640fd10cb546984fe0cdfd0f",
+  "kept": {
+   "failure": 7,
+   "passed": 398
+  },
+  "kept_rate": 0.9827160493827161,
+  "raw": {
+   "failure": 11,
+   "passed": 430
+  },
+  "raw_rate": 0.9750566893424036
+ },
+ "hpjansson__chafa.dd4d4c1": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "a0bb639d7fe889cce25f62b44253569fa3d4e9f0d87cccdd870a635e8af1de83",
+  "kept": {
+   "passed": 1931
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 4,
+   "passed": 2772
+  },
+  "raw_rate": 0.9985590778097982
+ },
+ "htop-dev__htop.523600b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "44f5a0afdd77fc7cf0f4750916a72d228f7440960ea2f31cbb421f8b0ed015af",
+  "kept": {
+   "passed": 692
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1200
+  },
+  "raw_rate": 1.0
+ },
+ "hush-shell__hush.560c33a": {
+  "branch_errors": [
+   "10c7b30aafc4"
+  ],
+  "error_code": null,
+  "executable_hash": "7b5a23936a626852b5d007a51ba5b45d9c6f4ec7476019ef107fa5b10d2ad6f4",
+  "kept": {
+   "not_run": 14,
+   "passed": 1187
+  },
+  "kept_rate": 0.9883430474604497,
+  "raw": {
+   "failure": 2,
+   "not_run": 15,
+   "passed": 1285
+  },
+  "raw_rate": 0.9869431643625192
+ },
+ "incu6us__goimports-reviser.81bd549": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "850413a1a01624adcd44c84eae247453df99e75121033d02b8c1b0537ecc57c9",
+  "kept": {
+   "passed": 513
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 596,
+   "skipped": 2
+  },
+  "raw_rate": 0.994991652754591
+ },
+ "ip7z__7zip.839151e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1c636a9d538b929ff53f10ed2307012e200d7e187dc7f119fe2a0b266c22aa7f",
+  "kept": {
+   "failure": 2,
+   "passed": 1045
+  },
+  "kept_rate": 0.9980897803247374,
+  "raw": {
+   "failure": 25,
+   "passed": 1109,
+   "skipped": 1
+  },
+  "raw_rate": 0.9770925110132158
+ },
+ "ismaelgv__rnr.fc0733b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "55fd15f001e674b5fdd31a2a85cb4ab76e31545b0ce9a386d0c49907a49e71e5",
+  "kept": {
+   "passed": 683
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 740
+  },
+  "raw_rate": 1.0
+ },
+ "isona__dirble.e2dea9f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "42f7364b307dcb41ae0f9df0ca99ebb37523f62c760860cf790509f04b34db51",
+  "kept": {
+   "failure": 29,
+   "passed": 744
+  },
+  "kept_rate": 0.96248382923674,
+  "raw": {
+   "failure": 33,
+   "passed": 1144
+  },
+  "raw_rate": 0.9719626168224299
+ },
+ "ivanceras__svgbob.6d00ad9": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "054ff4459c3d9d7db37e997992bb423f0ca5afa4fc18bf5ef7a51e044af0ad33",
+  "kept": {
+   "passed": 472
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 474
+  },
+  "raw_rate": 1.0
+ },
+ "jarun__nnn.cb2c535": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e014696296d4d415a13ed2cbd6939e6a0cb142964857da22b08a3ee67bacd9a6",
+  "kept": {
+   "passed": 477
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 91,
+   "passed": 1892
+  },
+  "raw_rate": 0.9541099344427635
+ },
+ "jesseduffield__lazygit.1d0db51": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4cb06d63467ba8abccd82c78a57e396f3e37ca23ef63c22183f6f2d9f8097e76",
+  "kept": {
+   "failure": 1,
+   "passed": 859
+  },
+  "kept_rate": 0.9988372093023256,
+  "raw": {
+   "failure": 47,
+   "passed": 1209,
+   "skipped": 12
+  },
+  "raw_rate": 0.9534700315457413
+ },
+ "jgm__pandoc.5caad90": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "115767f5a15bcaa3fd9b47773528eb9946089384848a32d9b94d5dc955b66401",
+  "kept": {
+   "failure": 3,
+   "passed": 5218
+  },
+  "kept_rate": 0.9994253974334418,
+  "raw": {
+   "failure": 97,
+   "passed": 5564,
+   "skipped": 1
+  },
+  "raw_rate": 0.9826916283998587
+ },
+ "jhspetersson__fselect.c3559ca": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fd9ba6bb101d6096be941a04f720b9909c5252bb82337054525f9f75f19ac8c0",
+  "kept": {
+   "failure": 156,
+   "passed": 3271
+  },
+  "kept_rate": 0.9544791362707907,
+  "raw": {
+   "failure": 156,
+   "passed": 3523,
+   "skipped": 68
+  },
+  "raw_rate": 0.9402188417400588
+ },
+ "johanneskaufmann__html-to-markdown.3006818": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e85ce8a96bf3286e47d1a5a00b4c64e60e3f47f4c514d56af44037240661679d",
+  "kept": {
+   "passed": 885
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 5,
+   "passed": 979
+  },
+  "raw_rate": 0.9949186991869918
+ },
+ "johnkerl__miller.8d85b46": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7a24fde3033e335fac36179a2cda38dff6f6223e9021fc1cdde044b832a62671",
+  "kept": {
+   "failure": 162,
+   "passed": 14799
+  },
+  "kept_rate": 0.9891718468016844,
+  "raw": {
+   "failure": 437,
+   "passed": 16464,
+   "skipped": 2
+  },
+  "raw_rate": 0.9740282790037271
+ },
+ "jonas__tig.8334123": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f1677a44d139e462d0381c926c97be6ff84b46336c3f3d1d3b6ea69418cb885d",
+  "kept": {
+   "failure": 1,
+   "passed": 1587
+  },
+  "kept_rate": 0.9993702770780857,
+  "raw": {
+   "failure": 52,
+   "passed": 2285,
+   "skipped": 4
+  },
+  "raw_rate": 0.9760785988893635
+ },
+ "jqlang__jq.b33a763": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "03a2b82e7ded782c6a52d4fd865dc1ac3b77af2c56768e0ebfba5cd64c860788",
+  "kept": {
+   "failure": 1,
+   "passed": 6073
+  },
+  "kept_rate": 0.9998353638459005,
+  "raw": {
+   "error": 20,
+   "failure": 24,
+   "passed": 6495
+  },
+  "raw_rate": 0.9932711423765102
+ },
+ "jrnxf__thokr.09375ef": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "692ef4e1510f5ee28ea57992aa20f24294fc306b3b85d585217e928b45264310",
+  "kept": {
+   "passed": 440
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 3,
+   "passed": 514
+  },
+  "raw_rate": 0.9941972920696325
+ },
+ "junegunn__fzf.b56d614": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7cd5341d9aa6d846ea01fca208c5586fef6c6cde874864715ec47e8a7bad1042",
+  "kept": {
+   "passed": 1856
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 85,
+   "passed": 2245,
+   "skipped": 4
+  },
+  "raw_rate": 0.9618680377035133
+ },
+ "kaushiksrini__parqeye.8072121": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bc0b34131f8b784321aed7cf01ca710449f91a2fe124579c9170cce26683a4e3",
+  "kept": {
+   "failure": 4,
+   "passed": 483
+  },
+  "kept_rate": 0.9917864476386037,
+  "raw": {
+   "failure": 5,
+   "passed": 574,
+   "skipped": 1
+  },
+  "raw_rate": 0.9896551724137931
+ },
+ "kisielk__errcheck.dacab89": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9920d04109862fa595d6ac8e3715ae6377f303a525325dc8b3da1abc9cfa71b9",
+  "kept": {
+   "passed": 357
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 14,
+   "passed": 601,
+   "skipped": 4
+  },
+  "raw_rate": 0.9709208400646203
+ },
+ "konradsz__igrep.aa75630": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "2b6d26f498e25be9422a0cc02b522b77d37ad43d7de5d502af4cabc6691461cb",
+  "kept": {
+   "failure": 38,
+   "passed": 427
+  },
+  "kept_rate": 0.9182795698924732,
+  "raw": {
+   "failure": 46,
+   "passed": 757,
+   "skipped": 1
+  },
+  "raw_rate": 0.9415422885572139
+ },
+ "ksxgithub__parallel-disk-usage.96978ed": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d4efc87f19c8e84916967d7341d867166e65e7bfcf6e839cff8e72ff3d564691",
+  "kept": {
+   "failure": 63,
+   "passed": 594
+  },
+  "kept_rate": 0.9041095890410958,
+  "raw": {
+   "failure": 67,
+   "passed": 697
+  },
+  "raw_rate": 0.912303664921466
+ },
+ "kyoh86__richgo.313114f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d84dca1060a56f1138ccfa5a3267d7fda851e6a82e5ad9fe6e02e86ec5cb4e0c",
+  "kept": {
+   "passed": 546
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 11,
+   "passed": 804,
+   "skipped": 1
+  },
+  "raw_rate": 0.9852941176470589
+ },
+ "kyoheiu__felix.95df390": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "820eb28a3376b907139e0ed53d2ba85e0d6e61cbc8fcb8b8157de8afe6e23e72",
+  "kept": {
+   "failure": 10,
+   "passed": 511
+  },
+  "kept_rate": 0.980806142034549,
+  "raw": {
+   "failure": 64,
+   "passed": 1058,
+   "skipped": 2
+  },
+  "raw_rate": 0.9412811387900356
+ },
+ "lfos__calcurse.49180d5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bffc523c9f38258c077a8959f179269710378cd45cea55c77c8a46a889db6912",
+  "kept": {
+   "passed": 666
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "error": 1,
+   "failure": 434,
+   "passed": 2423,
+   "skipped": 6
+  },
+  "raw_rate": 0.8460195530726257
+ },
+ "lh3__seqtk.94e7070": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "348c6e08241681487a4031afd1c34c6970409209adaed9e8a04330be0c0b1e7b",
+  "kept": {
+   "passed": 429
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 440
+  },
+  "raw_rate": 1.0
+ },
+ "lua__lua.c6b4848": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f39cc2d1d7dd31dcbedcdec938448a8130dcfffe5c7e9907d458591f19ac6a0c",
+  "kept": {
+   "failure": 5,
+   "passed": 1343
+  },
+  "kept_rate": 0.9962908011869436,
+  "raw": {
+   "failure": 8,
+   "passed": 1391,
+   "skipped": 1
+  },
+  "raw_rate": 0.9935714285714285
+ },
+ "luajit__luajit.a553b3d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "a46fdc84f8d97b05fac8b4ac241bce8216a686ed52267f12f620c14bb50e88fc",
+  "kept": {
+   "failure": 1,
+   "passed": 2968
+  },
+  "kept_rate": 0.9996631862579993,
+  "raw": {
+   "failure": 17,
+   "passed": 3199,
+   "skipped": 1
+  },
+  "raw_rate": 0.9944047248989742
+ },
+ "lymphatus__caesium-clt.a529b2e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8568b9bc50dbfca9557e630d627764d50c36ff52a2e1e3eac2febeb9dcb03a0c",
+  "kept": {
+   "passed": 575
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 614,
+   "skipped": 1
+  },
+  "raw_rate": 0.9983739837398374
+ },
+ "lz4__lz4.1519f46": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "39482b2512114fc5e593949649b644a0eb9f10856baf8e579deb4e7a6161cefc",
+  "kept": {
+   "passed": 1497
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 33,
+   "passed": 1863,
+   "skipped": 2
+  },
+  "raw_rate": 0.9815595363540569
+ },
+ "madler__pigz.fe4894f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "59fdb11c46c826db6b45778a38dcc2669a78ed9cc1932c4543f7ca43a322fda7",
+  "kept": {
+   "passed": 831
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 3,
+   "passed": 939,
+   "skipped": 2
+  },
+  "raw_rate": 0.9947033898305084
+ },
+ "mfridman__tparse.2416b4b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b004b91847e3828b37678d78a89346f648459f72128225b61feda2b517611bfd",
+  "kept": {
+   "passed": 425
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 19,
+   "passed": 575
+  },
+  "raw_rate": 0.968013468013468
+ },
+ "mgdm__htmlq.6e31bc8": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "322bb78d0eadcd6cb5583441f1ff0f8d3e02f7a126c0197df958124c067d7dac",
+  "kept": {
+   "passed": 1455
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 2057,
+   "skipped": 1
+  },
+  "raw_rate": 0.999514091350826
+ },
+ "mgechev__revive.201451e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "2e758563f737ddc8b287af9d3fede6c5355dc37063006964a2ad4b6426a0402a",
+  "kept": {
+   "failure": 227,
+   "passed": 960
+  },
+  "kept_rate": 0.8087615838247684,
+  "raw": {
+   "failure": 230,
+   "passed": 1132
+  },
+  "raw_rate": 0.8311306901615272
+ },
+ "mibk__dupl.1bf052b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e5d3932a18e28af85a2ab20031e5b6ff49eb878fbd3f5963b3a29af4cf7f41be",
+  "kept": {
+   "failure": 2,
+   "passed": 375
+  },
+  "kept_rate": 0.9946949602122016,
+  "raw": {
+   "failure": 2,
+   "passed": 452
+  },
+  "raw_rate": 0.9955947136563876
+ },
+ "mikefarah__yq.602586d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9b5cadd0d4954f6cc1413c8363003d5483675dcb40d39f90b58365bf19fa57e0",
+  "kept": {
+   "failure": 9,
+   "passed": 2009
+  },
+  "kept_rate": 0.9955401387512388,
+  "raw": {
+   "failure": 9,
+   "passed": 2055
+  },
+  "raw_rate": 0.9956395348837209
+ },
+ "miserlou__loop.209927c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "874a36094e45e9993799bfd9d5575c3d6a13eb42b16ae12862d428a2319bde82",
+  "kept": {
+   "passed": 710
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 7,
+   "passed": 785
+  },
+  "raw_rate": 0.9911616161616161
+ },
+ "mkj__dropbear.75f699b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "516684046597d6b1178ae0e85aee2f025b8efc185abadc3219c6198a772716a9",
+  "kept": {
+   "failure": 1,
+   "passed": 668
+  },
+  "kept_rate": 0.9985052316890882,
+  "raw": {
+   "error": 40,
+   "failure": 16,
+   "passed": 1128,
+   "skipped": 7
+  },
+  "raw_rate": 0.947103274559194
+ },
+ "mookid__diffr.2152742": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c5cab89005dafbebbb5dc371f015a46df81e6d52c7dea9a58e849affa5c5e216",
+  "kept": {
+   "passed": 606
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 12,
+   "passed": 794
+  },
+  "raw_rate": 0.9851116625310173
+ },
+ "multiprocessio__dsq.c3ae0ba": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b8d734b02c71194cd67e3aa6d30c8306543b4b92530d0ccb908962729751437c",
+  "kept": {
+   "passed": 542
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 771,
+   "skipped": 3
+  },
+  "raw_rate": 0.9961240310077519
+ },
+ "nachoparker__dutree.44e877d": {
+  "branch_errors": [
+   "674fd4666e90"
+  ],
+  "error_code": null,
+  "executable_hash": "39e040b27bef49088f967bb654c5e382ca1f0afb817a4b82fb4f8467d11fd9e7",
+  "kept": {
+   "failure": 143,
+   "not_run": 3,
+   "passed": 781
+  },
+  "kept_rate": 0.8425026968716289,
+  "raw": {
+   "error": 30,
+   "failure": 338,
+   "not_run": 4,
+   "passed": 1311,
+   "skipped": 10
+  },
+  "raw_rate": 0.77436503248671
+ },
+ "naggie__dstask.ff57396": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8e631001ee010690b353b189cffe132b5e66677368ad13358c7743177650955f",
+  "kept": {
+   "failure": 13,
+   "passed": 1292
+  },
+  "kept_rate": 0.9900383141762452,
+  "raw": {
+   "failure": 26,
+   "passed": 1615,
+   "skipped": 4
+  },
+  "raw_rate": 0.9817629179331308
+ },
+ "nikoladucak__caps-log.2cf2d1e": {
+  "branch_errors": [
+   "c0e6b8d64108"
+  ],
+  "error_code": null,
+  "executable_hash": "d3911ba131b19d4f35d11be99706f553ce1f84535aeeba4a181cb94558a892d8",
+  "kept": {
+   "failure": 3,
+   "not_run": 3,
+   "passed": 551
+  },
+  "kept_rate": 0.9892280071813285,
+  "raw": {
+   "failure": 367,
+   "not_run": 3,
+   "passed": 1571,
+   "skipped": 25
+  },
+  "raw_rate": 0.7990844354018312
+ },
+ "nikolassv__bartib.6b9b5ce": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c35d589a711830f5fff97e6b885b3eb88dbed375c5f27bc9ec76c0509a6d6890",
+  "kept": {
+   "passed": 721
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 41,
+   "passed": 968,
+   "skipped": 2
+  },
+  "raw_rate": 0.9574678536102869
+ },
+ "ninja-build__ninja.cc60300": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7459b975c07cdda62702ba97edd99fb5485c37efbad80f20711fed781e82edc7",
+  "kept": {
+   "passed": 1440
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 19,
+   "passed": 1925,
+   "skipped": 1
+  },
+  "raw_rate": 0.9897172236503856
+ },
+ "noborus__ov.b96c2ba": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "14b5fd0b8e66e466aa61ea44b51ca0cfeb1870441730ed1298f1df08a6c30cda",
+  "kept": {
+   "passed": 1802
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 26,
+   "passed": 2473
+  },
+  "raw_rate": 0.9895958383353342
+ },
+ "noborus__trdsql.d8c5ff6": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bf39e920a2ec8d7f93305490226cdcc74df2cc55ce6d8c4cf67b7aebfb8b2249",
+  "kept": {
+   "passed": 1313
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 4,
+   "passed": 1407,
+   "skipped": 1
+  },
+  "raw_rate": 0.9964589235127479
+ },
+ "nukesor__pueue.8b9d6fe": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fe3d69ddc93b051369d6bfc09fe0b9d1257e270396c7a195323c09be6dd55b41",
+  "kept": {
+   "failure": 3,
+   "passed": 642
+  },
+  "kept_rate": 0.9953488372093023,
+  "raw": {
+   "error": 435,
+   "failure": 83,
+   "passed": 1727,
+   "skipped": 16
+  },
+  "raw_rate": 0.7638213180008846
+ },
+ "nuta__nsh.bdd0702": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bbe5609f0e89700ac0314a752aebc8e4fcf1870062b01d2074b26689702cbdb4",
+  "kept": {
+   "passed": 1960
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 12,
+   "passed": 2303
+  },
+  "raw_rate": 0.994816414686825
+ },
+ "o2sh__onefetch.e5958ce": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "70130b35ef23d5ae7e58a4291b1fe17d51e2f7a8872cad2b7b107a675a1f9583",
+  "kept": {
+   "failure": 1,
+   "passed": 1167
+  },
+  "kept_rate": 0.9991438356164384,
+  "raw": {
+   "failure": 3,
+   "passed": 1217,
+   "skipped": 2
+  },
+  "raw_rate": 0.9959083469721768
+ },
+ "ogham__dog.721440b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "922f445e9f75b86c8236cbacec2fb661aeb5693ca2817a2eb7d41059aee95b38",
+  "kept": {
+   "failure": 809,
+   "passed": 2109
+  },
+  "kept_rate": 0.7227553118574366,
+  "raw": {
+   "failure": 1019,
+   "passed": 2736,
+   "skipped": 5
+  },
+  "raw_rate": 0.7276595744680852
+ },
+ "oppiliappan__eva.41ae245": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b0e00a5860db79b4573c35dc803ee7fb445980c65adac9a461416bacfa459bc8",
+  "kept": {
+   "passed": 913
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 5,
+   "passed": 971
+  },
+  "raw_rate": 0.9948770491803278
+ },
+ "oppiliappan__statix.e9df54c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "0026f526c28c582df79bcd7c23f6b694a0c5705b36f3248dd24c76acb40beb02",
+  "kept": {
+   "passed": 815
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 968,
+   "skipped": 4
+  },
+  "raw_rate": 0.9958847736625515
+ },
+ "orf__gping.26eb5b9": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "6fa670f016bff9ed1be87e3858f3c5b8c38c2af116388575f85d8afe2c1ec004",
+  "kept": {
+   "failure": 27,
+   "passed": 365
+  },
+  "kept_rate": 0.9311224489795918,
+  "raw": {
+   "failure": 43,
+   "passed": 694,
+   "skipped": 4
+  },
+  "raw_rate": 0.9365721997300944
+ },
+ "osgeo__gdal.0847f12": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c4afaeafe343fa6d0f9b2aea38d360ea2bea560a574a052c930ccce5efa2c97e",
+  "kept": {
+   "passed": 657
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 38,
+   "passed": 1347,
+   "skipped": 10
+  },
+  "raw_rate": 0.9655913978494624
+ },
+ "osgeo__proj.75d455c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "66f8427dec4f4aae92c70ac25e0cee3d99d8f36a0500cbe0893c23b999665f6d",
+  "kept": {
+   "passed": 5319
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 668,
+   "passed": 6662,
+   "skipped": 1166
+  },
+  "raw_rate": 0.7841337099811676
+ },
+ "paradigmxyz__solar.5190d0e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4fa65ddafe88b3b9c2b519b6702497945c2b800231d239d607ec21a861b94bb5",
+  "kept": {
+   "failure": 6,
+   "passed": 1985
+  },
+  "kept_rate": 0.9969864389753893,
+  "raw": {
+   "error": 1,
+   "failure": 27,
+   "passed": 2558,
+   "skipped": 1
+  },
+  "raw_rate": 0.9887901043679939
+ },
+ "parcel-bundler__lightningcss.aa2ed1e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7aeea3278ba55824c72166aba291e04e337138a57156692d8cd46794d9dfd9bb",
+  "kept": {
+   "passed": 2828
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 16,
+   "passed": 3168,
+   "skipped": 3
+  },
+  "raw_rate": 0.9940382805145905
+ },
+ "peco__peco.4e58dad": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1abc2f03fdfb3166b9dfccb8f9e492bbc1a595f72a4769f75d0f554354a0bf1b",
+  "kept": {
+   "passed": 1223
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 118,
+   "passed": 1871,
+   "skipped": 3
+  },
+  "raw_rate": 0.9392570281124498
+ },
+ "pemistahl__grex.fa3e8ed": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1e038d623aed8d78f5a33f002ad0e4398ea9947482e6e7a8f85d845b2ac5041c",
+  "kept": {
+   "passed": 1312
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1518
+  },
+  "raw_rate": 1.0
+ },
+ "php__php-src.c891263": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f66c0aaacea50448a30b790460a7d92734325419c501f950a6dcd07e967c54bd",
+  "kept": {
+   "failure": 2,
+   "passed": 14290
+  },
+  "kept_rate": 0.999860061572908,
+  "raw": {
+   "error": 543,
+   "failure": 259,
+   "passed": 15924,
+   "skipped": 5334
+  },
+  "raw_rate": 0.7218495013599274
+ },
+ "pier-cli__pier.5e1bde9": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "90876a1a86e8166ebb68ddc117c15570bbf6e610d1c982937f72122ee3e687c3",
+  "kept": {
+   "passed": 692
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 779
+  },
+  "raw_rate": 1.0
+ },
+ "pls-rs__pls.4e1ae50": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d88c3ec8aa6815a9c870ddd32437084a13070fdc158e960635ee59dfeffdbb72",
+  "kept": {
+   "failure": 16,
+   "passed": 347
+  },
+  "kept_rate": 0.9559228650137741,
+  "raw": {
+   "failure": 17,
+   "passed": 365,
+   "skipped": 6
+  },
+  "raw_rate": 0.9407216494845361
+ },
+ "psampaz__go-mod-outdated.bb79367": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c3529a5248d91c7ef02a65adb88aaeb397f558efda6dce2504eff09753f18aac",
+  "kept": {
+   "passed": 285
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 3,
+   "passed": 340,
+   "skipped": 5
+  },
+  "raw_rate": 0.9770114942528736
+ },
+ "quinn-rs__quinn.bb359cc": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b62d4e660012a71d0d80cd1558c5de4760b428fe30c62f42788b2bdac965c3d8",
+  "kept": {
+   "failure": 1,
+   "passed": 523
+  },
+  "kept_rate": 0.9980916030534351,
+  "raw": {
+   "failure": 1,
+   "passed": 600,
+   "skipped": 1
+  },
+  "raw_rate": 0.9966777408637874
+ },
+ "raviqqe__muffet.a882908": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "579ec7a84c32e8e1e4c15c781756e391140ab39c55b1268f2450ac3cf66f52b9",
+  "kept": {
+   "failure": 1,
+   "passed": 293
+  },
+  "kept_rate": 0.9965986394557823,
+  "raw": {
+   "failure": 17,
+   "passed": 451
+  },
+  "raw_rate": 0.9636752136752137
+ },
+ "rbakbashev__elfcat.52f8cc7": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "93848e6822cdff1f08da1f2a63b953fca7cd3fea5cf5d1bd45a9cef2e99eec25",
+  "kept": {
+   "passed": 564
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 6,
+   "passed": 651,
+   "skipped": 1
+  },
+  "raw_rate": 0.9893617021276596
+ },
+ "rcoh__angle-grinder.9c2fc88": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b55375128debbadf86fcfe3ff045c29181c26fd04b35554c6a0bfb3808b25573",
+  "kept": {
+   "passed": 1128
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 3,
+   "passed": 1147
+  },
+  "raw_rate": 0.9973913043478261
+ },
+ "rhysd__kiro-editor.4157485": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "683b23b3b01c61cc20763a4ed8529c06302d0438763aac67befb14940de4da82",
+  "kept": {
+   "passed": 590
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 83,
+   "passed": 855
+  },
+  "raw_rate": 0.9115138592750534
+ },
+ "riquito__tuc.16fb471": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d24483cafab211e09de62fbe05bd43084bb76da1b13f249938ccea66ca083f38",
+  "kept": {
+   "passed": 1196
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1245,
+   "skipped": 4
+  },
+  "raw_rate": 0.9967974379503602
+ },
+ "robertdavidgraham__masscan.b99d433": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "53a39e1ffb8030433bdff89a52d5f9f58b04504f315859d15ca8389b46fb07a9",
+  "kept": {
+   "failure": 1,
+   "passed": 2550
+  },
+  "kept_rate": 0.999607996863975,
+  "raw": {
+   "failure": 230,
+   "passed": 3595
+  },
+  "raw_rate": 0.9398692810457516
+ },
+ "rochacbruno__marmite.7d4bc2d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "dc7b6462c536878041400352f2b3ef8c79e6d8c3dea138b4de70130728ffc103",
+  "kept": {
+   "passed": 668
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 35,
+   "passed": 885,
+   "skipped": 3
+  },
+  "raw_rate": 0.9588299024918743
+ },
+ "rs__curlie.5dfcbb1": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7ebf850e7d8d0def143b72a1d6d0ebf4e54d8212c515c2317f06e4e8f3f642f0",
+  "kept": {
+   "failure": 3,
+   "passed": 696
+  },
+  "kept_rate": 0.9957081545064378,
+  "raw": {
+   "failure": 3,
+   "passed": 744
+  },
+  "raw_rate": 0.9959839357429718
+ },
+ "rs__jplot.2a54bcc": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "51c583545d2b867dedf1818adb178d36ff10a1886db14b182c42df93272965f4",
+  "kept": {
+   "failure": 1,
+   "passed": 584
+  },
+  "kept_rate": 0.9982905982905983,
+  "raw": {
+   "failure": 5,
+   "passed": 726,
+   "skipped": 1
+  },
+  "raw_rate": 0.9918032786885246
+ },
+ "rust-embedded__svd2rust.1760b5e": {
+  "branch_errors": [
+   "c1c694f9aa4f"
+  ],
+  "error_code": null,
+  "executable_hash": "8cf9071c6e43cbd8af00e24a0378416f4359cb87bd0a4b34ea4c16bfa115c891",
+  "kept": {
+   "not_run": 5,
+   "passed": 914
+  },
+  "kept_rate": 0.9945593035908596,
+  "raw": {
+   "failure": 5,
+   "not_run": 6,
+   "passed": 985
+  },
+  "raw_rate": 0.9889558232931727
+ },
+ "rust-ethereum__ethabi.b1710ad": {
+  "branch_errors": [
+   "7f66c86dd224"
+  ],
+  "error_code": null,
+  "executable_hash": "6b68873da3bc09c6cf122db686dcf492d84d0f69c9cd0d1af167fcadb67ad4be",
+  "kept": {
+   "not_run": 27,
+   "passed": 970
+  },
+  "kept_rate": 0.9729187562688064,
+  "raw": {
+   "not_run": 27,
+   "passed": 1025,
+   "skipped": 1
+  },
+  "raw_rate": 0.97340930674264
+ },
+ "rust-lang__mdbook.37273ba": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "5115c688e78ebe0b0df2f320b3d86e897d5aed89b3191b030a097eb491d3c7a9",
+  "kept": {
+   "failure": 17,
+   "passed": 1131
+  },
+  "kept_rate": 0.985191637630662,
+  "raw": {
+   "failure": 21,
+   "passed": 1340,
+   "skipped": 6
+  },
+  "raw_rate": 0.9802487198244331
+ },
+ "rvben__rumdl.2d75c4d": {
+  "branch_errors": [
+   "75b32744b65c"
+  ],
+  "error_code": null,
+  "executable_hash": "62ef73faaa4bfe50e38ab8e55111a803e4618e21fe6ea290d0dba305cd37c534",
+  "kept": {
+   "not_run": 3,
+   "passed": 3319
+  },
+  "kept_rate": 0.9990969295605057,
+  "raw": {
+   "not_run": 4,
+   "passed": 4639,
+   "skipped": 29
+  },
+  "raw_rate": 0.9929366438356164
+ },
+ "samtools__samtools.aa823b5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4f039cf4187425f532fbf960a09a73c4e79d2b50918f0130c09ae43b8421d960",
+  "kept": {
+   "passed": 1425
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 19,
+   "passed": 1829,
+   "skipped": 9
+  },
+  "raw_rate": 0.9849219170705439
+ },
+ "sayanarijit__xplr.1751065": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "ddebf1f0474745d0332d4f28f1b5fc10853484d1c97d3a2ac1f486a5952662fc",
+  "kept": {
+   "failure": 9,
+   "passed": 428
+  },
+  "kept_rate": 0.9794050343249427,
+  "raw": {
+   "failure": 50,
+   "passed": 985,
+   "skipped": 4
+  },
+  "raw_rate": 0.9480269489894129
+ },
+ "sclevine__yj.8016400": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "2b42e69a03e5df6adb11c4d988b8e9f9e7942f09e1c7f3ef22b207c426b8adf9",
+  "kept": {
+   "failure": 1,
+   "passed": 768
+  },
+  "kept_rate": 0.9986996098829649,
+  "raw": {
+   "failure": 4,
+   "passed": 829
+  },
+  "raw_rate": 0.9951980792316927
+ },
+ "segmentio__chamber.5f93f5f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "ccb4cddfb7b4c033b566d07e578f1582e0ab1ec2b0104345ca8574b0715d16b2",
+  "kept": {
+   "failure": 41,
+   "passed": 1789
+  },
+  "kept_rate": 0.9775956284153006,
+  "raw": {
+   "error": 1,
+   "failure": 640,
+   "passed": 3737,
+   "skipped": 6
+  },
+  "raw_rate": 0.8524178832116789
+ },
+ "sharkdp__bat.f822bd0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f9e1425ce0726b482771c25152690c94bda1b7c95fcfa97cacafb35919ad40bf",
+  "kept": {
+   "passed": 799
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 941,
+   "skipped": 39
+  },
+  "raw_rate": 0.9592252803261978
+ },
+ "sharkdp__fd.40d8eb3": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "97faf849877411088aca8ff99ad0534a28ac6a7977fb20f3d1e649a948cc06d8",
+  "kept": {
+   "passed": 1235
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 8,
+   "passed": 1404,
+   "skipped": 9
+  },
+  "raw_rate": 0.988036593947924
+ },
+ "sharkdp__hexyl.2e26437": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bbb6609b5c5c5b862f909279c17855f31371bdb3bf473ce0a64c78d0b4853961",
+  "kept": {
+   "passed": 906
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 960,
+   "skipped": 15
+  },
+  "raw_rate": 0.9846153846153847
+ },
+ "sharkdp__hyperfine.327d5f4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b973d9a3632089df6d395f08b94077ca07bc17a222f951daf911eeb870daf5a8",
+  "kept": {
+   "passed": 291
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 298
+  },
+  "raw_rate": 1.0
+ },
+ "sharkdp__pastel.b60e899": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "54c3f3ce79ed8c2ef8431e5e748f8ef430adf1bb1514d81a9f13cc2ca1e8bc6c",
+  "kept": {
+   "passed": 1114
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 2,
+   "passed": 1258
+  },
+  "raw_rate": 0.9984126984126984
+ },
+ "shashwatah__jot.a92aad8": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f421acceb8074491e72c35c2b7ff93d60830c328f5dd979971450238a3661618",
+  "kept": {
+   "failure": 5,
+   "passed": 757
+  },
+  "kept_rate": 0.9934383202099738,
+  "raw": {
+   "failure": 5,
+   "passed": 851
+  },
+  "raw_rate": 0.9941588785046729
+ },
+ "sheepla__pingu.926d475": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "42860ccf39b72b0ce5524a09d7ae4c7fd61d7922835d18fbcf3380abffbde2ee",
+  "kept": {
+   "failure": 217,
+   "passed": 593,
+   "skipped": 2
+  },
+  "kept_rate": 0.7302955665024631,
+  "raw": {
+   "failure": 237,
+   "passed": 651,
+   "skipped": 5
+  },
+  "raw_rate": 0.729003359462486
+ },
+ "sibprogrammer__xq.b89f681": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "96e99a7429ef9b2d41112880aeedded6bb708c9606e8f7bc6b7321e1cb7b2d0f",
+  "kept": {
+   "passed": 792
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 876,
+   "skipped": 3
+  },
+  "raw_rate": 0.9965870307167235
+ },
+ "sigoden__argc.04a08f1": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "0d24cd4d202f1b85f17bd9e4c83e9364212065495f1080c79d1023c7d13286c7",
+  "kept": {
+   "passed": 995
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1332,
+   "skipped": 78
+  },
+  "raw_rate": 0.9446808510638298
+ },
+ "simeg__eureka.df3796c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7a19c2c431441933225cb026c3ccaf9d68e119d69f21d5dbda5f7306e8a5d9cd",
+  "kept": {
+   "passed": 344
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 398,
+   "skipped": 3
+  },
+  "raw_rate": 0.9900497512437811
+ },
+ "sirwart__ripsecrets.34c9e03": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f92ab16467ed0196e9586aad44369176a255d5671935dc14e3e6ce741012b1fe",
+  "kept": {
+   "passed": 611
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 937,
+   "skipped": 1
+  },
+  "raw_rate": 0.9978700745473909
+ },
+ "sitkevij__hex.61ae69b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9e53e4d1446f1123877515a8e6e15863ec1451475e4ba31ba10012737f9509ad",
+  "kept": {
+   "passed": 823
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 877
+  },
+  "raw_rate": 1.0
+ },
+ "skeema__skeema.6a76243": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "449c62e9472ed3b5804a33363c196db9bd42892a9e80cc4fb3feadc937e2ea2a",
+  "kept": {
+   "failure": 6,
+   "passed": 1714
+  },
+  "kept_rate": 0.9965116279069768,
+  "raw": {
+   "failure": 104,
+   "passed": 3117,
+   "skipped": 444
+  },
+  "raw_rate": 0.8504774897680764
+ },
+ "sqlite__sqlite.839433d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "0e69891ac12289bcd09c3ec517fc45069e31c012b681148edf4629a656b3a8b9",
+  "kept": {
+   "failure": 8,
+   "passed": 13519
+  },
+  "kept_rate": 0.9994085902269535,
+  "raw": {
+   "failure": 2786,
+   "passed": 19204,
+   "skipped": 387
+  },
+  "raw_rate": 0.8582026187603343
+ },
+ "sstadick__hck.b66c751": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "099b090af18899992fe87215c70714a63eaf1f2edb5b3d7533e04d2ee7e05157",
+  "kept": {
+   "passed": 855
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 884,
+   "skipped": 1
+  },
+  "raw_rate": 0.9977426636568849
+ },
+ "stacked-git__stgit.430027d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "239b168560bb906102c9b413c15a62f20da6bb98c69954ee2b832a5b001d75db",
+  "kept": {
+   "passed": 1488
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 115,
+   "passed": 2384,
+   "skipped": 20
+  },
+  "raw_rate": 0.9464073044859072
+ },
+ "stathissideris__ditaa.f2286c4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f3fa19e31ad0bf93910e94bc3d8f875ee066a4d94cff3017007b67e8a2cba93a",
+  "kept": {
+   "passed": 609
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 683
+  },
+  "raw_rate": 0.9985380116959064
+ },
+ "stranger6667__jsonschema.d52e881": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c931ff9773a93632bdd053af8e560972128e37818a49f8e7cff6b905007678ce",
+  "kept": {
+   "failure": 1,
+   "passed": 2933
+  },
+  "kept_rate": 0.9996591683708248,
+  "raw": {
+   "failure": 3,
+   "passed": 3007,
+   "skipped": 2
+  },
+  "raw_rate": 0.998339973439575
+ },
+ "svenstaro__genact.16f96e3": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "53faf3cde98a7bf59ba0b6740eae528af54c08a52f9866aa6a45ec97f852ee67",
+  "kept": {
+   "passed": 232
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 2,
+   "passed": 240
+  },
+  "raw_rate": 0.9917355371900827
+ },
+ "svenstaro__miniserve.8449e8b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9e0fbe906d29cbc2f8a447f2dba24a49aa31d7eefd59ab0812c5a969337f0d49",
+  "kept": {
+   "passed": 304
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 440
+  },
+  "raw_rate": 1.0
+ },
+ "tarka__xcp.5e5b448": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "3bc621eb01281ed4e537f9233e8d384ca27a210b3bda69688a8da74a459d5f10",
+  "kept": {
+   "failure": 18,
+   "passed": 1201,
+   "skipped": 1
+  },
+  "kept_rate": 0.9844262295081967,
+  "raw": {
+   "failure": 21,
+   "passed": 1241,
+   "skipped": 20
+  },
+  "raw_rate": 0.96801872074883
+ },
+ "thezoraiz__ascii-image-converter.d05a757": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "395d88b0014b0fdb7212bd97e827a2f752b955d787611b02d5c6d4f8e8a9f9ad",
+  "kept": {
+   "failure": 1,
+   "passed": 466
+  },
+  "kept_rate": 0.9978586723768736,
+  "raw": {
+   "failure": 1,
+   "passed": 489
+  },
+  "raw_rate": 0.9979591836734694
+ },
+ "tinycc__tinycc.9b8765d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "b1a0b48dc69c08bb3bb4dceb9f1611178294024ac3180fac569dca99e868aceb",
+  "kept": {
+   "passed": 1978
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 2,
+   "passed": 2062,
+   "skipped": 2
+  },
+  "raw_rate": 0.9980638915779284
+ },
+ "tomarrell__wrapcheck.c058da1": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "a99b656e7cb887c60db79b20b06d4acca082e6321fec4b762789c85aeae7feb0",
+  "kept": {
+   "error": 1,
+   "failure": 6,
+   "passed": 497
+  },
+  "kept_rate": 0.9861111111111112,
+  "raw": {
+   "error": 1,
+   "failure": 42,
+   "passed": 724,
+   "skipped": 8
+  },
+  "raw_rate": 0.9341935483870968
+ },
+ "tomnomnom__gron.88a6234": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "0270943958c042821654a1e19608848a8cf14cd1136fde4726e8a1821cdf4cc7",
+  "kept": {
+   "failure": 16,
+   "passed": 240
+  },
+  "kept_rate": 0.9375,
+  "raw": {
+   "failure": 18,
+   "passed": 251
+  },
+  "raw_rate": 0.9330855018587361
+ },
+ "trasta298__keifu.3331426": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fc06123ac4d8517f95c1737fa4d03a946d040b0659e324698158c314a79ab72c",
+  "kept": {
+   "passed": 262
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 24,
+   "passed": 438
+  },
+  "raw_rate": 0.948051948051948
+ },
+ "tree-sitter__tree-sitter.5e23cca": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "2ab6643409bb6e13633cee794bf79b009a72776e4f9149fee1a3da61ce77033c",
+  "kept": {
+   "failure": 3,
+   "passed": 1236
+  },
+  "kept_rate": 0.9975786924939467,
+  "raw": {
+   "failure": 4,
+   "passed": 1656,
+   "skipped": 44
+  },
+  "raw_rate": 0.971830985915493
+ },
+ "tstack__lnav.ee34494": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "851d531e9dea8a6adeadd82167533197b5dba05103c5ad3985bbe2009433d2c3",
+  "kept": {
+   "failure": 53,
+   "passed": 1042
+  },
+  "kept_rate": 0.9515981735159817,
+  "raw": {
+   "failure": 99,
+   "passed": 1227,
+   "skipped": 48
+  },
+  "raw_rate": 0.8930131004366813
+ },
+ "tukaani-project__xz.1007bf0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "40acc91528155a61364fb295efc7d4dadb042d3e187cec95096a6d62d2585f26",
+  "kept": {
+   "failure": 4,
+   "passed": 1414
+  },
+  "kept_rate": 0.997179125528914,
+  "raw": {
+   "failure": 6,
+   "passed": 2038,
+   "skipped": 4
+  },
+  "raw_rate": 0.9951171875
+ },
+ "typst__typst.88356d0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "015793f5bc96ba3dcf5efec811bef9659eb81aad5d5b62bee3ed945b8bce1223",
+  "kept": {
+   "failure": 89,
+   "passed": 1813
+  },
+  "kept_rate": 0.9532071503680336,
+  "raw": {
+   "failure": 108,
+   "passed": 1893,
+   "skipped": 1
+  },
+  "raw_rate": 0.9455544455544456
+ },
+ "unhappychoice__gittype.34b72d0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "49abf8746c30fd11858b4c3b89cfd385df31a7bfaa3a6ac4bbd754b4b9cb269c",
+  "kept": {
+   "failure": 12,
+   "passed": 736
+  },
+  "kept_rate": 0.983957219251337,
+  "raw": {
+   "failure": 46,
+   "passed": 974,
+   "skipped": 2
+  },
+  "raw_rate": 0.9530332681017613
+ },
+ "universal-ctags__ctags.243595e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c5a8546f3c289c708b24d9ce8f01b506cd9a972d25aa1c5b5b25300f1fbe4933",
+  "kept": {
+   "failure": 2,
+   "passed": 2260
+  },
+  "kept_rate": 0.9991158267020336,
+  "raw": {
+   "failure": 52,
+   "passed": 2617,
+   "skipped": 14
+  },
+  "raw_rate": 0.9754006708907939
+ },
+ "wfxr__code-minimap.0ddeea5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "a712a79d18c725dba352edfe1755710402854677b1834acff1c95b8e20b382ce",
+  "kept": {
+   "passed": 313
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 370
+  },
+  "raw_rate": 0.9973045822102425
+ },
+ "wfxr__csview.8ac4de0": {
+  "branch_errors": [
+   "efa8c407dbe3"
+  ],
+  "error_code": null,
+  "executable_hash": "758ef03ba091d6a7c77d32e60aaf484aca23532aba3eea6a51bdf25232c5f5ce",
+  "kept": {
+   "passed": 335
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "not_run": 2,
+   "passed": 345,
+   "skipped": 1
+  },
+  "raw_rate": 0.9913793103448276
+ },
+ "wgunderwood__tex-fmt.3f1aef6": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "ef233a59159106887bf9efe24865da2b5a5b41c6deb87f55ae8e799644ca01d1",
+  "kept": {
+   "passed": 455
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 494,
+   "skipped": 1
+  },
+  "raw_rate": 0.997979797979798
+ },
+ "wintermute-cell__ngrrram.8ea13c3": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "180abd758813690f42d9221bb947cde713ad78b65a133a7357b27f8a721f0149",
+  "kept": {
+   "passed": 303
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 333
+  },
+  "raw_rate": 0.9970059880239521
+ },
+ "xampprocky__tokei.505d648": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "99f3fad5f60d8da9d38ac56c5dfdb4fcde2c0d3274224cd3dcc8618e859e11ac",
+  "kept": {
+   "passed": 732
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "error": 1,
+   "failure": 1,
+   "passed": 757,
+   "skipped": 3
+  },
+  "raw_rate": 0.9934383202099738
+ },
+ "xorg62__tty-clock.f2f847c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "cd400708bcd6a5b9dd28bd450a211ec4625cde31470057e9d62f66072e297db0",
+  "kept": {
+   "passed": 281
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 5,
+   "passed": 323,
+   "skipped": 1
+  },
+  "raw_rate": 0.9817629179331308
+ },
+ "y2z__monolith.8702e66": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "098606ecff0636f11543788427e9901caa3431e425d12bed2ec98d7ac96ce2b4",
+  "kept": {
+   "failure": 1,
+   "passed": 715
+  },
+  "kept_rate": 0.9986033519553073,
+  "raw": {
+   "failure": 2,
+   "passed": 781
+  },
+  "raw_rate": 0.9974457215836526
+ },
+ "yaa110__nomino.f892499": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "f5b885377f335a9d706e5493edee3a4ab6461a6abb44503a5688adeac397b292",
+  "kept": {
+   "failure": 4,
+   "passed": 317
+  },
+  "kept_rate": 0.9875389408099688,
+  "raw": {
+   "failure": 4,
+   "passed": 342
+  },
+  "raw_rate": 0.9884393063583815
+ },
+ "yassinebridi__serpl.c48a9d7": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "53d05c0c91f4e3e2fab0b69ec078ec3adf842d7d41124b1a48aaf1ee09b9b04a",
+  "kept": {
+   "failure": 17,
+   "passed": 443
+  },
+  "kept_rate": 0.9630434782608696,
+  "raw": {
+   "failure": 60,
+   "passed": 604,
+   "skipped": 1
+  },
+  "raw_rate": 0.9082706766917293
+ },
+ "yoav-lavi__melody.f4af9b4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fe86d0228f2cd22eaf9f4608504dd507e62ce3d48bab6dfff61f8ca2f32ec237",
+  "kept": {
+   "passed": 1205
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1437,
+   "skipped": 1
+  },
+  "raw_rate": 0.9993045897079277
+ },
+ "ys-l__flamelens.0b4dc33": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c81071dc45ae2b449e68f3ef346374be276b4ec838a337749ac6930159331a26",
+  "kept": {
+   "passed": 223
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 301,
+   "skipped": 12
+  },
+  "raw_rate": 0.9585987261146497
+ },
+ "zevv__duc.a58fa4e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d97dc82cb172cbf9dd7db73b9f047a6cfa9b007465d5f6128a59dcccc973775d",
+  "kept": {
+   "failure": 35,
+   "passed": 909
+  },
+  "kept_rate": 0.9629237288135594,
+  "raw": {
+   "failure": 211,
+   "passed": 1432,
+   "skipped": 23
+  },
+  "raw_rate": 0.8595438175270108
+ },
+ "zk-org__zk.10d93d5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "347041457775c97a765a30fedd75e332bce3b13c516a4b85f7971cc262363d7d",
+  "kept": {
+   "failure": 3,
+   "passed": 1110
+  },
+  "kept_rate": 0.9973045822102425,
+  "raw": {
+   "failure": 117,
+   "passed": 1548,
+   "skipped": 40
+  },
+  "raw_rate": 0.9079178885630499
  }
 }

@@ -162,6 +162,10 @@ def cmd_run(argv: list[str]) -> None:
             f"nohup python3 /opt/pbproxy.py relay /run/pbproxy/proxy.sock {PROXY_PORT} >/dev/null 2>&1 &",
             cwd="/", check=True,
         )
+    if not host_net:
+        # Docker containers can ping (CAP_NET_RAW); in our own netns raw ICMP works but unprivileged ICMP
+        # datagram sockets (Go ping libraries) also need the netns-local ping_group_range opened.
+        instance_exec(name, "sysctl", "-qw", "net.ipv4.ping_group_range=0 65535", cwd="/", check=True)
     # apptainer would bind the host's resolv.conf read-only; the eval needs to rewrite it, so seed a writable copy.
     instance_exec(name, "sh", "-c", "cat > /etc/resolv.conf", cwd="/", input=Path("/etc/resolv.conf").read_bytes(), check=True)
     if os.environ.get("PBDOCKER_EXPOSE_REFERENCE") == "1" and not (img / "commit.json").exists():
