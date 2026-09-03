@@ -257,3 +257,87 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 420.32it/s]
 Evaluating:  50%|██████████████████████████                          | 1/2 [01:47<01:47, 107.36s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 339.68it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [08:29<00:00, 280.63s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ samtools__samtools.aa823b5     ✅  1425 tests  
+ sayanarijit__xplr.1751065      98  437 tests   
+ Average                        99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:08:17 round: ^(sharkdp__hexyl\.2e26437|sharkdp__hyperfine\.327d5f4)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 1110.62it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:42<01:42, 102.45s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 131.28it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:58<00:00, 86.89s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ sharkdp__hexyl.2e26437         ✅  906 tests   
+ sharkdp__hyperfine.327d5f4     ✅  291 tests   
+ Average                       100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:11:15 round: ^(sharkdp__pastel\.b60e899|shashwatah__jot\.a92aad8)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 712.74it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:55<00:55, 55.43s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 838.89it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:44<00:00, 51.92s/it]                                                                                                    
+             Evaluation Summary              
+ Instance                 Score  Comment     
+ sharkdp__pastel.b60e899     ✅  1114 tests  
+ shashwatah__jot.a92aad8     99  762 tests   
+ Average                    100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:13:01 round: ^(sheepla__pingu\.926d475|sibprogrammer__xq\.b89f681)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 791.50it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:14<03:14, 194.82s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 579.40it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:58<00:00, 106.02s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ sheepla__pingu.926d475        72  840 tests   
+ sibprogrammer__xq.b89f681     ✅  792 tests   
+ Average                       86  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:17:00 round: ^(sigoden__argc\.04a08f1|simeg__eureka\.df3796c)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 586.80it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:30<00:30, 30.06s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 857.54it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:46<00:00, 57.25s/it]                                                                                                    
+            Evaluation Summary             
+ Instance               Score  Comment     
+ sigoden__argc.04a08f1     ✅  995 tests   
+ simeg__eureka.df3796c     ✅  344 tests   
+ Average                  100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:18:46 round: ^(sirwart__ripsecrets\.34c9e03|sitkevij__hex\.61ae69b)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 1615.94it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:50<00:50, 50.28s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 1403.99it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:33<00:00, 46.35s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ sirwart__ripsecrets.34c9e03     ✅  611 tests   
+ sitkevij__hex.61ae69b           ✅  823 tests   
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 23:20:20 round: ^(skeema__skeema\.6a76243|sqlite__sqlite\.839433d)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 2264.04it/s]
+Evaluating:  50%|█████████████████████████▌                         | 1/2 [43:44<43:44, 2624.95s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 1132.45it/s]
