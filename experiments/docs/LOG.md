@@ -147,3 +147,9 @@
   `scripts/pbdocker.v1-hostnet`). Jobs **5532** (12 c, 2 workers) and **5533** (4 c, 1 worker) started
   the v2 pass into `/scratch/jundahe/pb-runs/gold-eval-v2/` (tinycc gold = source build).
   Removed 5 orphaned container dirs left by the v1 jobs.
+- Hourly check #7 (02:15): v2 pass 51/200 after 1 h (3 workers), no instance/branch errors beyond the
+  known pytest-9.1 collection failure, no task scores lower than in v1 (environment regression
+  check). Raw criterion: 3 excluded so far (oranda, dust, doxygen).
+- Decision recorded earlier tonight: exclusion uses the **raw** hidden-suite pass rate (v1 under that
+  criterion would have been 22 excluded / 178 remain — closer to the model card's 34/166 than the
+  9/191 the post-ignore-list criterion gives). v1 is archived only; v2 is the single authoritative run.
