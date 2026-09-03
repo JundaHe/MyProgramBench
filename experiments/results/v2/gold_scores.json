@@ -1,0 +1,798 @@
+{
+ "abishekvashok__cmatrix.5c082c6": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4889d5b0a1d010350c3a119807dc664abddd36459be55cab9835c8c371502370",
+  "kept": {
+   "passed": 506
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 770
+  },
+  "raw_rate": 0.9987029831387808
+ },
+ "agourlay__zip-password-finder.704700d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "17d0a2bd6d0188d23c3f97e8c803dab40fb4e0e3b3dadc08826edf9eb00d1331",
+  "kept": {
+   "passed": 680
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 791,
+   "skipped": 1
+  },
+  "raw_rate": 0.9987373737373737
+ },
+ "ajeetdsouza__zoxide.67ca1bc": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "56eb200fbda271bc47af0c39e9b70754dc9e6b26119b517add9d3deadad57271",
+  "kept": {
+   "passed": 533
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 579
+  },
+  "raw_rate": 1.0
+ },
+ "alecthomas__chroma.8d04def": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "916598efeacf7e17b0bfcc4c31280199d51e6a7ce21d687d8ef5d189c7c3a50e",
+  "kept": {
+   "failure": 6,
+   "passed": 509
+  },
+  "kept_rate": 0.9883495145631068,
+  "raw": {
+   "failure": 6,
+   "passed": 530,
+   "skipped": 7
+  },
+  "raw_rate": 0.9760589318600368
+ },
+ "alexpovel__srgn.89f943b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "6e33cf40e13a777aaf51db3a21f7d99216d75d2608fb7d8ca2e5d2c1e5928d6f",
+  "kept": {
+   "passed": 1852
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 3,
+   "passed": 2078,
+   "skipped": 1
+  },
+  "raw_rate": 0.9980787704130644
+ },
+ "altdesktop__i3-style.f93821b": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7ff5b132a2897638070cf4efef9a110f7d334f8880a62fc27b75c4429be4309c",
+  "kept": {
+   "passed": 539
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 53,
+   "passed": 803
+  },
+  "raw_rate": 0.9380841121495327
+ },
+ "ammarabouzor__tui-journal.2b4540d": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4c783e17c866fc3d8ef7551ff0bda64f1ce428571ea795513224e66115cfa525",
+  "kept": {
+   "passed": 1402
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 18,
+   "passed": 1854,
+   "skipped": 2
+  },
+  "raw_rate": 0.9893276414087513
+ },
+ "anordal__shellharden.6a6ffd4": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7dde8c764cae64898dc97d9db84940a28db0732822da8fc87689bb896a155736",
+  "kept": {
+   "failure": 1,
+   "passed": 1096
+  },
+  "kept_rate": 0.9990884229717412,
+  "raw": {
+   "failure": 1,
+   "passed": 1293
+  },
+  "raw_rate": 0.999227202472952
+ },
+ "antonmedv__fx.86d0d34": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fe570f8a632fd2555d040a1dedfa82a42a38ffc04798116e21e5951523cc38cc",
+  "kept": {
+   "passed": 2044
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 163,
+   "passed": 3316,
+   "skipped": 4
+  },
+  "raw_rate": 0.9520528280218202
+ },
+ "antonmedv__walk.bf802ef": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "632022ea37ba0ad740d5a80f7df8d21eac1f9a5cb895d974b2a8ab53bca8511a",
+  "kept": {
+   "failure": 4,
+   "passed": 430
+  },
+  "kept_rate": 0.9907834101382489,
+  "raw": {
+   "failure": 18,
+   "passed": 804,
+   "skipped": 1
+  },
+  "raw_rate": 0.976913730255164
+ },
+ "ariga__atlas.6d81150": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "194eb5b982cbfea32de91152c855124fe2381c4867c5e45f89d6118c5d520812",
+  "kept": {
+   "failure": 2,
+   "passed": 1320
+  },
+  "kept_rate": 0.9984871406959153,
+  "raw": {
+   "failure": 10,
+   "passed": 1759,
+   "skipped": 2
+  },
+  "raw_rate": 0.9932241671372106
+ },
+ "arq5x__bedtools2.dd57059": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "96b10dea3a3ff0e30057c12d6ebf3cdd09078b982f3dfea52949a739bd9d5bf4",
+  "kept": {
+   "passed": 1053
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1073,
+   "skipped": 20
+  },
+  "raw_rate": 0.9817017383348582
+ },
+ "arthursonzogni__json-tui.17a22b6": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4349db9afad22577dac9848f201b520838a1ffd602ed68f02d24a2551e58aaff",
+  "kept": {
+   "passed": 755
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 892,
+   "skipped": 2
+  },
+  "raw_rate": 0.9977628635346756
+ },
+ "ast-grep__ast-grep.dde0fe0": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e1e150b0b5e4e9f6fca705c155babd33d40bc6a4be1fe1d5d2fb5dc458057416",
+  "kept": {
+   "failure": 5,
+   "passed": 882
+  },
+  "kept_rate": 0.9943630214205186,
+  "raw": {
+   "failure": 9,
+   "passed": 904
+  },
+  "raw_rate": 0.9901423877327492
+ },
+ "astaxie__bat.17d1080": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1c588fce418cdb47a0715bf66a2465848c2e0e11c970685e7788fbb4fdcee4c1",
+  "kept": {
+   "failure": 12,
+   "passed": 1104
+  },
+  "kept_rate": 0.989247311827957,
+  "raw": {
+   "failure": 69,
+   "passed": 1525,
+   "skipped": 13
+  },
+  "raw_rate": 0.9489732420659615
+ },
+ "astro__deadnix.d590041": {
+  "branch_errors": [
+   "151142429bed"
+  ],
+  "error_code": null,
+  "executable_hash": "80bcbbfbf09109f5d9ca04d0268df39b577a548621bd022d86298e95f0c57aef",
+  "kept": {
+   "not_run": 2,
+   "passed": 600
+  },
+  "kept_rate": 0.9966777408637874,
+  "raw": {
+   "not_run": 2,
+   "passed": 706,
+   "skipped": 1
+  },
+  "raw_rate": 0.995768688293371
+ },
+ "axodotdev__oranda.27d60c7": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "23bdc1b7d1b915848658ee9a8537b99d7d984328b5f056b148aa18c0a9a52934",
+  "kept": {
+   "failure": 382,
+   "passed": 1141,
+   "skipped": 8
+  },
+  "kept_rate": 0.7452645329849772,
+  "raw": {
+   "failure": 452,
+   "passed": 1420,
+   "skipped": 11
+  },
+  "raw_rate": 0.7541157727031333
+ },
+ "bellard__quickjs.d7ae12a": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "3d46e20b0e921a4cfcf25c462aa82ed95e97a545d8616af1f8efe4c2d618605d",
+  "kept": {
+   "failure": 12,
+   "passed": 3046
+  },
+  "kept_rate": 0.9960758665794637,
+  "raw": {
+   "failure": 12,
+   "passed": 3050,
+   "skipped": 6
+  },
+  "raw_rate": 0.9941329856584094
+ },
+ "bensadeh__tailspin.6278437": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "6f194fa7b53463ede567bbc835a8e1b645d2fc62cdaff3b4bbeee8bd63d84bd8",
+  "kept": {
+   "passed": 614
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 786
+  },
+  "raw_rate": 0.9987293519695044
+ },
+ "blacknon__hwatch.edfcb62": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8901e4b2559960bda815dd714874defe43026335d15f66d273df967b776ec17c",
+  "kept": {
+   "passed": 1016
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 17,
+   "passed": 1338
+  },
+  "raw_rate": 0.9874538745387453
+ },
+ "blake3-team__blake3.15e83a5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e9a6e94940a071d23107457f5b95d773227ad2f6dc97cbde2e9901f600f9e18c",
+  "kept": {
+   "passed": 647
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 684,
+   "skipped": 3
+  },
+  "raw_rate": 0.9956331877729258
+ },
+ "bootandy__dust.62bf1e1": {
+  "branch_errors": [
+   "d42ad55b3a4b"
+  ],
+  "error_code": null,
+  "executable_hash": "3f8f1fd6759c7aa2216ef50cc3756a7f00535bdf8d7d608e629d1b76b3de4ac4",
+  "kept": {
+   "failure": 64,
+   "not_run": 30,
+   "passed": 618
+  },
+  "kept_rate": 0.8679775280898876,
+  "raw": {
+   "failure": 88,
+   "not_run": 33,
+   "passed": 1006,
+   "skipped": 14
+  },
+  "raw_rate": 0.8816827344434707
+ },
+ "boyter__scc.515f91c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7f0241530870437cc8af9e440a6b767894a1cc11409abb5aaba5da6b1a62c287",
+  "kept": {
+   "failure": 1,
+   "passed": 466
+  },
+  "kept_rate": 0.9978586723768736,
+  "raw": {
+   "failure": 8,
+   "passed": 484,
+   "skipped": 1
+  },
+  "raw_rate": 0.9817444219066938
+ },
+ "brocode__fblog.3b54330": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "29fb5a650910c66fdf0c7b6285d6d54aab048eb12c370b32d5d78c3b489b597e",
+  "kept": {
+   "passed": 978
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 1123,
+   "skipped": 4
+  },
+  "raw_rate": 0.9964507542147294
+ },
+ "burntsushi__ripgrep.3b7fd44": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "4a944d8a5a668234a0720743278c26dc5619d69dde3cf5a894b8218dd9b5bf50",
+  "kept": {
+   "passed": 1992
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 6,
+   "passed": 2543,
+   "skipped": 2
+  },
+  "raw_rate": 0.9968639749117993
+ },
+ "burntsushi__xsv.f430466": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "00149a7415050846e4bf4a6186cbddaf490bbe62b594de1915b5c289bfb4e2ff",
+  "kept": {
+   "failure": 2,
+   "passed": 1184
+  },
+  "kept_rate": 0.9983136593591906,
+  "raw": {
+   "failure": 2,
+   "passed": 1319
+  },
+  "raw_rate": 0.9984859954579863
+ },
+ "byron__dua-cli.8570c15": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "61633dbca4e676dfd604e9cbea09806525f8da554faca6942985673f09a24a25",
+  "kept": {
+   "failure": 28,
+   "passed": 737
+  },
+  "kept_rate": 0.9633986928104575,
+  "raw": {
+   "failure": 41,
+   "passed": 1039,
+   "skipped": 5
+  },
+  "raw_rate": 0.9576036866359448
+ },
+ "canop__broot.d6c798e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "207b2ba667579d73739f61871d353bcdd840b0984db78925c4418e15104239c2",
+  "kept": {
+   "failure": 4,
+   "passed": 544
+  },
+  "kept_rate": 0.9927007299270073,
+  "raw": {
+   "error": 2,
+   "failure": 17,
+   "passed": 871
+  },
+  "raw_rate": 0.9786516853932584
+ },
+ "canop__rhit.ae90bcb": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "62da94b9f5b27e50db33665f0a5309dd957dc34a670a63dc08d34c8c16b0a447",
+  "kept": {
+   "failure": 1,
+   "passed": 818
+  },
+  "kept_rate": 0.9987789987789988,
+  "raw": {
+   "failure": 1,
+   "passed": 1089
+  },
+  "raw_rate": 0.9990825688073395
+ },
+ "cheat__cheat.b8098dc": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c97f2d1112165200d0c2217c3dd8c2351042f19ba598f8c82424c863db853d1d",
+  "kept": {
+   "passed": 297
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 306,
+   "skipped": 1
+  },
+  "raw_rate": 0.996742671009772
+ },
+ "chirlu__sox.42b3557": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "aca2584d2f6d1f0d01f3fb8212277e84527fc02d7038ef1bc65fe78ba2227f02",
+  "kept": {
+   "passed": 1196
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 6,
+   "passed": 1240,
+   "skipped": 26
+  },
+  "raw_rate": 0.9748427672955975
+ },
+ "chmln__handlr.90e78ba": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "c52e29b0882cba17fa491268cb7ade8c6345c67fba34c46b494fb2d42956990c",
+  "kept": {
+   "failure": 1,
+   "passed": 723
+  },
+  "kept_rate": 0.9986187845303868,
+  "raw": {
+   "failure": 6,
+   "passed": 912,
+   "skipped": 3
+  },
+  "raw_rate": 0.990228013029316
+ },
+ "chmln__sd.87d1ba5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "3958ba947c587bb2f4b22425ea2abf135cc75c67d4e8de5863c2fbbbbb56de67",
+  "kept": {
+   "failure": 1,
+   "passed": 811
+  },
+  "kept_rate": 0.9987684729064039,
+  "raw": {
+   "failure": 1,
+   "passed": 865,
+   "skipped": 5
+  },
+  "raw_rate": 0.9931113662456946
+ },
+ "clog-tool__clog-cli.7066cba": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "cb9acb01f62960efa89b6aa7d0ec9248f103cf388c33495167728748d57be2b7",
+  "kept": {
+   "passed": 575
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 64,
+   "passed": 842
+  },
+  "raw_rate": 0.9293598233995585
+ },
+ "cmatsuoka__figlet.202a0a8": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "dd451146b1c0fcc67edf6569cfdc7ab237cc225fec41e6114eb0d759c701204d",
+  "kept": {
+   "passed": 872
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 2,
+   "passed": 1046
+  },
+  "raw_rate": 0.9980916030534351
+ },
+ "codesnap-rs__codesnap.f81e4f3": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "fef54d6b5ff6b273d63dbbe442b41e603470bde4815aea56dbb60a179566c5f4",
+  "kept": {
+   "passed": 578
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 856,
+   "skipped": 4
+  },
+  "raw_rate": 0.9953488372093023
+ },
+ "cordx56__rustowl.655bc5c": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1afac0762e13c48f351762529313f152c593e4e92fae49d53627df6eb1648dfb",
+  "kept": {
+   "failure": 1,
+   "passed": 591
+  },
+  "kept_rate": 0.9983108108108109,
+  "raw": {
+   "failure": 12,
+   "passed": 754,
+   "skipped": 32
+  },
+  "raw_rate": 0.9448621553884712
+ },
+ "crowdagger__crowbook.ea214d7": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "a45bdc86e001c0f79e59bcc1fb21b32ebaa28283408d4d0b14ecf8c0753757c0",
+  "kept": {
+   "passed": 807
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 2,
+   "passed": 889
+  },
+  "raw_rate": 0.9977553310886644
+ },
+ "cslarsen__jp2a.61d205f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "9ce1474cc1880d4cda602b823909c5edfd99ffcaa9eb4bca98115d89494a9e6f",
+  "kept": {
+   "passed": 631
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "failure": 1,
+   "passed": 713,
+   "skipped": 2
+  },
+  "raw_rate": 0.9958100558659218
+ },
+ "cweill__gotests.2a672c5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "1da75c8b3b8ec4cb8bf58ae5cbbcd6decb18a70d4fed4905c0f20b0f9d547cc8",
+  "kept": {
+   "failure": 1,
+   "passed": 622
+  },
+  "kept_rate": 0.9983948635634029,
+  "raw": {
+   "failure": 3,
+   "passed": 777,
+   "skipped": 2
+  },
+  "raw_rate": 0.9936061381074168
+ },
+ "dalance__amber.69a0f52": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "760638e960e3a1d0a28a1c705b77d565e1cf6056c56dc0adc314025fe951c29e",
+  "kept": {
+   "failure": 1,
+   "passed": 566
+  },
+  "kept_rate": 0.9982363315696648,
+  "raw": {
+   "failure": 57,
+   "passed": 837,
+   "skipped": 5
+  },
+  "raw_rate": 0.9310344827586207
+ },
+ "dandavison__delta.acd758f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "e77497b77449426a891150a9bdd8bfaa7ae45a24ca179a33866200f6c6ef5ffb",
+  "kept": {
+   "failure": 9,
+   "passed": 958
+  },
+  "kept_rate": 0.9906928645294726,
+  "raw": {
+   "failure": 43,
+   "passed": 1231
+  },
+  "raw_rate": 0.966248037676609
+ },
+ "danmar__cppcheck.0a5b103": {
+  "branch_errors": [
+   "1d3bd4a2de11"
+  ],
+  "error_code": null,
+  "executable_hash": "118a18033f55501cb50e83d6f5ca23770b46cf95f6097b1816707b4b0f9c3ad4",
+  "kept": {
+   "not_run": 2,
+   "passed": 2124
+  },
+  "kept_rate": 0.9990592662276576,
+  "raw": {
+   "failure": 142,
+   "not_run": 3,
+   "passed": 2561,
+   "skipped": 128
+  },
+  "raw_rate": 0.9036697247706422
+ },
+ "direnv__direnv.02040c7": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "34fc62412de4f054c2c566923e751bc03a9675c2fe19937327176a9da79b2a27",
+  "kept": {
+   "failure": 2,
+   "passed": 851
+  },
+  "kept_rate": 0.9976553341148886,
+  "raw": {
+   "failure": 11,
+   "passed": 982,
+   "skipped": 2
+  },
+  "raw_rate": 0.9869346733668342
+ },
+ "doxygen__doxygen.966d98e": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "d780ed25c019e88081880b0439592ce27166c11cf49457dea2b47aa573c370cb",
+  "kept": {
+   "failure": 29,
+   "passed": 258
+  },
+  "kept_rate": 0.8989547038327527,
+  "raw": {
+   "failure": 33,
+   "passed": 283,
+   "skipped": 1
+  },
+  "raw_rate": 0.8927444794952681
+ },
+ "drew-alleman__datasurgeon.d257cee": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "7c2db0766348aaac3a0613e6b4d88befad92ebe82e4222cc5335236cfe74dff7",
+  "kept": {
+   "failure": 2,
+   "passed": 504
+  },
+  "kept_rate": 0.9960474308300395,
+  "raw": {
+   "failure": 22,
+   "passed": 586
+  },
+  "raw_rate": 0.9638157894736842
+ },
+ "ducaale__xh.4a6e44f": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "57b8325d509e9ea16ceb66a71ed1f341a61154b73359645263bc158d345ce9d5",
+  "kept": {
+   "failure": 6,
+   "passed": 1177
+  },
+  "kept_rate": 0.9949281487743026,
+  "raw": {
+   "failure": 11,
+   "passed": 1273,
+   "skipped": 4
+  },
+  "raw_rate": 0.9883540372670807
+ },
+ "dundee__gdu.ede21d2": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "126b930bfd18b5245557834630da5b823a3540886db36c7048df04c6deb27a83",
+  "kept": {
+   "failure": 3,
+   "passed": 1164
+  },
+  "kept_rate": 0.9974293059125964,
+  "raw": {
+   "error": 5,
+   "failure": 25,
+   "passed": 1599
+  },
+  "raw_rate": 0.9815837937384899
+ },
+ "ecumene__rust-sloth.051c559": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "59bca219fa57e87e54822e483ffd5c7f3dd955910ce16282735454e59e28bb93",
+  "kept": {
+   "passed": 380
+  },
+  "kept_rate": 1.0,
+  "raw": {
+   "passed": 451,
+   "skipped": 3
+  },
+  "raw_rate": 0.9933920704845814
+ },
+ "ekzhang__bore.8e059cd": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8dbcdcaefe571c5f029efd0a361d48fbbb63c9f45e22da89a4b9ed8da8184844",
+  "kept": {
+   "failure": 3,
+   "passed": 397
+  },
+  "kept_rate": 0.9925,
+  "raw": {
+   "failure": 8,
+   "passed": 465
+  },
+  "raw_rate": 0.9830866807610994
+ },
+ "eliukblau__pixterm.1a93fd5": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "bbbf1449ec61fc48174bb5ea3310511e2ca27ddfd8e3b9cd5ff074c9fb0b018d",
+  "kept": {
+   "failure": 1,
+   "passed": 431
+  },
+  "kept_rate": 0.9976851851851852,
+  "raw": {
+   "failure": 1,
+   "passed": 459
+  },
+  "raw_rate": 0.9978260869565218
+ },
+ "elkowar__pipr.fae0b17": {
+  "branch_errors": [],
+  "error_code": null,
+  "executable_hash": "8104b20bb18c69220f8da28809614918063d51081b0df71d1bff29ddb1077364",
+  "kept": {
+   "failure": 4,
+   "passed": 528
+  },
+  "kept_rate": 0.9924812030075187,
+  "raw": {
+   "error": 3,
+   "failure": 15,
+   "passed": 852,
+   "skipped": 2
+  },
+  "raw_rate": 0.9770642201834863
+ }
+}

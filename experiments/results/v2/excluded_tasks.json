@@ -1,0 +1,8 @@
+{
+ "threshold": 0.9,
+ "excluded": [
+  "axodotdev__oranda.27d60c7",
+  "bootandy__dust.62bf1e1",
+  "doxygen__doxygen.966d98e"
+ ]
+}
