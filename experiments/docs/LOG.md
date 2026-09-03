@@ -32,3 +32,13 @@
   session dir. Fix: `--no-home` (image's `/root` visible, writable via overlay) and bind per-container
   host dirs over `/tmp` **and** `/var/tmp` (both were 64 MiB tmpfs). Verified git init/add works.
 - Job **5504**: cmatrix gold re-run (3rd attempt) with the fixed shim.
+- Job 5504 done (9 min): cmatrix gold = **97** (521/536 kept; raw 793/815). All 15 remaining kept
+  failures are 2–5 s timeouts on tests expecting the binary to fail fast without a TTY. Cause:
+  apptainer forwards the host `$TERM` (`tmux-256color`) even under `--cleanenv`, so ncurses finds a
+  terminfo entry and cmatrix draws into the pipe forever; docker exec has no `$TERM`. Fix: shim runs
+  every exec through `env -u TERM` → `Error opening terminal: unknown.` rc=1, as in Docker.
+- The experiments repo now lives at `/scratch/jundahe/ProgramBench/experiments` on branch
+  `experiments` of the user's fork (`fork` = github.com/JundaHe/MyProgramBench);
+  `/scratch/jundahe/programbench-experiments` is a symlink to it. Jobs started before the move keep
+  writing their logs into `/scratch/jundahe/programbench-experiments.old/logs/` (copy over when done).
+- Job **5506**: cmatrix gold, 4th run, with `env -u TERM`.

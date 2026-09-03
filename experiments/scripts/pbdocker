@@ -53,7 +53,9 @@ def instance_exec(name: str, *cmd: str, cwd: str | None = None, env: dict[str, s
     args = ["apptainer", "exec", "--cleanenv", "--pwd", cwd or json.loads((CONTAINERS / name / "meta.json").read_text())["cwd"]]
     for k, v in (env or {}).items():
         args += ["--env", f"{k}={v}"]
-    return subprocess.run([*args, f"instance://{name}", *cmd], **kw)
+    # apptainer forwards the host $TERM even with --cleanenv; docker exec (no -t) has none. ncurses programs
+    # must fail fast ("Error opening terminal") instead of drawing into a pipe until the test times out.
+    return subprocess.run([*args, f"instance://{name}", "env", "-u", "TERM", *cmd], **kw)
 
 
 def cmd_run(argv: list[str]) -> None:
