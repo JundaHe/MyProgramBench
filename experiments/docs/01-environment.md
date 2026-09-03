@@ -10,7 +10,7 @@ Everything below was probed on 2026-09-03.
 | Docker is admin-only (`/var/run/docker.sock` is `root:docker`, user not in group; joining the group is explicitly forbidden) | programbench's eval must run on Apptainer via the `scripts/pbdocker` shim |
 | `kernel.apparmor_restrict_unprivileged_userns = 1` (Ubuntu 24.04 default): `unshare -Ur` fails even inside a Slurm job | rootless podman/docker (user-installed static binaries) are **not** an option — only AppArmor-profiled binaries (`/etc/apparmor.d/apptainer`) may create user namespaces |
 | Login shell: ~4 cores / 16 GB, `/dev/fuse` blocked (`squashfuse_ll ... Operation not permitted`) | SIF images cannot be mounted in the login shell; **sandbox (directory) images work anywhere**. All real work goes through `sbatch`/`srun` |
-| Slurm partitions: `debug` 2 h, `normal` 1 d, `long` 7 d (`-p` and `--qos` must match); 32 cores, 123 GB RAM, single node | Gold eval is split into batches sized for the partition |
+| Slurm partitions: `debug` 2 h, `normal` 1 d, `long` 7 d (`-p` and `--qos` must match); 32 cores, 123 GB RAM, single node; **QoS cap `mem=72G` per user across all jobs** (`sacctmgr show qos`) | Gold eval is split into batches sized for the partition |
 | No conda; `uv` installed to `~/.local/bin` (v0.12.9); venv lives in `/scratch/jundahe/ProgramBench/.venv` | `export PATH=$HOME/.local/bin:$PATH` in every job |
 | Caches must live in `/scratch` | `HF_HOME=/scratch/jundahe/huggingface`, `APPTAINER_CACHEDIR=/scratch/jundahe/.apptainer/cache` (set by `module load lab/base`; the `tmp` dir had to be created by hand) |
 

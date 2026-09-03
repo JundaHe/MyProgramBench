@@ -7,7 +7,7 @@
 #SBATCH -J pb-gold-all
 #SBATCH -n 1
 #SBATCH -c 24
-#SBATCH --mem=96G
+#SBATCH --mem=52G   # QoS cap: 72G per user in total; the image-prep job holds 16G
 #SBATCH -t 1-00:00:00
 #SBATCH -o /scratch/jundahe/ProgramBench/experiments/logs/gold-eval-all-%j.out
 set -uo pipefail
