@@ -56,3 +56,7 @@
   5510 round line was truncated by `cut`, so its 66-task list was reconstructed from the prep log
   order into `claims-5510.txt`). Queued a second loop job (4 cores / 16 GB, 1 worker) that starts
   automatically when the image-prep job releases its memory (72 GB per-user cap).
+- Job 5502 done (2 h): all 200 images prepared, 0 failures; store = 1.9 TB used on /scratch (`pb-apptainer/images`).
+  Log copied from the pre-move directory into `logs/prep-images-5502.out`.
+- Gold eval throughput so far: 19 tasks in ~80 min with 2 workers (~4 min/task) → ~13 h for 200
+  with two workers; the second job 5512 adds a third once it gets CPUs (QoS also caps CPUs per user).

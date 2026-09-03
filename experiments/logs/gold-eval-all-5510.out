@@ -15,3 +15,31 @@ HOST=pro5000-soar JOB=5510 CPUS=12 WORKERS=2 DOCKER_CPUS=6
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 24it [00:00, 362098.19it/s]
 
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 268057.02it/s]
+Evaluating:   9%|████▍                                            | 6/66 [41:01<5:06:43, 306.72s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 297234.14it/s]
+Evaluating:  11%|█████▏                                           | 7/66 [52:32<7:05:09, 432.37s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 209134.27it/s]
+Evaluating:  12%|█████▉                                           | 8/66 [54:23<5:19:05, 330.09s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 477832.10it/s]
+Evaluating:  14%|██████▍                                        | 9/66 [1:03:35<6:19:24, 399.37s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 103991.01it/s]
+Evaluating:  15%|██████▉                                       | 10/66 [1:04:14<4:28:43, 287.92s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 280721.13it/s]
+Evaluating:  17%|███████▋                                      | 11/66 [1:05:17<3:21:01, 219.29s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 79638.68it/s]
+Evaluating:  18%|████████▎                                     | 12/66 [1:06:27<2:36:18, 173.67s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 292226.10it/s]
+Evaluating:  20%|█████████                                     | 13/66 [1:09:19<2:33:02, 173.25s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 296941.88it/s]
+                                                                                                    [astro__deadnix.d590041] branch 151142429bed: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  20%|█████████                                     | 13/66 [1:10:17<2:33:02, 173.25s/it]                                                                                                    [astro__deadnix.d590041] branch 151142429bed failed (results_read_failed), continuing with remaining branches
+Evaluating:  20%|█████████                                     | 13/66 [1:10:20<2:33:02, 173.25s/it]Evaluating:  21%|█████████▊                                    | 14/66 [1:11:22<2:16:58, 158.04s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 405131.64it/s]
+Evaluating:  23%|██████████▍                                   | 15/66 [1:15:14<2:33:19, 180.39s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 85598.04it/s]
+Evaluating:  24%|███████████▏                                  | 16/66 [1:16:33<2:04:51, 149.84s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 233883.12it/s]
+Evaluating:  26%|███████████▊                                  | 17/66 [1:20:54<2:29:46, 183.41s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 332222.10it/s]
+Evaluating:  27%|████████████▌                                 | 18/66 [1:21:28<1:50:47, 138.48s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 91180.52it/s]
