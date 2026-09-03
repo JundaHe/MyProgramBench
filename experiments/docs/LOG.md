@@ -84,3 +84,17 @@
   Also seen: ffmpeg gold = 0.798 kept (426 tests fail with "Unknown command type: unknown",
   `$(PROGSSUF)` paths — broken generated tests, so a genuine exclusion), pytest-9.1 branch
   collection errors now in 5 tasks.
+- Hourly check #3 (21:30): 115/200 evaluated, jobs 5530/5531 healthy, no instance errors. The three
+  `/tmp`-affected tasks re-ran: pandoc 0.999, treemd 1.000, fselect 0.954 (was a bogus 0.048 for pandoc).
+  Currently 6 excluded: oranda 0.745, ffmpeg 0.798, revive 0.809, dutree 0.843, dust 0.868, doxygen 0.899.
+  - revive: 195 kept tests fail because the binary's config needs `go1.24.0` and the image has go1.21
+    (`toolchain not available`) — an image limitation, identical under Docker.
+  - dutree (and the near-boundary parallel-disk-usage 0.904): goldens encode **host-filesystem
+    directory sizes** — expected `subdir 22 B`, we get `4.00 KiB`. 22 B is an XFS short-form
+    directory; our /scratch is ext4 (4 KiB dirs), and Docker overlay2 inherits the host FS too. So
+    these tests depend on the evaluator's host filesystem; whether Anthropic's hosts were XFS or
+    ext4 is unknowable. Cannot be emulated without root (no XFS loop mounts). Recorded as a known
+    divergence source: disk-usage tools (dutree, parallel-disk-usage, dust, dua-cli) are the ones
+    at risk.
+  - `truncate` setup errors in dutree: the target directory does not exist in the branch tar (git
+    keeps no empty dirs) — same under Docker.

@@ -3,3 +3,87 @@ HOST=pro5000-soar JOB=5531 CPUS=4 WORKERS=1 DOCKER_CPUS=4
 === 2026-09-03 20:23:50 round: ^(epistates__treemd\.825c6dd|jgm__pandoc\.5caad90)$
 Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 327680.00it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [16:39<16:39, 999.69s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ epistates__treemd.825c6dd     ✅  1569 tests  
+ jgm__pandoc.5caad90          100  5221 tests  
+ Average                      100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 20:40:31 round: ^(kaushiksrini__parqeye\.8072121|kisielk__errcheck\.dacab89)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 296566.95it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [05:12<05:12, 312.86s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 303202.70it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [10:20<00:00, 309.56s/it]                                                                                                    
+                Evaluation Summary                 
+ Instance                       Score  Comment     
+ kaushiksrini__parqeye.8072121     99  487 tests   
+ kisielk__errcheck.dacab89         99  361 tests   
+ Average                           99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 20:50:51 round: ^(konradsz__igrep\.aa75630|ksxgithub__parallel\-disk\-usage\.96978ed)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 332881.27it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:50<03:50, 230.72s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 266305.02it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [05:19<00:00, 146.95s/it]                                                                                                    
+                     Evaluation Summary                     
+ Instance                                Score  Comment     
+ konradsz__igrep.aa75630                    92  463 tests   
+ ksxgithub__parallel-disk-usage.96978ed     90  657 tests   
+ Average                                    91  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 20:56:11 round: ^(kyoh86__richgo\.313114f|kyoheiu__felix\.95df390)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 286440.27it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:21<03:21, 201.99s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 294337.12it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [19:10<00:00, 641.03s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ kyoh86__richgo.313114f     ✅  546 tests   
+ kyoheiu__felix.95df390     98  521 tests   
+ Average                    99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 21:15:21 round: ^(mgdm__htmlq\.6e31bc8|mgechev__revive\.201451e)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 262144.00it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:06<01:06, 66.79s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 227951.30it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [05:03<00:00, 166.60s/it]                                                                                                    
+             Evaluation Summary              
+ Instance                 Score  Comment     
+ mgdm__htmlq.6e31bc8         ✅  1455 tests  
+ mgechev__revive.201451e     81  1189 tests  
+ Average                     90  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 21:20:25 round: ^(mookid__diffr\.2152742|multiprocessio__dsq\.c3ae0ba)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 290031.66it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:58<00:58, 58.47s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 281182.39it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:59<00:00, 130.32s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ mookid__diffr.2152742           ✅  606 tests   
+ multiprocessio__dsq.c3ae0ba     ✅  545 tests   
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-03 21:24:24 round: ^(ninja\-build__ninja\.cc60300|noborus__ov\.b96c2ba)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 287281.10it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:40<02:40, 160.92s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 322638.77it/s]
