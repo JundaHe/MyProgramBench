@@ -4,10 +4,12 @@
     scripts/score_gold.py <eval_dir e.g. /scratch/jundahe/pb-runs/gold-eval/gold> <results_dir>
 
 Per task, two pass rates are reported:
-  raw   = passed / all test_results the harness ran (before any tests.json ignore list)
+  raw   = passed / all test_results the harness ran (the hidden test suite, before any tests.json ignore list)
   kept  = programbench's own score: after dropping tests.json ignored branches/tests
-Exclusion (< 0.9) uses `kept`, i.e. the score `programbench eval`/`info` prints (0-100 → /100),
-which is the "hidden test suite" as the harness scores it. `raw` is kept for the record.
+Exclusion (< 0.9) uses `raw`: the model card's "reference binary scored below 0.9 on the hidden test
+suite" refers to the suite as run, and the public ignore lists (which already drop gold-failing tests)
+would inflate every score (median kept 0.9999 vs raw 0.985 in our runs). `kept` is reported for reference.
+The gold-passing mask is likewise taken over all tests run (not only the kept ones).
 """
 
 import json
@@ -39,14 +41,14 @@ def main() -> None:
             "error_code": r["error_code"], "branch_errors": sorted(r["test_branch_errors"]),
             "executable_hash": r["executable_hash"],
         }
-        passing[iid] = sorted(f"{t['branch']}/{t['name']}" for t in kept if t["status"] == "passed")
-    excluded = sorted(i for i, x in rows.items() if x["kept_rate"] < THRESHOLD)
+        passing[iid] = sorted(f"{t['branch']}/{t['name']}" for t in r["test_results"] if t["status"] == "passed")
+    excluded = sorted(i for i, x in rows.items() if x["raw_rate"] < THRESHOLD)
     (out / "gold_scores.json").write_text(json.dumps(rows, indent=1, sort_keys=True))
     (out / "excluded_tasks.json").write_text(json.dumps({"threshold": THRESHOLD, "excluded": excluded}, indent=1))
     (out / "gold_passing_tests.json").write_text(json.dumps({i: passing[i] for i in rows if i not in excluded}, sort_keys=True))
     print(f"{len(rows)} tasks scored; {len(excluded)} excluded (< {THRESHOLD}); {len(rows) - len(excluded)} remain")
-    for i, x in sorted(rows.items(), key=lambda kv: kv[1]["kept_rate"]):
-        print(f"{x['kept_rate']:.3f} kept  {x['raw_rate']:.3f} raw  {i}{'  EXCLUDED' if i in excluded else ''}")
+    for i, x in sorted(rows.items(), key=lambda kv: kv[1]["raw_rate"]):
+        print(f"{x['raw_rate']:.3f} raw  {x['kept_rate']:.3f} kept  {i}{'  EXCLUDED' if i in excluded else ''}")
 
 
 if __name__ == "__main__":

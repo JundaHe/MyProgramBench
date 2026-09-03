@@ -35,6 +35,12 @@ is run here; `03-mini-swe-agent.md` documents the harness setup for whoever runs
   binary lives at `/workspace/executable` (mode `--x--x--x`). The shim copies it to
   `/opt/programbench-reference/executable` at container start when `PBDOCKER_EXPOSE_REFERENCE=1`;
   the gold `compile.sh` is just `cp` from there. This flag is never set for agent runs.
-- **Scoring of gold.** We read raw `test_results` from each `*.eval.json` (not `programbench info`,
-  which first drops `tests.json`'s ignored tests) because the model card's ratio is over the
-  hidden suite as run.
+- **Scoring of gold (decided 2026-09-04).** The exclusion ratio is over the **raw** hidden test suite
+  as run — all `test_results` in each `*.eval.json`, *without* applying `tests.json`'s ignore lists.
+  Those lists already remove tests that fail on gold, so applying them first inflates every score
+  (median 0.9999 vs 0.985 raw) and would exclude only 9 tasks instead of a number near the model
+  card's 34. The gold-passing mask is likewise taken over all tests run. `kept` (post-ignore) rates are
+  reported for reference only.
+- **Single measurement, our own.** The v2 pass (isolated network namespace, `/tmp` fix, tinycc
+  source-built gold) is the authoritative run; the earlier v1 pass is archived under
+  `results/v1-hostnet/` but is not used for comparison or scoring.
