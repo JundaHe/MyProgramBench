@@ -46,6 +46,6 @@
   branch errors). Pipeline validated. Raw test counts differed across the four runs (1145 → 815 →
   771): the extra entries in the bad runs came with the failures (rerun/setup-error entries), to be
   checked on a task with genuine gold failures before trusting raw counts.
-- Job **5509** (`normal`, 24 cores / 52 GB — QoS caps a user at 72 GB total, 5502 holds 16 GB; 3 workers × 8 xdist): `scripts/gold_eval_loop.slurm` — evaluates
+- Job **5510** (`normal`, 12 cores / 48 GB, 2 workers × 6 xdist; 5508/5509 were cancelled: QoS caps a user at 72 GB total and the node is shared — 28/32 cores were taken by other users): `scripts/gold_eval_loop.slurm` — evaluates
   every prepared image in rounds until the prep job 5502 finishes and nothing is pending.
   Results: `/scratch/jundahe/pb-runs/gold-eval/gold/<iid>/`.
