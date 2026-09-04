@@ -513,4 +513,19 @@ solved task.
 Evaluating:  50%|██████████████████████████                          | 2/4 [06:22<06:39, 199.68s/it]
 Fetching ... files: 0it [00:00, ?it/s][A
 Fetching ... files: 2it [00:00,  6.08it/s][AFetching ... files: 4it [00:00, 12.15it/s]
-Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:08<02:36, 156.79s/it]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:08<02:36, 156.79s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [39:04<00:00, 827.68s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ sayanarijit__xplr.1751065      98  437 tests   
+ sclevine__yj.8016400          100  769 tests   
+ segmentio__chamber.5f93f5f     98  1831 tests  
+ sharkdp__bat.f822bd0           ✅  799 tests   
+ Average                        99  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 18:25:47 round: ^(skeema__skeema\.6a76243|sqlite__sqlite\.839433d|sstadick__hck\.b66c751|stacked\-git__stgit\.430027d)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 180677.71it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 27915.50it/s]

@@ -19,9 +19,24 @@
 - id: session-telemetry-otel
   disabled: true
 
-# sandbox/approval defaults are selected with DSH_PERMISSION_MODE=danger-full-access in the process
-# environment (set by dsh_agent.py); overriding the sandbox-policy row directly leaves the permission
-# preset table with no matching preset and the boot fails.
+# The container is the sandbox: full access, no approval prompts (there is no user). All three rows
+# are stated explicitly so the composition matches the `danger-full-access` preset regardless of
+# environment (DSH_PERMISSION_MODE alone was not enough: "composed sandbox and approval defaults
+# match no preset").
+- id: sandbox-policy
+  config:
+    mode: danger-full-access
+    workspaceRoot: /workspace
+- id: approval
+  config:
+    policy: never
+- id: permission
+  config:
+    defaultPreset: danger-full-access
+    presets:
+      danger-full-access:
+        sandbox: danger-full-access
+        approval: never
 
 - id: system-prompt
   config:
