@@ -218,3 +218,12 @@
   While waiting for credits, the freed CPU quota goes to gold work: v3 host-network re-run of the
   11 network tasks, sqlite/skeema v3 re-run on an idle node, and `programbench eval` of the 8
   finished pilot submissions (jobs queued via `gold_eval.slurm`, now generic: RUN_DIR/OUT).
+- Pilot interim scores (2026-09-05 01:30, `score_submission.py`, entry-based like programbench):
+  allowed — cmatrix 0.860, zoxide 0.778, scc 0.686, entr 0.836, gron 0.830, figlet 0 (no compile.sh:
+  the agent thrashed between C/Python/Go, deleted its files, and ended the turn mid-debug with a
+  text-only reply); required — cmatrix **0.986** (two successful workflow runs), zoxide 0 (compile
+  failed: `zoxide_rs/src/` empty in the final workspace), scc 0 (credits ran out mid-episode).
+  Scoring fix: the mask score now counts test-result entries (pytest-rerunfailures records each
+  attempt) exactly like programbench's own score; a set-based version had given 1.0 for everything.
+  Driver change: dsh ends a turn whenever the model replies without a tool call, even mid-work;
+  `dsh_agent.py` now nudges the same session on (≤ 5 times, while no compile.sh and time remains).
