@@ -1,2 +1,4 @@
 HOST=pro5000-soar JOB=5547 MODEL=deepseek/deepseek-v4-flash BASE_URL=https://openrouter.ai/api/v1 OUT=/scratch/jundahe/pb-runs/dsh-smoke FILTER=abishekvashok__cmatrix WORKERS=1
 1 tasks, 1 workers, model deepseek/deepseek-v4-flash
+abishekvashok__cmatrix.5c082c6: hard timeout after 2700s (workspace saved)
+done 2026-09-04 19:14:00

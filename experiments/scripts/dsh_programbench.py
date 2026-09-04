@@ -92,8 +92,10 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
         sh(sys.executable, str(HERE / "dsh_extract.py"), str(tdir))  # workflows/ + prompt record from the session log
         return f"{iid}: {status} in {(time.time() - t0) / 60:.0f} min"
     except subprocess.TimeoutExpired:
+        sh(str(SHIM), "exec", "--user-root", name, "chmod", "-R", "a+rX", "/dsh-home", env=env)
         sh(str(SHIM), "exec", name, "bash", "-lc", "tar -czf /tmp/_submission.tar.gz -C /workspace .", env=env)
         sh(str(SHIM), "cp", f"{name}:/tmp/_submission.tar.gz", str(tdir / "submission.tar.gz"), env=env)
+        sh(sys.executable, str(HERE / "dsh_extract.py"), str(tdir))
         return f"{iid}: hard timeout after {args.hard_timeout_seconds}s (workspace saved)"
     finally:
         (keydir / "key").unlink(missing_ok=True)
