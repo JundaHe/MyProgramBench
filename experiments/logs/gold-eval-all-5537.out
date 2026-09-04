@@ -619,4 +619,90 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 311738.81it/s]
 Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:31<03:11, 95.93s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 91180.52it/s]
-Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:35<01:48, 108.51s/it]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:35<01:48, 108.51s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [14:50<00:00, 284.98s/it]                                                                                                    
+                 Evaluation Summary                 
+ Instance                        Score  Comment     
+ tukaani-project__xz.1007bf0       100  1418 tests  
+ typst__typst.88356d0               95  1902 tests  
+ unhappychoice__gittype.34b72d0     97  771 tests   
+ universal-ctags__ctags.243595e    100  2262 tests  
+ Average                            98  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 21:21:36 round: ^(wfxr__code\-minimap\.0ddeea5|wfxr__csview\.8ac4de0|wgunderwood__tex\-fmt\.3f1aef6|wintermute\-cell__ngrrram\.8ea13c3)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 52363.35it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 9it [00:00, 201864.90it/s]
+                                                                                                    [wfxr__csview.8ac4de0] branch efa8c407dbe3: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   0%|                                                             | 0/4 [01:03<?, ?it/s]                                                                                                    [wfxr__csview.8ac4de0] branch efa8c407dbe3 failed (results_read_failed), continuing with remaining branches
+Evaluating:   0%|                                                             | 0/4 [01:10<?, ?it/s]Evaluating:  25%|█████████████▎                                       | 1/4 [01:33<04:40, 93.36s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 8it [00:00, 279620.27it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 275941.05it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [02:50<00:52, 52.68s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [03:13<00:00, 42.35s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                          Score  Comment                               
+ wfxr__code-minimap.0ddeea5           ✅  313 tests                             
+ wfxr__csview.8ac4de0                 ✅  ERRORS: BRANCH: efa8c407dbe3:         
+                                          results_read_failed                   
+ wgunderwood__tex-fmt.3f1aef6         ✅  455 tests                             
+ wintermute-cell__ngrrram.8ea13c3     ✅  303 tests                             
+ Average                             100  4 instances                           
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 21:24:50 round: ^(xampprocky__tokei\.505d648|xorg62__tty\-clock\.f2f847c|y2z__monolith\.8702e66|yaa110__nomino\.f892499)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 303935.07it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 8it [00:00, 63670.65it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [01:20<04:01, 80.33s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 281325.27it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:04<03:08, 94.35s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 9it [00:00, 285975.27it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [04:41<01:35, 95.67s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [04:59<00:00, 64.74s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ xampprocky__tokei.505d648     ✅  732 tests   
+ xorg62__tty-clock.f2f847c     ✅  281 tests   
+ y2z__monolith.8702e66        100  715 tests   
+ yaa110__nomino.f892499        99  321 tests   
+ Average                      100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 21:29:49 round: ^(yassinebridi__serpl\.c48a9d7|yoav\-lavi__melody\.f4af9b4|ys\-l__flamelens\.0b4dc33|zevv__duc\.a58fa4e)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 291271.11it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 188315.69it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:46<08:18, 166.19s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 310689.19it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [05:40<05:42, 171.22s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 225500.22it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:48<02:58, 178.54s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [10:05<00:00, 138.69s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ yassinebridi__serpl.c48a9d7     96  457 tests   
+ yoav-lavi__melody.f4af9b4       ✅  1205 tests  
+ ys-l__flamelens.0b4dc33         ✅  223 tests   
+ zevv__duc.a58fa4e               96  947 tests   
+ Average                         98  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 1 pending
+=== 2026-09-04 21:39:55 round: ^(zk\-org__zk\.10d93d5)$
+Evaluating:   0%|                                                             | 0/1 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 328965.02it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 1/1 [06:18<00:00, 378.50s/it]                                                                                                    
+           Evaluation Summary           
+ Instance            Score  Comment     
+ zk-org__zk.10d93d5    100  1111 tests  
+ Average               100  1 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 0 pending
+2026-09-04 21:46:14 done
+slurmstepd-pro5000-soar: error: Detected 3 oom_kill events in StepId=5537.batch. Some of the step tasks have been OOM Killed.

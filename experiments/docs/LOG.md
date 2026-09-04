@@ -199,3 +199,12 @@
   two groups — `required` (prompt demands the workflow tool; job 5548) and `allowed` (control; job
   5549). The `long` QoS allows one job per user, so 5549 (2 workers) runs first and 5548 queues;
   to be consolidated into one job with 4 workers once the v3 gold pass (job 5537) releases its cores.
+- v3 repeat pass done (job 5537 ended OUT_OF_MEMORY at 9 h but after the last task; 5538 cancelled
+  earlier to free CPU quota). 200/200 evaluated → `results/v3-repeat/` (diagnostic). Findings: 178
+  tasks identical to v2 to 3 decimals; total flipped tests outside sqlite/skeema ≈ 20. sqlite and
+  skeema collapsed because one big branch each hit the 3600 s `run_tests` timeout under node load
+  (the dsh pilot was running) — an infrastructure effect that also threatens submission evals:
+  **run evals with low parallelism on an idle node**. dog/oha/gping lower only because v3 lacked
+  the host-network re-runs. Official definition remains `results/v2/` (20/180); the robust
+  min-over-runs rule (`scripts/score_gold_robust.py`) is ready but waits for the v3 host-network +
+  sqlite/skeema re-runs once the pilot releases the CPU quota.
