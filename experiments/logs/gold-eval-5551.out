@@ -7,3 +7,35 @@ HOST=pro5000-soar JOB=5551 CPUS=8 FILTER=^(ogham__dog\.721440b|orf__gping\.26eb5
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 290171.97it/s]
 Evaluating:  27%|█████████████▉                                     | 3/11 [13:14<37:06, 278.26s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 441505.68it/s]
+Evaluating:  36%|██████████████████▌                                | 4/11 [21:23<42:09, 361.30s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 298072.37it/s]
+Evaluating:  45%|███████████████████████▏                           | 5/11 [34:21<51:10, 511.80s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 451694.28it/s]
+Evaluating:  55%|███████████████████████████▊                       | 6/11 [39:31<36:55, 443.05s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 351969.57it/s]
+Evaluating:  64%|████████████████████████████████▍                  | 7/11 [43:06<24:34, 368.64s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 402653.18it/s]
+                                                                                                    [ogham__dog.721440b] branch db7d53e19106: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  64%|███████████████████████████████▏                 | 7/11 [1:43:40<24:34, 368.64s/it]Evaluating:  73%|█████████████████████████████████▍            | 8/11 [2:30:41<1:55:18, 2306.27s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 322638.77it/s]
+Evaluating:  82%|███████████████████████████████████████▎        | 9/11 [2:32:47<54:09, 1624.64s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 281496.91it/s]
+Evaluating:  91%|██████████████████████████████████████████▋    | 10/11 [2:34:57<19:23, 1163.16s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 118706.72it/s]
+Evaluating: 100%|████████████████████████████████████████████████| 11/11 [2:35:38<00:00, 819.55s/it]                                                                                                    
+                  Evaluation Summary                   
+ Instance                          Score  Comment      
+ astaxie__bat.17d1080                 99  1106 tests   
+ ducaale__xh.4a6e44f                 100  1173 tests   
+ ekzhang__bore.8e059cd                99  399 tests    
+ ffmpeg__ffmpeg.360a402               80  5143 tests   
+ hairyhenderson__gomplate.05eb3aa     99  2986 tests   
+ hatoo__oha.8dc6349                   99  905 tests    
+ mkj__dropbear.75f699b                ✅  667 tests    
+ ogham__dog.721440b                   98  1351 tests   
+ orf__gping.26eb5b9                   97  358 tests    
+ quinn-rs__quinn.bb359cc              ✅  527 tests    
+ rs__curlie.5dfcbb1                   ✅  693 tests    
+ Average                              97  11 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.

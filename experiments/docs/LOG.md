@@ -227,3 +227,8 @@
   attempt) exactly like programbench's own score; a set-based version had given 1.0 for everything.
   Driver change: dsh ends a turn whenever the model replies without a tool call, even mid-work;
   `dsh_agent.py` now nudges the same session on (≤ 5 times, while no compile.sh and time remains).
+- 2026-09-05 04:30 v3 host-network re-run (job 5551) and sqlite/skeema re-eval on an idle node
+  (5552: sqlite back to 0.858, skeema 0.850 — confirming the earlier collapse was load-induced
+  timeouts) done. Robust rule over v2 and v3 → **20 excluded / 180 remain, identical to v2**;
+  161/200 identical rates, 21 flipped tests dropped from the mask. `results/v2v3-robust/` is now the
+  official definition and `score_submission.py`'s default.

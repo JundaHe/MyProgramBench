@@ -1,0 +1,13 @@
+HOST=pro5000-soar JOB=5552 CPUS=8 FILTER=^(sqlite__sqlite\.839433d|skeema__skeema\.6a76243)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 273117.47it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [12:14<12:14, 734.27s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 27103.74it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [31:28<00:00, 981.41s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ skeema__skeema.6a76243    100  1720 tests  
+ sqlite__sqlite.839433d    100  13529 tests 
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.

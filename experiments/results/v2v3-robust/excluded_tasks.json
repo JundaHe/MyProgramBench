@@ -1,0 +1,26 @@
+{
+ "threshold": 0.9,
+ "rule": "min raw rate over runs",
+ "excluded": [
+  "axodotdev__oranda.27d60c7",
+  "bootandy__dust.62bf1e1",
+  "doxygen__doxygen.966d98e",
+  "duckdb__duckdb.bdb65ec",
+  "esubaalew__run.0fb9dec",
+  "ffmpeg__ffmpeg.360a402",
+  "hairyhenderson__gomplate.05eb3aa",
+  "halitechallenge__halite.822cfb6",
+  "lfos__calcurse.49180d5",
+  "mgechev__revive.201451e",
+  "nachoparker__dutree.44e877d",
+  "nikoladucak__caps-log.2cf2d1e",
+  "nukesor__pueue.8b9d6fe",
+  "osgeo__proj.75d455c",
+  "php__php-src.c891263",
+  "segmentio__chamber.5f93f5f",
+  "skeema__skeema.6a76243",
+  "sqlite__sqlite.839433d",
+  "tstack__lnav.ee34494",
+  "zevv__duc.a58fa4e"
+ ]
+}

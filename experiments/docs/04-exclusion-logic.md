@@ -106,3 +106,11 @@ uv run python scripts/score_gold.py /scratch/jundahe/pb-runs/gold-eval-v2/gold r
 
 最终结果（2026-09-04）：**20 个 task 被剔除，180 个保留**。11 个需要真实外网的 task 额外用宿主网络模式评了一遍，
 每个 task 取两种模式中 raw 通过率较高的一次（`gold_scores.json` 的 `source` 字段记录来源）。
+
+## 8. 稳健版（最终采用）
+
+为回答"重跑一次会不会掉到 0.9 以下"，用同一配置独立跑了两次完整 gold（v2、v3，各含宿主网络补跑），规则改为：
+**任一次 raw < 0.9 即剔除；mask 只保留两次都通过的测试**（`scripts/score_gold_robust.py`）。
+结果与单次完全一致：**20 剔除 / 180 保留**；161/200 个 task 两次通过率到小数点后三位相同，
+34 万条测试里只有 21 条两次结果不同（已从 mask 剔掉）。最终产物在 `results/v2v3-robust/`，
+`score_submission.py` 默认使用它。

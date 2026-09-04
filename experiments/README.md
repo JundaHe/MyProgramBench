@@ -21,7 +21,7 @@ Target protocol (quoted from the model card):
 | `docs/04-exclusion-logic.md` | 剔除逻辑说明（中文）：gold run、raw 口径、阈值、mask 计分、已知偏差 |
 | `docs/LOG.md` | Chronological experiment log (append-only) |
 | `scripts/` | Every script used; nothing is run by hand without being recorded here |
-| `results/` | Generated artefacts (exclusion lists, per-task gold pass rates) |
+| `results/` | Generated artefacts — **`v2v3-robust/` is the official definition** (exclusion list + scoring mask); `v2/`, `v3-repeat/`, `v1-hostnet/` are the single runs |
 
 Companion checkouts (not in this repo):
 

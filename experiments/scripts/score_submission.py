@@ -21,7 +21,7 @@ from pathlib import Path
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("run_dir", type=Path)
-    ap.add_argument("--results", type=Path, default=Path(__file__).resolve().parent.parent / "results" / "v2")
+    ap.add_argument("--results", type=Path, default=Path(__file__).resolve().parent.parent / "results" / "v2v3-robust")
     args = ap.parse_args()
     mask = json.loads(gzip.open(args.results / "gold_passing_tests.json.gz").read())
     scores = {}
