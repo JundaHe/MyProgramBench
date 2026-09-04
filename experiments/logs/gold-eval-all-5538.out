@@ -510,3 +510,16 @@ solved task.
 Evaluating:  50%|██████████████████████████                          | 1/2 [02:58<02:58, 178.50s/it]
 Fetching ... files: 0it [00:00, ?it/s][A
 Fetching ... files: 1it [00:00,  9.99it/s][AFetching ... files: 12it [00:00, 115.96it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [05:07<00:00, 149.25s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ simeg__eureka.df3796c           ✅  344 tests   
+ sirwart__ripsecrets.34c9e03     ✅  611 tests   
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 18:20:24 round: ^(sitkevij__hex\.61ae69b|skeema__skeema\.6a76243)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  1.79it/s][AFetching ... files: 12it [00:00, 19.56it/s]
