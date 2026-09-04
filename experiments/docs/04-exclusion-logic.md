@@ -104,4 +104,5 @@ sbatch --export=ALL,OUT=/scratch/jundahe/pb-runs/gold-eval-v2 scripts/gold_eval_
 uv run python scripts/score_gold.py /scratch/jundahe/pb-runs/gold-eval-v2/gold results/v2       # 打分+剔除
 ```
 
-`results/v2/README.md` 标注当前快照覆盖的 task 数；v2 全部 200 个跑完后会覆盖为最终版。
+最终结果（2026-09-04）：**20 个 task 被剔除，180 个保留**。11 个需要真实外网的 task 额外用宿主网络模式评了一遍，
+每个 task 取两种模式中 raw 通过率较高的一次（`gold_scores.json` 的 `source` 字段记录来源）。

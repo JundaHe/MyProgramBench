@@ -168,3 +168,7 @@
   - **pingu** 0.729: Go ICMP via unprivileged datagram sockets needs `net.ipv4.ping_group_range`,
     which is netns-local and can be opened inside our own netns (`0 65535`); verified pingu pings
     localhost. Shim now sets it at container start (isolated mode); pingu re-run under v2 (job below).
+- Jobs 5534 (host-network re-run, 2 h 35 m) and 5535 (pingu, 4 min) done. Recovered: dog 0.909,
+  gping 0.952, oha 0.956, pingu 0.969, bat 0.952, curlie 1.000, xh 0.993, bore 0.987. Merged with
+  `score_gold.py <v2>,<v2-hostnet>` (best raw rate per task, 8 tasks taken from the host-network run).
+- **FINAL benchmark definition: 20 excluded / 180 remain** → `results/v2/` (README marks it final).

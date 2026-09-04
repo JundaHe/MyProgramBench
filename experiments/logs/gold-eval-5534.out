@@ -1,3 +1,41 @@
 HOST=pro5000-soar JOB=5534 CPUS=8 FILTER=^(ogham__dog\.721440b|orf__gping\.26eb5b9|astaxie__bat\.17d1080|ekzhang__bore\.8e059cd|ffmpeg__ffmpeg\.360a402|ducaale__xh\.4a6e44f|mkj__dropbear\.75f699b|rs__curlie\.5dfcbb1|hairyhenderson__gomplate\.05eb3aa|quinn-rs__quinn\.bb359cc|hatoo__oha\.8dc6349)$
 Evaluating:   0%|                                                            | 0/11 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 333192.37it/s]
+Evaluating:   9%|████▋                                              | 1/11 [05:18<53:06, 318.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 248050.24it/s]
+Evaluating:  18%|█████████▎                                         | 2/11 [06:34<26:23, 175.92s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 274627.05it/s]
+Evaluating:  27%|█████████████▉                                     | 3/11 [13:14<37:04, 278.04s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 296566.95it/s]
+Evaluating:  36%|██████████████████▌                                | 4/11 [21:00<41:07, 352.45s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 299593.14it/s]
+Evaluating:  45%|███████████████████████▏                           | 5/11 [33:58<50:33, 505.66s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 425509.10it/s]
+Evaluating:  55%|███████████████████████████▊                       | 6/11 [39:28<37:09, 445.92s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 405900.39it/s]
+Evaluating:  64%|████████████████████████████████▍                  | 7/11 [42:53<24:29, 367.42s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 299593.14it/s]
+                                                                                                    [ogham__dog.721440b] branch db7d53e19106: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  64%|███████████████████████████████▏                 | 7/11 [1:43:24<24:29, 367.42s/it]Evaluating:  73%|█████████████████████████████████▍            | 8/11 [2:30:32<1:55:19, 2306.50s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 322638.77it/s]
+Evaluating:  82%|███████████████████████████████████████▎        | 9/11 [2:32:34<54:07, 1623.56s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 336.57it/s]
+Evaluating:  91%|██████████████████████████████████████████▋    | 10/11 [2:34:35<19:19, 1159.89s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 795.68it/s]
+Evaluating: 100%|████████████████████████████████████████████████| 11/11 [2:35:20<00:00, 818.58s/it]                                                                                                    
+                  Evaluation Summary                   
+ Instance                          Score  Comment      
+ astaxie__bat.17d1080                 99  1106 tests   
+ ducaale__xh.4a6e44f                 100  1173 tests   
+ ekzhang__bore.8e059cd                99  400 tests    
+ ffmpeg__ffmpeg.360a402               80  5144 tests   
+ hairyhenderson__gomplate.05eb3aa     99  2986 tests   
+ hatoo__oha.8dc6349                   99  913 tests    
+ mkj__dropbear.75f699b                ✅  667 tests    
+ ogham__dog.721440b                   98  1357 tests   
+ orf__gping.26eb5b9                   97  358 tests    
+ quinn-rs__quinn.bb359cc              ✅  522 tests    
+ rs__curlie.5dfcbb1                   ✅  693 tests    
+ Average                              97  11 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.

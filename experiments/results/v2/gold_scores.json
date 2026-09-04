@@ -11,7 +11,8 @@
    "failure": 1,
    "passed": 770
   },
-  "raw_rate": 0.9987029831387808
+  "raw_rate": 0.9987029831387808,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "agourlay__zip-password-finder.704700d": {
   "branch_errors": [],
@@ -25,7 +26,8 @@
    "passed": 791,
    "skipped": 1
   },
-  "raw_rate": 0.9987373737373737
+  "raw_rate": 0.9987373737373737,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ajeetdsouza__zoxide.67ca1bc": {
   "branch_errors": [],
@@ -38,7 +40,8 @@
   "raw": {
    "passed": 579
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "alecthomas__chroma.8d04def": {
   "branch_errors": [],
@@ -54,7 +57,8 @@
    "passed": 530,
    "skipped": 7
   },
-  "raw_rate": 0.9760589318600368
+  "raw_rate": 0.9760589318600368,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "alexpovel__srgn.89f943b": {
   "branch_errors": [],
@@ -69,7 +73,8 @@
    "passed": 2078,
    "skipped": 1
   },
-  "raw_rate": 0.9980787704130644
+  "raw_rate": 0.9980787704130644,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "altdesktop__i3-style.f93821b": {
   "branch_errors": [],
@@ -83,7 +88,8 @@
    "failure": 53,
    "passed": 803
   },
-  "raw_rate": 0.9380841121495327
+  "raw_rate": 0.9380841121495327,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ammarabouzor__tui-journal.2b4540d": {
   "branch_errors": [],
@@ -98,7 +104,8 @@
    "passed": 1854,
    "skipped": 2
   },
-  "raw_rate": 0.9893276414087513
+  "raw_rate": 0.9893276414087513,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "anordal__shellharden.6a6ffd4": {
   "branch_errors": [],
@@ -113,7 +120,8 @@
    "failure": 1,
    "passed": 1293
   },
-  "raw_rate": 0.999227202472952
+  "raw_rate": 0.999227202472952,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "antonmedv__fx.86d0d34": {
   "branch_errors": [],
@@ -128,7 +136,8 @@
    "passed": 3316,
    "skipped": 4
   },
-  "raw_rate": 0.9520528280218202
+  "raw_rate": 0.9520528280218202,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "antonmedv__walk.bf802ef": {
   "branch_errors": [],
@@ -144,7 +153,8 @@
    "passed": 804,
    "skipped": 1
   },
-  "raw_rate": 0.976913730255164
+  "raw_rate": 0.976913730255164,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ariga__atlas.6d81150": {
   "branch_errors": [],
@@ -160,7 +170,8 @@
    "passed": 1759,
    "skipped": 2
   },
-  "raw_rate": 0.9932241671372106
+  "raw_rate": 0.9932241671372106,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "arq5x__bedtools2.dd57059": {
   "branch_errors": [],
@@ -174,7 +185,8 @@
    "passed": 1073,
    "skipped": 20
   },
-  "raw_rate": 0.9817017383348582
+  "raw_rate": 0.9817017383348582,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "arthursonzogni__json-tui.17a22b6": {
   "branch_errors": [],
@@ -188,7 +200,8 @@
    "passed": 892,
    "skipped": 2
   },
-  "raw_rate": 0.9977628635346756
+  "raw_rate": 0.9977628635346756,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ast-grep__ast-grep.dde0fe0": {
   "branch_errors": [],
@@ -203,23 +216,25 @@
    "failure": 9,
    "passed": 904
   },
-  "raw_rate": 0.9901423877327492
+  "raw_rate": 0.9901423877327492,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "astaxie__bat.17d1080": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "1c588fce418cdb47a0715bf66a2465848c2e0e11c970685e7788fbb4fdcee4c1",
   "kept": {
-   "failure": 12,
-   "passed": 1104
+   "failure": 6,
+   "passed": 1100
   },
-  "kept_rate": 0.989247311827957,
+  "kept_rate": 0.9945750452079566,
   "raw": {
-   "failure": 69,
-   "passed": 1525,
+   "failure": 64,
+   "passed": 1520,
    "skipped": 13
   },
-  "raw_rate": 0.9489732420659615
+  "raw_rate": 0.9517845961177207,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "astro__deadnix.d590041": {
   "branch_errors": [
@@ -237,7 +252,8 @@
    "passed": 706,
    "skipped": 1
   },
-  "raw_rate": 0.995768688293371
+  "raw_rate": 0.995768688293371,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "axodotdev__oranda.27d60c7": {
   "branch_errors": [],
@@ -254,7 +270,8 @@
    "passed": 1420,
    "skipped": 11
   },
-  "raw_rate": 0.7541157727031333
+  "raw_rate": 0.7541157727031333,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "bellard__quickjs.d7ae12a": {
   "branch_errors": [],
@@ -270,7 +287,8 @@
    "passed": 3050,
    "skipped": 6
   },
-  "raw_rate": 0.9941329856584094
+  "raw_rate": 0.9941329856584094,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "bensadeh__tailspin.6278437": {
   "branch_errors": [],
@@ -284,7 +302,8 @@
    "failure": 1,
    "passed": 786
   },
-  "raw_rate": 0.9987293519695044
+  "raw_rate": 0.9987293519695044,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "blacknon__hwatch.edfcb62": {
   "branch_errors": [],
@@ -298,7 +317,8 @@
    "failure": 17,
    "passed": 1338
   },
-  "raw_rate": 0.9874538745387453
+  "raw_rate": 0.9874538745387453,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "blake3-team__blake3.15e83a5": {
   "branch_errors": [],
@@ -312,7 +332,8 @@
    "passed": 684,
    "skipped": 3
   },
-  "raw_rate": 0.9956331877729258
+  "raw_rate": 0.9956331877729258,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "bootandy__dust.62bf1e1": {
   "branch_errors": [
@@ -332,7 +353,8 @@
    "passed": 1006,
    "skipped": 14
   },
-  "raw_rate": 0.8816827344434707
+  "raw_rate": 0.8816827344434707,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "boyter__scc.515f91c": {
   "branch_errors": [],
@@ -348,7 +370,8 @@
    "passed": 484,
    "skipped": 1
   },
-  "raw_rate": 0.9817444219066938
+  "raw_rate": 0.9817444219066938,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "brocode__fblog.3b54330": {
   "branch_errors": [],
@@ -362,7 +385,8 @@
    "passed": 1123,
    "skipped": 4
   },
-  "raw_rate": 0.9964507542147294
+  "raw_rate": 0.9964507542147294,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "burntsushi__ripgrep.3b7fd44": {
   "branch_errors": [],
@@ -377,7 +401,8 @@
    "passed": 2543,
    "skipped": 2
   },
-  "raw_rate": 0.9968639749117993
+  "raw_rate": 0.9968639749117993,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "burntsushi__xsv.f430466": {
   "branch_errors": [],
@@ -392,7 +417,8 @@
    "failure": 2,
    "passed": 1319
   },
-  "raw_rate": 0.9984859954579863
+  "raw_rate": 0.9984859954579863,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "byron__dua-cli.8570c15": {
   "branch_errors": [],
@@ -408,7 +434,8 @@
    "passed": 1039,
    "skipped": 5
   },
-  "raw_rate": 0.9576036866359448
+  "raw_rate": 0.9576036866359448,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "canop__broot.d6c798e": {
   "branch_errors": [],
@@ -424,7 +451,8 @@
    "failure": 17,
    "passed": 871
   },
-  "raw_rate": 0.9786516853932584
+  "raw_rate": 0.9786516853932584,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "canop__rhit.ae90bcb": {
   "branch_errors": [],
@@ -439,7 +467,8 @@
    "failure": 1,
    "passed": 1089
   },
-  "raw_rate": 0.9990825688073395
+  "raw_rate": 0.9990825688073395,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "cheat__cheat.b8098dc": {
   "branch_errors": [],
@@ -453,7 +482,8 @@
    "passed": 306,
    "skipped": 1
   },
-  "raw_rate": 0.996742671009772
+  "raw_rate": 0.996742671009772,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "chirlu__sox.42b3557": {
   "branch_errors": [],
@@ -468,7 +498,8 @@
    "passed": 1240,
    "skipped": 26
   },
-  "raw_rate": 0.9748427672955975
+  "raw_rate": 0.9748427672955975,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "chmln__handlr.90e78ba": {
   "branch_errors": [],
@@ -484,7 +515,8 @@
    "passed": 912,
    "skipped": 3
   },
-  "raw_rate": 0.990228013029316
+  "raw_rate": 0.990228013029316,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "chmln__sd.87d1ba5": {
   "branch_errors": [],
@@ -500,7 +532,8 @@
    "passed": 865,
    "skipped": 5
   },
-  "raw_rate": 0.9931113662456946
+  "raw_rate": 0.9931113662456946,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "clog-tool__clog-cli.7066cba": {
   "branch_errors": [],
@@ -514,7 +547,8 @@
    "failure": 64,
    "passed": 842
   },
-  "raw_rate": 0.9293598233995585
+  "raw_rate": 0.9293598233995585,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "cmatsuoka__figlet.202a0a8": {
   "branch_errors": [],
@@ -528,7 +562,8 @@
    "failure": 2,
    "passed": 1046
   },
-  "raw_rate": 0.9980916030534351
+  "raw_rate": 0.9980916030534351,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "codesnap-rs__codesnap.f81e4f3": {
   "branch_errors": [],
@@ -542,7 +577,8 @@
    "passed": 856,
    "skipped": 4
   },
-  "raw_rate": 0.9953488372093023
+  "raw_rate": 0.9953488372093023,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "cordx56__rustowl.655bc5c": {
   "branch_errors": [],
@@ -558,7 +594,8 @@
    "passed": 754,
    "skipped": 32
   },
-  "raw_rate": 0.9448621553884712
+  "raw_rate": 0.9448621553884712,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "crowdagger__crowbook.ea214d7": {
   "branch_errors": [],
@@ -572,7 +609,8 @@
    "failure": 2,
    "passed": 889
   },
-  "raw_rate": 0.9977553310886644
+  "raw_rate": 0.9977553310886644,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "cslarsen__jp2a.61d205f": {
   "branch_errors": [],
@@ -587,7 +625,8 @@
    "passed": 713,
    "skipped": 2
   },
-  "raw_rate": 0.9958100558659218
+  "raw_rate": 0.9958100558659218,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "cweill__gotests.2a672c5": {
   "branch_errors": [],
@@ -603,7 +642,8 @@
    "passed": 777,
    "skipped": 2
   },
-  "raw_rate": 0.9936061381074168
+  "raw_rate": 0.9936061381074168,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "dalance__amber.69a0f52": {
   "branch_errors": [],
@@ -619,7 +659,8 @@
    "passed": 837,
    "skipped": 5
   },
-  "raw_rate": 0.9310344827586207
+  "raw_rate": 0.9310344827586207,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "dandavison__delta.acd758f": {
   "branch_errors": [],
@@ -634,7 +675,8 @@
    "failure": 43,
    "passed": 1231
   },
-  "raw_rate": 0.966248037676609
+  "raw_rate": 0.966248037676609,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "danmar__cppcheck.0a5b103": {
   "branch_errors": [
@@ -653,7 +695,8 @@
    "passed": 2561,
    "skipped": 128
   },
-  "raw_rate": 0.9036697247706422
+  "raw_rate": 0.9036697247706422,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "direnv__direnv.02040c7": {
   "branch_errors": [],
@@ -669,7 +712,8 @@
    "passed": 982,
    "skipped": 2
   },
-  "raw_rate": 0.9869346733668342
+  "raw_rate": 0.9869346733668342,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "doxygen__doxygen.966d98e": {
   "branch_errors": [],
@@ -685,7 +729,8 @@
    "passed": 283,
    "skipped": 1
   },
-  "raw_rate": 0.8927444794952681
+  "raw_rate": 0.8927444794952681,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "drew-alleman__datasurgeon.d257cee": {
   "branch_errors": [],
@@ -700,23 +745,25 @@
    "failure": 22,
    "passed": 586
   },
-  "raw_rate": 0.9638157894736842
+  "raw_rate": 0.9638157894736842,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ducaale__xh.4a6e44f": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "57b8325d509e9ea16ceb66a71ed1f341a61154b73359645263bc158d345ce9d5",
   "kept": {
-   "failure": 6,
-   "passed": 1177
+   "failure": 1,
+   "passed": 1172
   },
-  "kept_rate": 0.9949281487743026,
+  "kept_rate": 0.9991474850809889,
   "raw": {
-   "failure": 11,
-   "passed": 1273,
+   "failure": 5,
+   "passed": 1267,
    "skipped": 4
   },
-  "raw_rate": 0.9883540372670807
+  "raw_rate": 0.9929467084639498,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "duckdb__duckdb.bdb65ec": {
   "branch_errors": [],
@@ -732,7 +779,8 @@
    "passed": 9436,
    "skipped": 1134
   },
-  "raw_rate": 0.774521874743495
+  "raw_rate": 0.774521874743495,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "dundee__gdu.ede21d2": {
   "branch_errors": [],
@@ -748,7 +796,8 @@
    "failure": 25,
    "passed": 1599
   },
-  "raw_rate": 0.9815837937384899
+  "raw_rate": 0.9815837937384899,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ecumene__rust-sloth.051c559": {
   "branch_errors": [],
@@ -762,7 +811,8 @@
    "passed": 451,
    "skipped": 3
   },
-  "raw_rate": 0.9933920704845814
+  "raw_rate": 0.9933920704845814,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ekzhang__bore.8e059cd": {
   "branch_errors": [],
@@ -774,10 +824,11 @@
   },
   "kept_rate": 0.9925,
   "raw": {
-   "failure": 8,
-   "passed": 465
+   "failure": 6,
+   "passed": 466
   },
-  "raw_rate": 0.9830866807610994
+  "raw_rate": 0.9872881355932204,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "eliukblau__pixterm.1a93fd5": {
   "branch_errors": [],
@@ -792,7 +843,8 @@
    "failure": 1,
    "passed": 459
   },
-  "raw_rate": 0.9978260869565218
+  "raw_rate": 0.9978260869565218,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "elkowar__pipr.fae0b17": {
   "branch_errors": [],
@@ -809,7 +861,8 @@
    "passed": 852,
    "skipped": 2
   },
-  "raw_rate": 0.9770642201834863
+  "raw_rate": 0.9770642201834863,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "epistates__treemd.825c6dd": {
   "branch_errors": [],
@@ -824,7 +877,8 @@
    "passed": 2032,
    "skipped": 4
   },
-  "raw_rate": 0.9630331753554502
+  "raw_rate": 0.9630331753554502,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "eradman__entr.8e2e8b4": {
   "branch_errors": [],
@@ -838,7 +892,8 @@
    "passed": 684,
    "skipped": 1
   },
-  "raw_rate": 0.9985401459854014
+  "raw_rate": 0.9985401459854014,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "esubaalew__run.0fb9dec": {
   "branch_errors": [],
@@ -853,7 +908,8 @@
    "passed": 1345,
    "skipped": 165
   },
-  "raw_rate": 0.8901389808074123
+  "raw_rate": 0.8901389808074123,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "eudoxia0__hashcards.48aa136": {
   "branch_errors": [],
@@ -869,7 +925,8 @@
    "passed": 1292,
    "skipped": 4
   },
-  "raw_rate": 0.9961449498843485
+  "raw_rate": 0.9961449498843485,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "facebook__zstd.1168da0": {
   "branch_errors": [],
@@ -885,7 +942,8 @@
    "passed": 2382,
    "skipped": 16
   },
-  "raw_rate": 0.9818631492168178
+  "raw_rate": 0.9818631492168178,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "facebookresearch__fasttext.1142dc4": {
   "branch_errors": [],
@@ -899,7 +957,8 @@
    "failure": 4,
    "passed": 363
   },
-  "raw_rate": 0.989100817438692
+  "raw_rate": 0.989100817438692,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ffmpeg__ffmpeg.360a402": {
   "branch_errors": [],
@@ -915,7 +974,8 @@
    "passed": 5028,
    "skipped": 605
   },
-  "raw_rate": 0.7087679729348746
+  "raw_rate": 0.7087679729348746,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "filosottile__age.706dfc1": {
   "branch_errors": [],
@@ -929,7 +989,8 @@
    "passed": 795,
    "skipped": 44
   },
-  "raw_rate": 0.9475566150178785
+  "raw_rate": 0.9475566150178785,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "foriequal0__git-trim.07c2f50": {
   "branch_errors": [],
@@ -944,7 +1005,8 @@
    "failure": 9,
    "passed": 719
   },
-  "raw_rate": 0.9876373626373627
+  "raw_rate": 0.9876373626373627,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "gabotechs__dep-tree.60a95a2": {
   "branch_errors": [],
@@ -959,7 +1021,8 @@
    "passed": 1524,
    "skipped": 2
   },
-  "raw_rate": 0.9384236453201971
+  "raw_rate": 0.9384236453201971,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ggreer__the_silver_searcher.a61f178": {
   "branch_errors": [],
@@ -975,7 +1038,8 @@
    "passed": 1207,
    "skipped": 1
   },
-  "raw_rate": 0.9861111111111112
+  "raw_rate": 0.9861111111111112,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "git-bahn__git-graph.87b4473": {
   "branch_errors": [],
@@ -991,7 +1055,8 @@
    "passed": 798,
    "skipped": 2
   },
-  "raw_rate": 0.9204152249134948
+  "raw_rate": 0.9204152249134948,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "go-critic__go-critic.9aea378": {
   "branch_errors": [],
@@ -1010,7 +1075,8 @@
    "passed": 967,
    "skipped": 15
   },
-  "raw_rate": 0.9461839530332681
+  "raw_rate": 0.9461839530332681,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "google__brotli.b3dc9cc": {
   "branch_errors": [],
@@ -1023,7 +1089,8 @@
   "raw": {
    "passed": 606
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "gromacs__gromacs.665ea4c": {
   "branch_errors": [],
@@ -1038,7 +1105,8 @@
    "passed": 1394,
    "skipped": 29
   },
-  "raw_rate": 0.9528366370471634
+  "raw_rate": 0.9528366370471634,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "guumaster__hostctl.d6d9699": {
   "branch_errors": [],
@@ -1053,23 +1121,25 @@
    "failure": 16,
    "passed": 1391
   },
-  "raw_rate": 0.9886282871357498
+  "raw_rate": 0.9886282871357498,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "hairyhenderson__gomplate.05eb3aa": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "939e9a3694acaf1bd5f7b842be56e158f915b0e1cce40d4be48a018b43e6bd4e",
   "kept": {
-   "failure": 59,
-   "passed": 2985
+   "failure": 30,
+   "passed": 2956
   },
-  "kept_rate": 0.9806176084099869,
+  "kept_rate": 0.9899531145344943,
   "raw": {
-   "failure": 522,
-   "passed": 4038,
+   "failure": 492,
+   "passed": 4008,
    "skipped": 21
   },
-  "raw_rate": 0.8814669286182056
+  "raw_rate": 0.8865295288652952,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "halitechallenge__halite.822cfb6": {
   "branch_errors": [],
@@ -1085,30 +1155,26 @@
    "passed": 458,
    "skipped": 4
   },
-  "raw_rate": 0.8790786948176583
+  "raw_rate": 0.8790786948176583,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "hatoo__oha.8dc6349": {
-  "branch_errors": [
-   "901bbba586b2"
-  ],
+  "branch_errors": [],
   "error_code": null,
   "executable_hash": "83e97f5ac90ac8ed1eb47001e17f8143e78102575b37a56ff4847c6e4a5e850e",
   "kept": {
-   "error": 1,
-   "failure": 2,
-   "not_run": 466,
-   "passed": 431,
-   "skipped": 1
+   "failure": 6,
+   "passed": 907
   },
-  "kept_rate": 0.47835738068812433,
+  "kept_rate": 0.9934282584884995,
   "raw": {
-   "error": 1,
-   "failure": 14,
-   "not_run": 601,
-   "passed": 515,
-   "skipped": 2
+   "error": 2,
+   "failure": 48,
+   "passed": 1161,
+   "skipped": 4
   },
-  "raw_rate": 0.45454545454545453
+  "raw_rate": 0.9555555555555556,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "hooklift__gowsdl.2a06cec": {
   "branch_errors": [],
@@ -1123,7 +1189,8 @@
    "failure": 11,
    "passed": 430
   },
-  "raw_rate": 0.9750566893424036
+  "raw_rate": 0.9750566893424036,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "hpjansson__chafa.dd4d4c1": {
   "branch_errors": [],
@@ -1137,7 +1204,8 @@
    "failure": 4,
    "passed": 2772
   },
-  "raw_rate": 0.9985590778097982
+  "raw_rate": 0.9985590778097982,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "htop-dev__htop.523600b": {
   "branch_errors": [],
@@ -1150,7 +1218,8 @@
   "raw": {
    "passed": 1200
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "hush-shell__hush.560c33a": {
   "branch_errors": [
@@ -1168,7 +1237,8 @@
    "not_run": 15,
    "passed": 1285
   },
-  "raw_rate": 0.9869431643625192
+  "raw_rate": 0.9869431643625192,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "incu6us__goimports-reviser.81bd549": {
   "branch_errors": [],
@@ -1183,7 +1253,8 @@
    "passed": 596,
    "skipped": 2
   },
-  "raw_rate": 0.994991652754591
+  "raw_rate": 0.994991652754591,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ip7z__7zip.839151e": {
   "branch_errors": [],
@@ -1199,7 +1270,8 @@
    "passed": 1109,
    "skipped": 1
   },
-  "raw_rate": 0.9770925110132158
+  "raw_rate": 0.9770925110132158,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ismaelgv__rnr.fc0733b": {
   "branch_errors": [],
@@ -1212,7 +1284,8 @@
   "raw": {
    "passed": 740
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "isona__dirble.e2dea9f": {
   "branch_errors": [],
@@ -1227,7 +1300,8 @@
    "failure": 33,
    "passed": 1144
   },
-  "raw_rate": 0.9719626168224299
+  "raw_rate": 0.9719626168224299,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ivanceras__svgbob.6d00ad9": {
   "branch_errors": [],
@@ -1240,7 +1314,8 @@
   "raw": {
    "passed": 474
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jarun__nnn.cb2c535": {
   "branch_errors": [],
@@ -1254,7 +1329,8 @@
    "failure": 91,
    "passed": 1892
   },
-  "raw_rate": 0.9541099344427635
+  "raw_rate": 0.9541099344427635,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jesseduffield__lazygit.1d0db51": {
   "branch_errors": [],
@@ -1270,7 +1346,8 @@
    "passed": 1209,
    "skipped": 12
   },
-  "raw_rate": 0.9534700315457413
+  "raw_rate": 0.9534700315457413,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jgm__pandoc.5caad90": {
   "branch_errors": [],
@@ -1286,7 +1363,8 @@
    "passed": 5564,
    "skipped": 1
   },
-  "raw_rate": 0.9826916283998587
+  "raw_rate": 0.9826916283998587,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jhspetersson__fselect.c3559ca": {
   "branch_errors": [],
@@ -1302,7 +1380,8 @@
    "passed": 3523,
    "skipped": 68
   },
-  "raw_rate": 0.9402188417400588
+  "raw_rate": 0.9402188417400588,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "johanneskaufmann__html-to-markdown.3006818": {
   "branch_errors": [],
@@ -1316,7 +1395,8 @@
    "failure": 5,
    "passed": 979
   },
-  "raw_rate": 0.9949186991869918
+  "raw_rate": 0.9949186991869918,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "johnkerl__miller.8d85b46": {
   "branch_errors": [],
@@ -1332,7 +1412,8 @@
    "passed": 16464,
    "skipped": 2
   },
-  "raw_rate": 0.9740282790037271
+  "raw_rate": 0.9740282790037271,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jonas__tig.8334123": {
   "branch_errors": [],
@@ -1348,7 +1429,8 @@
    "passed": 2285,
    "skipped": 4
   },
-  "raw_rate": 0.9760785988893635
+  "raw_rate": 0.9760785988893635,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jqlang__jq.b33a763": {
   "branch_errors": [],
@@ -1364,7 +1446,8 @@
    "failure": 24,
    "passed": 6495
   },
-  "raw_rate": 0.9932711423765102
+  "raw_rate": 0.9932711423765102,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "jrnxf__thokr.09375ef": {
   "branch_errors": [],
@@ -1378,7 +1461,8 @@
    "failure": 3,
    "passed": 514
   },
-  "raw_rate": 0.9941972920696325
+  "raw_rate": 0.9941972920696325,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "junegunn__fzf.b56d614": {
   "branch_errors": [],
@@ -1393,7 +1477,8 @@
    "passed": 2245,
    "skipped": 4
   },
-  "raw_rate": 0.9618680377035133
+  "raw_rate": 0.9618680377035133,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "kaushiksrini__parqeye.8072121": {
   "branch_errors": [],
@@ -1409,7 +1494,8 @@
    "passed": 574,
    "skipped": 1
   },
-  "raw_rate": 0.9896551724137931
+  "raw_rate": 0.9896551724137931,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "kisielk__errcheck.dacab89": {
   "branch_errors": [],
@@ -1424,7 +1510,8 @@
    "passed": 601,
    "skipped": 4
   },
-  "raw_rate": 0.9709208400646203
+  "raw_rate": 0.9709208400646203,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "konradsz__igrep.aa75630": {
   "branch_errors": [],
@@ -1440,7 +1527,8 @@
    "passed": 757,
    "skipped": 1
   },
-  "raw_rate": 0.9415422885572139
+  "raw_rate": 0.9415422885572139,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ksxgithub__parallel-disk-usage.96978ed": {
   "branch_errors": [],
@@ -1455,7 +1543,8 @@
    "failure": 67,
    "passed": 697
   },
-  "raw_rate": 0.912303664921466
+  "raw_rate": 0.912303664921466,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "kyoh86__richgo.313114f": {
   "branch_errors": [],
@@ -1470,7 +1559,8 @@
    "passed": 804,
    "skipped": 1
   },
-  "raw_rate": 0.9852941176470589
+  "raw_rate": 0.9852941176470589,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "kyoheiu__felix.95df390": {
   "branch_errors": [],
@@ -1486,7 +1576,8 @@
    "passed": 1058,
    "skipped": 2
   },
-  "raw_rate": 0.9412811387900356
+  "raw_rate": 0.9412811387900356,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "lfos__calcurse.49180d5": {
   "branch_errors": [],
@@ -1502,7 +1593,8 @@
    "passed": 2423,
    "skipped": 6
   },
-  "raw_rate": 0.8460195530726257
+  "raw_rate": 0.8460195530726257,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "lh3__seqtk.94e7070": {
   "branch_errors": [],
@@ -1515,7 +1607,8 @@
   "raw": {
    "passed": 440
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "lua__lua.c6b4848": {
   "branch_errors": [],
@@ -1531,7 +1624,8 @@
    "passed": 1391,
    "skipped": 1
   },
-  "raw_rate": 0.9935714285714285
+  "raw_rate": 0.9935714285714285,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "luajit__luajit.a553b3d": {
   "branch_errors": [],
@@ -1547,7 +1641,8 @@
    "passed": 3199,
    "skipped": 1
   },
-  "raw_rate": 0.9944047248989742
+  "raw_rate": 0.9944047248989742,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "lymphatus__caesium-clt.a529b2e": {
   "branch_errors": [],
@@ -1561,7 +1656,8 @@
    "passed": 614,
    "skipped": 1
   },
-  "raw_rate": 0.9983739837398374
+  "raw_rate": 0.9983739837398374,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "lz4__lz4.1519f46": {
   "branch_errors": [],
@@ -1576,7 +1672,8 @@
    "passed": 1863,
    "skipped": 2
   },
-  "raw_rate": 0.9815595363540569
+  "raw_rate": 0.9815595363540569,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "madler__pigz.fe4894f": {
   "branch_errors": [],
@@ -1591,7 +1688,8 @@
    "passed": 939,
    "skipped": 2
   },
-  "raw_rate": 0.9947033898305084
+  "raw_rate": 0.9947033898305084,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mfridman__tparse.2416b4b": {
   "branch_errors": [],
@@ -1605,7 +1703,8 @@
    "failure": 19,
    "passed": 575
   },
-  "raw_rate": 0.968013468013468
+  "raw_rate": 0.968013468013468,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mgdm__htmlq.6e31bc8": {
   "branch_errors": [],
@@ -1619,7 +1718,8 @@
    "passed": 2057,
    "skipped": 1
   },
-  "raw_rate": 0.999514091350826
+  "raw_rate": 0.999514091350826,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mgechev__revive.201451e": {
   "branch_errors": [],
@@ -1634,7 +1734,8 @@
    "failure": 230,
    "passed": 1132
   },
-  "raw_rate": 0.8311306901615272
+  "raw_rate": 0.8311306901615272,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mibk__dupl.1bf052b": {
   "branch_errors": [],
@@ -1649,7 +1750,8 @@
    "failure": 2,
    "passed": 452
   },
-  "raw_rate": 0.9955947136563876
+  "raw_rate": 0.9955947136563876,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mikefarah__yq.602586d": {
   "branch_errors": [],
@@ -1664,7 +1766,8 @@
    "failure": 9,
    "passed": 2055
   },
-  "raw_rate": 0.9956395348837209
+  "raw_rate": 0.9956395348837209,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "miserlou__loop.209927c": {
   "branch_errors": [],
@@ -1678,7 +1781,8 @@
    "failure": 7,
    "passed": 785
   },
-  "raw_rate": 0.9911616161616161
+  "raw_rate": 0.9911616161616161,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mkj__dropbear.75f699b": {
   "branch_errors": [],
@@ -1695,7 +1799,8 @@
    "passed": 1128,
    "skipped": 7
   },
-  "raw_rate": 0.947103274559194
+  "raw_rate": 0.947103274559194,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "mookid__diffr.2152742": {
   "branch_errors": [],
@@ -1709,7 +1814,8 @@
    "failure": 12,
    "passed": 794
   },
-  "raw_rate": 0.9851116625310173
+  "raw_rate": 0.9851116625310173,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "multiprocessio__dsq.c3ae0ba": {
   "branch_errors": [],
@@ -1723,7 +1829,8 @@
    "passed": 771,
    "skipped": 3
   },
-  "raw_rate": 0.9961240310077519
+  "raw_rate": 0.9961240310077519,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "nachoparker__dutree.44e877d": {
   "branch_errors": [
@@ -1744,7 +1851,8 @@
    "passed": 1311,
    "skipped": 10
   },
-  "raw_rate": 0.77436503248671
+  "raw_rate": 0.77436503248671,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "naggie__dstask.ff57396": {
   "branch_errors": [],
@@ -1760,7 +1868,8 @@
    "passed": 1615,
    "skipped": 4
   },
-  "raw_rate": 0.9817629179331308
+  "raw_rate": 0.9817629179331308,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "nikoladucak__caps-log.2cf2d1e": {
   "branch_errors": [
@@ -1780,7 +1889,8 @@
    "passed": 1571,
    "skipped": 25
   },
-  "raw_rate": 0.7990844354018312
+  "raw_rate": 0.7990844354018312,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "nikolassv__bartib.6b9b5ce": {
   "branch_errors": [],
@@ -1795,7 +1905,8 @@
    "passed": 968,
    "skipped": 2
   },
-  "raw_rate": 0.9574678536102869
+  "raw_rate": 0.9574678536102869,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ninja-build__ninja.cc60300": {
   "branch_errors": [],
@@ -1810,7 +1921,8 @@
    "passed": 1925,
    "skipped": 1
   },
-  "raw_rate": 0.9897172236503856
+  "raw_rate": 0.9897172236503856,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "noborus__ov.b96c2ba": {
   "branch_errors": [],
@@ -1824,7 +1936,8 @@
    "failure": 26,
    "passed": 2473
   },
-  "raw_rate": 0.9895958383353342
+  "raw_rate": 0.9895958383353342,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "noborus__trdsql.d8c5ff6": {
   "branch_errors": [],
@@ -1839,7 +1952,8 @@
    "passed": 1407,
    "skipped": 1
   },
-  "raw_rate": 0.9964589235127479
+  "raw_rate": 0.9964589235127479,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "nukesor__pueue.8b9d6fe": {
   "branch_errors": [],
@@ -1856,7 +1970,8 @@
    "passed": 1727,
    "skipped": 16
   },
-  "raw_rate": 0.7638213180008846
+  "raw_rate": 0.7638213180008846,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "nuta__nsh.bdd0702": {
   "branch_errors": [],
@@ -1870,7 +1985,8 @@
    "failure": 12,
    "passed": 2303
   },
-  "raw_rate": 0.994816414686825
+  "raw_rate": 0.994816414686825,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "o2sh__onefetch.e5958ce": {
   "branch_errors": [],
@@ -1886,23 +2002,25 @@
    "passed": 1217,
    "skipped": 2
   },
-  "raw_rate": 0.9959083469721768
+  "raw_rate": 0.9959083469721768,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ogham__dog.721440b": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "922f445e9f75b86c8236cbacec2fb661aeb5693ca2817a2eb7d41059aee95b38",
   "kept": {
-   "failure": 809,
-   "passed": 2109
+   "failure": 26,
+   "passed": 1331
   },
-  "kept_rate": 0.7227553118574366,
+  "kept_rate": 0.9808400884303611,
   "raw": {
-   "failure": 1019,
-   "passed": 2736,
+   "failure": 187,
+   "passed": 1913,
    "skipped": 5
   },
-  "raw_rate": 0.7276595744680852
+  "raw_rate": 0.9087885985748219,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "oppiliappan__eva.41ae245": {
   "branch_errors": [],
@@ -1916,7 +2034,8 @@
    "failure": 5,
    "passed": 971
   },
-  "raw_rate": 0.9948770491803278
+  "raw_rate": 0.9948770491803278,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "oppiliappan__statix.e9df54c": {
   "branch_errors": [],
@@ -1930,23 +2049,25 @@
    "passed": 968,
    "skipped": 4
   },
-  "raw_rate": 0.9958847736625515
+  "raw_rate": 0.9958847736625515,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "orf__gping.26eb5b9": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "6fa670f016bff9ed1be87e3858f3c5b8c38c2af116388575f85d8afe2c1ec004",
   "kept": {
-   "failure": 27,
-   "passed": 365
+   "failure": 10,
+   "passed": 348
   },
-  "kept_rate": 0.9311224489795918,
+  "kept_rate": 0.9720670391061452,
   "raw": {
-   "failure": 43,
-   "passed": 694,
+   "failure": 30,
+   "passed": 681,
    "skipped": 4
   },
-  "raw_rate": 0.9365721997300944
+  "raw_rate": 0.9524475524475524,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "osgeo__gdal.0847f12": {
   "branch_errors": [],
@@ -1961,7 +2082,8 @@
    "passed": 1347,
    "skipped": 10
   },
-  "raw_rate": 0.9655913978494624
+  "raw_rate": 0.9655913978494624,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "osgeo__proj.75d455c": {
   "branch_errors": [],
@@ -1976,7 +2098,8 @@
    "passed": 6662,
    "skipped": 1166
   },
-  "raw_rate": 0.7841337099811676
+  "raw_rate": 0.7841337099811676,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "paradigmxyz__solar.5190d0e": {
   "branch_errors": [],
@@ -1993,7 +2116,8 @@
    "passed": 2558,
    "skipped": 1
   },
-  "raw_rate": 0.9887901043679939
+  "raw_rate": 0.9887901043679939,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "parcel-bundler__lightningcss.aa2ed1e": {
   "branch_errors": [],
@@ -2008,7 +2132,8 @@
    "passed": 3168,
    "skipped": 3
   },
-  "raw_rate": 0.9940382805145905
+  "raw_rate": 0.9940382805145905,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "peco__peco.4e58dad": {
   "branch_errors": [],
@@ -2023,7 +2148,8 @@
    "passed": 1871,
    "skipped": 3
   },
-  "raw_rate": 0.9392570281124498
+  "raw_rate": 0.9392570281124498,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "pemistahl__grex.fa3e8ed": {
   "branch_errors": [],
@@ -2036,7 +2162,8 @@
   "raw": {
    "passed": 1518
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "php__php-src.c891263": {
   "branch_errors": [],
@@ -2053,7 +2180,8 @@
    "passed": 15924,
    "skipped": 5334
   },
-  "raw_rate": 0.7218495013599274
+  "raw_rate": 0.7218495013599274,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "pier-cli__pier.5e1bde9": {
   "branch_errors": [],
@@ -2066,7 +2194,8 @@
   "raw": {
    "passed": 779
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "pls-rs__pls.4e1ae50": {
   "branch_errors": [],
@@ -2082,7 +2211,8 @@
    "passed": 365,
    "skipped": 6
   },
-  "raw_rate": 0.9407216494845361
+  "raw_rate": 0.9407216494845361,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "psampaz__go-mod-outdated.bb79367": {
   "branch_errors": [],
@@ -2097,7 +2227,8 @@
    "passed": 340,
    "skipped": 5
   },
-  "raw_rate": 0.9770114942528736
+  "raw_rate": 0.9770114942528736,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "quinn-rs__quinn.bb359cc": {
   "branch_errors": [],
@@ -2113,7 +2244,8 @@
    "passed": 600,
    "skipped": 1
   },
-  "raw_rate": 0.9966777408637874
+  "raw_rate": 0.9966777408637874,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "raviqqe__muffet.a882908": {
   "branch_errors": [],
@@ -2128,7 +2260,8 @@
    "failure": 17,
    "passed": 451
   },
-  "raw_rate": 0.9636752136752137
+  "raw_rate": 0.9636752136752137,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rbakbashev__elfcat.52f8cc7": {
   "branch_errors": [],
@@ -2143,7 +2276,8 @@
    "passed": 651,
    "skipped": 1
   },
-  "raw_rate": 0.9893617021276596
+  "raw_rate": 0.9893617021276596,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rcoh__angle-grinder.9c2fc88": {
   "branch_errors": [],
@@ -2157,7 +2291,8 @@
    "failure": 3,
    "passed": 1147
   },
-  "raw_rate": 0.9973913043478261
+  "raw_rate": 0.9973913043478261,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rhysd__kiro-editor.4157485": {
   "branch_errors": [],
@@ -2171,7 +2306,8 @@
    "failure": 83,
    "passed": 855
   },
-  "raw_rate": 0.9115138592750534
+  "raw_rate": 0.9115138592750534,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "riquito__tuc.16fb471": {
   "branch_errors": [],
@@ -2185,7 +2321,8 @@
    "passed": 1245,
    "skipped": 4
   },
-  "raw_rate": 0.9967974379503602
+  "raw_rate": 0.9967974379503602,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "robertdavidgraham__masscan.b99d433": {
   "branch_errors": [],
@@ -2200,7 +2337,8 @@
    "failure": 230,
    "passed": 3595
   },
-  "raw_rate": 0.9398692810457516
+  "raw_rate": 0.9398692810457516,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rochacbruno__marmite.7d4bc2d": {
   "branch_errors": [],
@@ -2215,22 +2353,22 @@
    "passed": 885,
    "skipped": 3
   },
-  "raw_rate": 0.9588299024918743
+  "raw_rate": 0.9588299024918743,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rs__curlie.5dfcbb1": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "7ebf850e7d8d0def143b72a1d6d0ebf4e54d8212c515c2317f06e4e8f3f642f0",
   "kept": {
-   "failure": 3,
-   "passed": 696
+   "passed": 693
   },
-  "kept_rate": 0.9957081545064378,
+  "kept_rate": 1.0,
   "raw": {
-   "failure": 3,
-   "passed": 744
+   "passed": 741
   },
-  "raw_rate": 0.9959839357429718
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2-hostnet/gold"
  },
  "rs__jplot.2a54bcc": {
   "branch_errors": [],
@@ -2246,7 +2384,8 @@
    "passed": 726,
    "skipped": 1
   },
-  "raw_rate": 0.9918032786885246
+  "raw_rate": 0.9918032786885246,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rust-embedded__svd2rust.1760b5e": {
   "branch_errors": [
@@ -2264,7 +2403,8 @@
    "not_run": 6,
    "passed": 985
   },
-  "raw_rate": 0.9889558232931727
+  "raw_rate": 0.9889558232931727,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rust-ethereum__ethabi.b1710ad": {
   "branch_errors": [
@@ -2282,7 +2422,8 @@
    "passed": 1025,
    "skipped": 1
   },
-  "raw_rate": 0.97340930674264
+  "raw_rate": 0.97340930674264,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rust-lang__mdbook.37273ba": {
   "branch_errors": [],
@@ -2298,7 +2439,8 @@
    "passed": 1340,
    "skipped": 6
   },
-  "raw_rate": 0.9802487198244331
+  "raw_rate": 0.9802487198244331,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "rvben__rumdl.2d75c4d": {
   "branch_errors": [
@@ -2316,7 +2458,8 @@
    "passed": 4639,
    "skipped": 29
   },
-  "raw_rate": 0.9929366438356164
+  "raw_rate": 0.9929366438356164,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "samtools__samtools.aa823b5": {
   "branch_errors": [],
@@ -2331,7 +2474,8 @@
    "passed": 1829,
    "skipped": 9
   },
-  "raw_rate": 0.9849219170705439
+  "raw_rate": 0.9849219170705439,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sayanarijit__xplr.1751065": {
   "branch_errors": [],
@@ -2347,7 +2491,8 @@
    "passed": 985,
    "skipped": 4
   },
-  "raw_rate": 0.9480269489894129
+  "raw_rate": 0.9480269489894129,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sclevine__yj.8016400": {
   "branch_errors": [],
@@ -2362,7 +2507,8 @@
    "failure": 4,
    "passed": 829
   },
-  "raw_rate": 0.9951980792316927
+  "raw_rate": 0.9951980792316927,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "segmentio__chamber.5f93f5f": {
   "branch_errors": [],
@@ -2379,7 +2525,8 @@
    "passed": 3737,
    "skipped": 6
   },
-  "raw_rate": 0.8524178832116789
+  "raw_rate": 0.8524178832116789,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sharkdp__bat.f822bd0": {
   "branch_errors": [],
@@ -2394,7 +2541,8 @@
    "passed": 941,
    "skipped": 39
   },
-  "raw_rate": 0.9592252803261978
+  "raw_rate": 0.9592252803261978,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sharkdp__fd.40d8eb3": {
   "branch_errors": [],
@@ -2409,7 +2557,8 @@
    "passed": 1404,
    "skipped": 9
   },
-  "raw_rate": 0.988036593947924
+  "raw_rate": 0.988036593947924,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sharkdp__hexyl.2e26437": {
   "branch_errors": [],
@@ -2423,7 +2572,8 @@
    "passed": 960,
    "skipped": 15
   },
-  "raw_rate": 0.9846153846153847
+  "raw_rate": 0.9846153846153847,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sharkdp__hyperfine.327d5f4": {
   "branch_errors": [],
@@ -2436,7 +2586,8 @@
   "raw": {
    "passed": 298
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sharkdp__pastel.b60e899": {
   "branch_errors": [],
@@ -2450,7 +2601,8 @@
    "failure": 2,
    "passed": 1258
   },
-  "raw_rate": 0.9984126984126984
+  "raw_rate": 0.9984126984126984,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "shashwatah__jot.a92aad8": {
   "branch_errors": [],
@@ -2465,24 +2617,25 @@
    "failure": 5,
    "passed": 851
   },
-  "raw_rate": 0.9941588785046729
+  "raw_rate": 0.9941588785046729,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sheepla__pingu.926d475": {
   "branch_errors": [],
   "error_code": null,
   "executable_hash": "42860ccf39b72b0ce5524a09d7ae4c7fd61d7922835d18fbcf3380abffbde2ee",
   "kept": {
-   "failure": 217,
-   "passed": 593,
-   "skipped": 2
+   "failure": 5,
+   "passed": 383
   },
-  "kept_rate": 0.7302955665024631,
+  "kept_rate": 0.9871134020618557,
   "raw": {
-   "failure": 237,
-   "passed": 651,
-   "skipped": 5
+   "failure": 11,
+   "passed": 432,
+   "skipped": 3
   },
-  "raw_rate": 0.729003359462486
+  "raw_rate": 0.968609865470852,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sibprogrammer__xq.b89f681": {
   "branch_errors": [],
@@ -2496,7 +2649,8 @@
    "passed": 876,
    "skipped": 3
   },
-  "raw_rate": 0.9965870307167235
+  "raw_rate": 0.9965870307167235,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sigoden__argc.04a08f1": {
   "branch_errors": [],
@@ -2510,7 +2664,8 @@
    "passed": 1332,
    "skipped": 78
   },
-  "raw_rate": 0.9446808510638298
+  "raw_rate": 0.9446808510638298,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "simeg__eureka.df3796c": {
   "branch_errors": [],
@@ -2525,7 +2680,8 @@
    "passed": 398,
    "skipped": 3
   },
-  "raw_rate": 0.9900497512437811
+  "raw_rate": 0.9900497512437811,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sirwart__ripsecrets.34c9e03": {
   "branch_errors": [],
@@ -2540,7 +2696,8 @@
    "passed": 937,
    "skipped": 1
   },
-  "raw_rate": 0.9978700745473909
+  "raw_rate": 0.9978700745473909,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sitkevij__hex.61ae69b": {
   "branch_errors": [],
@@ -2553,7 +2710,8 @@
   "raw": {
    "passed": 877
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "skeema__skeema.6a76243": {
   "branch_errors": [],
@@ -2569,7 +2727,8 @@
    "passed": 3117,
    "skipped": 444
   },
-  "raw_rate": 0.8504774897680764
+  "raw_rate": 0.8504774897680764,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sqlite__sqlite.839433d": {
   "branch_errors": [],
@@ -2585,7 +2744,8 @@
    "passed": 19204,
    "skipped": 387
   },
-  "raw_rate": 0.8582026187603343
+  "raw_rate": 0.8582026187603343,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "sstadick__hck.b66c751": {
   "branch_errors": [],
@@ -2600,7 +2760,8 @@
    "passed": 884,
    "skipped": 1
   },
-  "raw_rate": 0.9977426636568849
+  "raw_rate": 0.9977426636568849,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "stacked-git__stgit.430027d": {
   "branch_errors": [],
@@ -2615,7 +2776,8 @@
    "passed": 2384,
    "skipped": 20
   },
-  "raw_rate": 0.9464073044859072
+  "raw_rate": 0.9464073044859072,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "stathissideris__ditaa.f2286c4": {
   "branch_errors": [],
@@ -2629,7 +2791,8 @@
    "failure": 1,
    "passed": 683
   },
-  "raw_rate": 0.9985380116959064
+  "raw_rate": 0.9985380116959064,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "stranger6667__jsonschema.d52e881": {
   "branch_errors": [],
@@ -2645,7 +2808,8 @@
    "passed": 3007,
    "skipped": 2
   },
-  "raw_rate": 0.998339973439575
+  "raw_rate": 0.998339973439575,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "svenstaro__genact.16f96e3": {
   "branch_errors": [],
@@ -2659,7 +2823,8 @@
    "failure": 2,
    "passed": 240
   },
-  "raw_rate": 0.9917355371900827
+  "raw_rate": 0.9917355371900827,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "svenstaro__miniserve.8449e8b": {
   "branch_errors": [],
@@ -2672,7 +2837,8 @@
   "raw": {
    "passed": 440
   },
-  "raw_rate": 1.0
+  "raw_rate": 1.0,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tarka__xcp.5e5b448": {
   "branch_errors": [],
@@ -2689,7 +2855,8 @@
    "passed": 1241,
    "skipped": 20
   },
-  "raw_rate": 0.96801872074883
+  "raw_rate": 0.96801872074883,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "thezoraiz__ascii-image-converter.d05a757": {
   "branch_errors": [],
@@ -2704,7 +2871,8 @@
    "failure": 1,
    "passed": 489
   },
-  "raw_rate": 0.9979591836734694
+  "raw_rate": 0.9979591836734694,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tinycc__tinycc.9b8765d": {
   "branch_errors": [],
@@ -2719,7 +2887,8 @@
    "passed": 2062,
    "skipped": 2
   },
-  "raw_rate": 0.9980638915779284
+  "raw_rate": 0.9980638915779284,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tomarrell__wrapcheck.c058da1": {
   "branch_errors": [],
@@ -2737,7 +2906,8 @@
    "passed": 724,
    "skipped": 8
   },
-  "raw_rate": 0.9341935483870968
+  "raw_rate": 0.9341935483870968,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tomnomnom__gron.88a6234": {
   "branch_errors": [],
@@ -2752,7 +2922,8 @@
    "failure": 18,
    "passed": 251
   },
-  "raw_rate": 0.9330855018587361
+  "raw_rate": 0.9330855018587361,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "trasta298__keifu.3331426": {
   "branch_errors": [],
@@ -2766,7 +2937,8 @@
    "failure": 24,
    "passed": 438
   },
-  "raw_rate": 0.948051948051948
+  "raw_rate": 0.948051948051948,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tree-sitter__tree-sitter.5e23cca": {
   "branch_errors": [],
@@ -2782,7 +2954,8 @@
    "passed": 1656,
    "skipped": 44
   },
-  "raw_rate": 0.971830985915493
+  "raw_rate": 0.971830985915493,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tstack__lnav.ee34494": {
   "branch_errors": [],
@@ -2798,7 +2971,8 @@
    "passed": 1227,
    "skipped": 48
   },
-  "raw_rate": 0.8930131004366813
+  "raw_rate": 0.8930131004366813,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "tukaani-project__xz.1007bf0": {
   "branch_errors": [],
@@ -2814,7 +2988,8 @@
    "passed": 2038,
    "skipped": 4
   },
-  "raw_rate": 0.9951171875
+  "raw_rate": 0.9951171875,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "typst__typst.88356d0": {
   "branch_errors": [],
@@ -2830,7 +3005,8 @@
    "passed": 1893,
    "skipped": 1
   },
-  "raw_rate": 0.9455544455544456
+  "raw_rate": 0.9455544455544456,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "unhappychoice__gittype.34b72d0": {
   "branch_errors": [],
@@ -2846,7 +3022,8 @@
    "passed": 974,
    "skipped": 2
   },
-  "raw_rate": 0.9530332681017613
+  "raw_rate": 0.9530332681017613,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "universal-ctags__ctags.243595e": {
   "branch_errors": [],
@@ -2862,7 +3039,8 @@
    "passed": 2617,
    "skipped": 14
   },
-  "raw_rate": 0.9754006708907939
+  "raw_rate": 0.9754006708907939,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "wfxr__code-minimap.0ddeea5": {
   "branch_errors": [],
@@ -2876,7 +3054,8 @@
    "failure": 1,
    "passed": 370
   },
-  "raw_rate": 0.9973045822102425
+  "raw_rate": 0.9973045822102425,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "wfxr__csview.8ac4de0": {
   "branch_errors": [
@@ -2893,7 +3072,8 @@
    "passed": 345,
    "skipped": 1
   },
-  "raw_rate": 0.9913793103448276
+  "raw_rate": 0.9913793103448276,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "wgunderwood__tex-fmt.3f1aef6": {
   "branch_errors": [],
@@ -2907,7 +3087,8 @@
    "passed": 494,
    "skipped": 1
   },
-  "raw_rate": 0.997979797979798
+  "raw_rate": 0.997979797979798,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "wintermute-cell__ngrrram.8ea13c3": {
   "branch_errors": [],
@@ -2921,7 +3102,8 @@
    "failure": 1,
    "passed": 333
   },
-  "raw_rate": 0.9970059880239521
+  "raw_rate": 0.9970059880239521,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "xampprocky__tokei.505d648": {
   "branch_errors": [],
@@ -2937,7 +3119,8 @@
    "passed": 757,
    "skipped": 3
   },
-  "raw_rate": 0.9934383202099738
+  "raw_rate": 0.9934383202099738,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "xorg62__tty-clock.f2f847c": {
   "branch_errors": [],
@@ -2952,7 +3135,8 @@
    "passed": 323,
    "skipped": 1
   },
-  "raw_rate": 0.9817629179331308
+  "raw_rate": 0.9817629179331308,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "y2z__monolith.8702e66": {
   "branch_errors": [],
@@ -2967,7 +3151,8 @@
    "failure": 2,
    "passed": 781
   },
-  "raw_rate": 0.9974457215836526
+  "raw_rate": 0.9974457215836526,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "yaa110__nomino.f892499": {
   "branch_errors": [],
@@ -2982,7 +3167,8 @@
    "failure": 4,
    "passed": 342
   },
-  "raw_rate": 0.9884393063583815
+  "raw_rate": 0.9884393063583815,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "yassinebridi__serpl.c48a9d7": {
   "branch_errors": [],
@@ -2998,7 +3184,8 @@
    "passed": 604,
    "skipped": 1
   },
-  "raw_rate": 0.9082706766917293
+  "raw_rate": 0.9082706766917293,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "yoav-lavi__melody.f4af9b4": {
   "branch_errors": [],
@@ -3012,7 +3199,8 @@
    "passed": 1437,
    "skipped": 1
   },
-  "raw_rate": 0.9993045897079277
+  "raw_rate": 0.9993045897079277,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "ys-l__flamelens.0b4dc33": {
   "branch_errors": [],
@@ -3027,7 +3215,8 @@
    "passed": 301,
    "skipped": 12
   },
-  "raw_rate": 0.9585987261146497
+  "raw_rate": 0.9585987261146497,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "zevv__duc.a58fa4e": {
   "branch_errors": [],
@@ -3043,7 +3232,8 @@
    "passed": 1432,
    "skipped": 23
   },
-  "raw_rate": 0.8595438175270108
+  "raw_rate": 0.8595438175270108,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  },
  "zk-org__zk.10d93d5": {
   "branch_errors": [],
@@ -3059,6 +3249,7 @@
    "passed": 1548,
    "skipped": 40
   },
-  "raw_rate": 0.9079178885630499
+  "raw_rate": 0.9079178885630499,
+  "source": "/scratch/jundahe/pb-runs/gold-eval-v2/gold"
  }
 }
