@@ -195,16 +195,19 @@ def cmd_run(argv: list[str]) -> None:
 def cmd_exec(argv: list[str]) -> None:
     cwd = None
     i = 0
+    as_root = False
     while argv[i].startswith("-"):
         if argv[i] == "-i":
             i += 1
+        elif argv[i] == "--user-root":  # pbdocker extension: ignore the container's --user for this exec
+            as_root, i = True, i + 1
         elif argv[i] == "-w":
             cwd, i = argv[i + 1], i + 2
         else:
             die(f"exec: unsupported flag {argv[i]}")
     name, cmd = argv[i], argv[i + 1 :]
     meta = json.loads((CONTAINERS / name / "meta.json").read_text())
-    if meta.get("user"):
+    if meta.get("user") and not as_root:
         cmd = ["runuser", "-u", meta["user"], "--", *cmd]  # docker --user: instance runs as fakeroot, drop per exec
     rc = instance_exec(name, *cmd, cwd=cwd or meta["cwd"], env=meta["env"]).returncode
     # programbench blackholes DNS (resolv.conf -> 0.0.0.0) around compile.sh so builds cannot download. The

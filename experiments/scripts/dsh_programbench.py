@@ -78,6 +78,9 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
         t0 = time.time()
         r = sh(str(SHIM), "exec", name, "bash", "-lc", cmd, env=env, timeout=args.hard_timeout_seconds or None)
         (tdir / "agent.log").write_text(r.stdout + r.stderr)
+        # dsh creates sessions/ and storages/ as 0700 for uid 1000 (a subuid on the host): open them up
+        # from inside the container (root there) so the host user can read the trajectories.
+        sh(str(SHIM), "exec", "--user-root", name, "chmod", "-R", "a+rX", "/dsh-home", env=env)
         sh(str(SHIM), "exec", name, "bash", "-lc", "tar -czf /tmp/_submission.tar.gz -C /workspace .", env=env)
         sh(str(SHIM), "cp", f"{name}:/tmp/_submission.tar.gz", str(tdir / "submission.tar.gz"), env=env)
         status = "?"
