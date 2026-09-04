@@ -1,3 +1,9 @@
 HOST=pro5000-soar JOB=5551 CPUS=8 FILTER=^(ogham__dog\.721440b|orf__gping\.26eb5b9|astaxie__bat\.17d1080|ekzhang__bore\.8e059cd|ffmpeg__ffmpeg\.360a402|ducaale__xh\.4a6e44f|mkj__dropbear\.75f699b|rs__curlie\.5dfcbb1|hairyhenderson__gomplate\.05eb3aa|quinn-rs__quinn\.bb359cc|hatoo__oha\.8dc6349)$
 Evaluating:   0%|                                                            | 0/11 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 333192.37it/s]
+Evaluating:   9%|████▋                                              | 1/11 [05:19<53:11, 319.15s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 265157.15it/s]
+Evaluating:  18%|█████████▎                                         | 2/11 [06:33<26:17, 175.30s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 290171.97it/s]
+Evaluating:  27%|█████████████▉                                     | 3/11 [13:14<37:06, 278.26s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 441505.68it/s]

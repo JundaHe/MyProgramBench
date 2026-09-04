@@ -3,7 +3,12 @@
 
     scripts/score_submission.py <run_dir with <iid>/<iid>.eval.json> [--results experiments/results/v2]
 
-Per task (only tasks not in excluded_tasks.json):  score = |passed ∩ gold_passing| / |gold_passing|
+Per task (only tasks not in excluded_tasks.json), counting test-result ENTRIES exactly like
+programbench's own score (pytest-rerunfailures records each attempt, so a flaky test contributes
+its failed attempts too), restricted to tests the reference passes:
+
+    score = #entries(status == passed, name ∈ gold_passing) / #entries(name ∈ gold_passing)
+
 Benchmark score = mean over all remaining tasks; a task with no eval.json counts as 0.
 """
 
@@ -25,12 +30,13 @@ def main() -> None:
         if not p.exists():
             scores[iid] = 0.0
             continue
-        passed = {f"{t['branch']}/{t['name']}" for t in json.loads(p.read_text())["test_results"] if t["status"] == "passed"}
-        scores[iid] = len(passed & set(tests)) / len(set(tests))
+        names = set(tests)
+        entries = [t for t in json.loads(p.read_text())["test_results"] if f"{t['branch']}/{t['name']}" in names]
+        scores[iid] = sum(t["status"] == "passed" for t in entries) / len(entries) if entries else 0.0
     for iid, s in scores.items():
         print(f"{s:.3f}  {iid}")
-    print(f"benchmark score: {sum(scores.values()) / len(scores):.4f} over {len(scores)} tasks "
-          f"({sum(1 for iid in mask if (args.run_dir / iid / f'{iid}.eval.json').exists())} evaluated)")
+    n_eval = sum(1 for iid in mask if (args.run_dir / iid / (iid + ".eval.json")).exists())
+    print(f"benchmark score: {sum(scores.values()) / len(scores):.4f} over {len(scores)} tasks ({n_eval} evaluated)")
 
 
 if __name__ == "__main__":

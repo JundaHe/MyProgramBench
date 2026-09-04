@@ -1,3 +1,25 @@
 HOST=pro5000-soar JOB=5553 CPUS=8 FILTER=
 Evaluating:   0%|                                                             | 0/6 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 355073.35it/s]
+Evaluating:  17%|████████▋                                           | 1/6 [02:54<14:30, 174.05s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 124275.67it/s]
+Evaluating:  33%|█████████████████▎                                  | 2/6 [04:15<07:58, 119.69s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 106634.85it/s]
+Evaluating:  50%|██████████████████████████                          | 3/6 [06:12<05:55, 118.43s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 317406.79it/s]
+Evaluating:  67%|███████████████████████████████████▎                 | 4/6 [06:16<02:26, 73.13s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 297956.02it/s]
+Evaluating:  83%|███████████████████████████████████████████▎        | 5/6 [15:20<04:03, 243.12s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 117597.31it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 6/6 [17:07<00:00, 196.82s/it]                                                                                                    
+                      Evaluation Summary                      
+ Instance                        Score  Comment               
+ abishekvashok__cmatrix.5c082c6     82  796 tests             
+ ajeetdsouza__zoxide.67ca1bc        77  979 tests             
+ boyter__scc.515f91c                69  1252 tests            
+ cmatsuoka__figlet.202a0a8           0  ERROR: compile_failed 
+ eradman__entr.8e2e8b4              82  907 tests             
+ tomnomnom__gron.88a6234            83  340 tests             
+ Average                            65  6 instances           
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.

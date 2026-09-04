@@ -1,0 +1,16 @@
+HOST=pro5000-soar JOB=5554 CPUS=8 FILTER=
+Evaluating:   0%|                                                             | 0/3 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 358870.93it/s]
+Evaluating:  33%|█████████████████▎                                  | 1/3 [02:04<04:09, 124.71s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 115704.94it/s]
+Evaluating:  67%|███████████████████████████████████▎                 | 2/3 [02:54<01:20, 80.69s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 101475.10it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 3/3 [02:57<00:00, 44.96s/it]                                                                                                    
+                      Evaluation Summary                      
+ Instance                        Score  Comment               
+ abishekvashok__cmatrix.5c082c6     98  524 tests             
+ ajeetdsouza__zoxide.67ca1bc         0  ERROR: compile_failed 
+ boyter__scc.515f91c                 0  ERROR: compile_failed 
+ Average                            33  3 instances           
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.

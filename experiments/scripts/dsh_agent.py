@@ -104,6 +104,7 @@ def main() -> None:
     ap.add_argument("--wall-time-seconds", type=int, default=0, help="0 = unlimited (model-card setting)")
     ap.add_argument("--instance-id", default="task")
     ap.add_argument("--patch", default="/opt/pb/dsh-programbench.patch.yml")
+    ap.add_argument("--max-nudges", type=int, default=5, help="continuations after a turn ends without compile.sh")
     ap.add_argument("--workflow", choices=["required", "allowed"], default="required",
                     help="required: the prompt explicitly demands the workflow tool (dsh only offers it on explicit request)")
     args = ap.parse_args()
@@ -138,6 +139,20 @@ def main() -> None:
             shutdown_timeout_seconds=60,
         ) as harness:
             result = harness.run(prompt, session_id=args.instance_id, on_notification=on_notification)
+            # dsh ends a turn as soon as the model answers without a tool call, which it does even
+            # mid-work ("Let me debug this more carefully:" ... end). mini-swe-agent would reject such a
+            # step and continue; to keep the episode comparable, nudge the agent on in the same session
+            # while it has not produced compile.sh and time remains (bounded by --max-nudges).
+            nudges = 0
+            while (result.finish_reason == "completed" and not Path("/workspace/compile.sh").exists()
+                   and nudges < args.max_nudges
+                   and (not args.wall_time_seconds or time.time() - out["started"] < args.wall_time_seconds - 600)):
+                nudges += 1
+                result = harness.run(
+                    "You stopped before finishing: there is no ./compile.sh in /workspace yet. Continue the task — "
+                    "keep working with tools until ./compile.sh builds ./executable from your own sources, then commit and summarize.",
+                    session_id=args.instance_id, on_notification=on_notification)
+            out["nudges"] = nudges
         out.update(exit_status=f"finished:{result.finish_reason}", finish_reason=result.finish_reason,
                    final_response=result.final_response, n_events=len(result.events))
     except Exception as e:  # recorded, never swallowed: the runner reads exit_status
