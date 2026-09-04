@@ -172,3 +172,13 @@
   gping 0.952, oha 0.956, pingu 0.969, bat 0.952, curlie 1.000, xh 0.993, bore 0.987. Merged with
   `score_gold.py <v2>,<v2-hostnet>` (best raw rate per task, 8 tasks taken from the host-network run).
 - **FINAL benchmark definition: 20 excluded / 180 remain** → `results/v2/` (README marks it final).
+- Flakiness question (user, 2026-09-04 ~11:00): could a re-run push kept tasks below 0.9? Analysis of
+  the two full runs so far: the 28 kept tasks in [0.90, 0.95) have *identical* raw rates across runs
+  to 3 decimals in almost every case (cppcheck 0.904/0.904, zk 0.908/0.908, kiro 0.912/0.911, …) —
+  their gold failures are deterministic bad tests, not randomness. Genuinely flipping tests are few
+  (gron 17, errcheck 16, peco 15, gdu 13, felix 11, serpl 10 …); 53/180 kept tasks have ≥1 flip.
+  Timing/load-sensitive failures cluster in dog (151), xplr (22), the_silver_searcher (15), gping (13).
+  At-risk kept tasks: serpl 0.908 (10 flips), dog 0.909 (timing), cppcheck 0.904, zk 0.908.
+  Started **v3** (jobs 5537/5538): an exact repeat of the v2 configuration into `gold-eval-v3`, to
+  measure run-to-run variance directly. Proposed robust rule (pending user's OK): exclude a task if
+  its raw rate is < 0.9 in *any* run; mask = tests passing in *all* runs.
