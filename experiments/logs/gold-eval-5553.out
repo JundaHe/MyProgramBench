@@ -1,0 +1,3 @@
+HOST=pro5000-soar JOB=5553 CPUS=8 FILTER=
+Evaluating:   0%|                                                             | 0/6 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 355073.35it/s]

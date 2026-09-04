@@ -1,2 +1,6 @@
 HOST=pro5000-soar JOB=5550 MODEL=deepseek/deepseek-v4-pro BASE_URL=https://openrouter.ai/api/v1 OUT=/scratch/jundahe/pb-runs/dsh-pilot-pro-required FILTER= WORKERS=2
 10 tasks, 2 workers, model deepseek/deepseek-v4-pro
+abishekvashok__cmatrix.5c082c6: finished:completed in 62 min
+ajeetdsouza__zoxide.67ca1bc: finished:completed in 66 min
+boyter__scc.515f91c: finished:error in 175 min
+slurmstepd-pro5000-soar: error: *** JOB 5550 ON pro5000-soar CANCELLED AT 2026-09-05T01:44:45 ***

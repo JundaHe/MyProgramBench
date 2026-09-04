@@ -208,3 +208,13 @@
   the host-network re-runs. Official definition remains `results/v2/` (20/180); the robust
   min-over-runs rule (`scripts/score_gold_robust.py`) is ready but waits for the v3 host-network +
   sqlite/skeema re-runs once the pilot releases the CPU quota.
+- 2026-09-05 00:40 **pilot paused: OpenRouter credits exhausted** ($3 of $3000 left; this key alone
+  used $1366, $54 today). scc (required) ended `finished:error` after 16 × HTTP 402 retries; jobs
+  5549/5550 cancelled to stop episodes idling on retries. Completed episodes kept: allowed =
+  cmatrix, zoxide, scc, figlet, entr, gron (6); required = cmatrix, zoxide (2) + scc (error, to redo).
+  Observations so far: required/cmatrix ran 2 workflows successfully; required/zoxide's workflow
+  script failed to parse (garbled JS with dropped characters — possibly a low-quality OpenRouter
+  provider route) and the model fell back to `subagent`; allowed/scc used `subagent` on its own.
+  While waiting for credits, the freed CPU quota goes to gold work: v3 host-network re-run of the
+  11 network tasks, sqlite/skeema v3 re-run on an idle node, and `programbench eval` of the 8
+  finished pilot submissions (jobs queued via `gold_eval.slurm`, now generic: RUN_DIR/OUT).
