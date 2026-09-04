@@ -3,8 +3,8 @@
 #   - no web tools: the benchmark forbids internet access for the agent (the container's network is
 #     limited to the LLM API anyway, this just removes the tools from the model's view)
 #   - no telemetry export
-#   - the container is the sandbox: full access inside it (the base profile's bwrap/Landlock
-#     confinement cannot run inside a rootless apptainer user namespace)
+#   - the container is the sandbox: full access inside it via DSH_PERMISSION_MODE=danger-full-access
+#     (the base profile's bwrap/Landlock confinement cannot run inside a rootless apptainer user namespace)
 #   - persona = the ProgramBench rules, taken verbatim from mini-swe-agent's programbench.yaml
 #     system_template so the two harnesses see the same task framing
 
@@ -19,10 +19,9 @@
 - id: session-telemetry-otel
   disabled: true
 
-- id: sandbox-policy
-  config:
-    mode: danger-full-access
-    workspaceRoot: /workspace
+# sandbox/approval defaults are selected with DSH_PERMISSION_MODE=danger-full-access in the process
+# environment (set by dsh_agent.py); overriding the sandbox-policy row directly leaves the permission
+# preset table with no matching preset and the boot fails.
 
 - id: system-prompt
   config:

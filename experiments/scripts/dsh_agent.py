@@ -11,6 +11,7 @@ get the same task statement; the rules live in the profile persona (configs/dsh-
 
 import argparse
 import json
+import os
 import platform
 import sys
 import time
@@ -109,6 +110,7 @@ def main() -> None:
     u = platform.uname()
     prompt = TASK.format(system=u.system, release=u.release, version=u.version, machine=u.machine,
                          workflow_instruction=WORKFLOW_REQUIRED if args.workflow == "required" else "")
+    os.environ["DSH_PERMISSION_MODE"] = "danger-full-access"  # the container is the sandbox
     out = {"instance_id": args.instance_id, "model": args.model, "started": time.time()}
     try:
         with DeepSeekHarness(
