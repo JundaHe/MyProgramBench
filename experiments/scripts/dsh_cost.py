@@ -53,8 +53,8 @@ def main() -> None:
                 continue
             model = json.loads((tdir / "params.json").read_text())["model"] if (tdir / "params.json").exists() else "?"
             pin, pout = PRICE.get(model, (0, 0))
-            fresh = u["inputTokens"] - u["cacheReadTokens"]
-            cost = (fresh * pin + u["cacheReadTokens"] * pin * 0.1 + u["outputTokens"] * pout) / 1e6
+            # dsh reports inputTokens as the uncached part; cacheReadTokens is separate
+            cost = (u["inputTokens"] * pin + u["cacheReadTokens"] * pin * 0.1 + u["outputTokens"] * pout) / 1e6
             u["cost_usd"] = cost
             grand.update(u)
             print(f"  {tdir.name:40s} req={u['requests']:5d} in={u['inputTokens']/1e6:7.2f}M (cached {u['cacheReadTokens']/1e6:6.2f}M) "
