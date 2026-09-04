@@ -523,3 +523,6 @@ solved task.
 Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][A
 Fetching ... files: 1it [00:00,  1.79it/s][AFetching ... files: 12it [00:00, 19.56it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:01<02:01, 121.09s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 29746.84it/s]
+slurmstepd-pro5000-soar: error: *** JOB 5538 ON pro5000-soar CANCELLED AT 2026-09-04T18:23:38 ***

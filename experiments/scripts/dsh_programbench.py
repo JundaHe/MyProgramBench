@@ -12,6 +12,7 @@ user `agent`, then tar /workspace into submission.tar.gz and stop the container.
 """
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -50,6 +51,18 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
     }
     env.pop("PBDOCKER_EXPOSE_REFERENCE", None)
     image = f"programbench/{iid.replace('__', '_1776_')}:task_cleanroom_v6"
+    patch = HERE.parent / "configs" / "dsh-programbench.patch.yml"
+    (tdir / "params.json").write_text(json.dumps({
+        "instance_id": iid, "image": image, "model": args.model, "base_url": args.base_url or "https://api.deepseek.com",
+        "provider": "deepseek-official", "workflow": args.workflow, "wall_time_seconds": args.wall_time_seconds,
+        "hard_timeout_seconds": args.hard_timeout_seconds, "max_tokens": 49152, "profile": "sdk",
+        "patch_file": str(patch), "patch_sha256": hashlib.sha256(patch.read_bytes()).hexdigest(),
+        "dsh_runtime": json.loads((RUNTIME / "deepseek_harness_runtime" / "deepseek-harness-runtime.json").read_text()),
+        "dsh_sdk_version": next((d.name for d in RUNTIME.iterdir() if d.name.startswith("deepseek_harness_sdk-")), "?"),
+        "experiments_git_commit": sh("git", "-C", str(HERE), "rev-parse", "HEAD").stdout.strip(),
+        "shim": str(SHIM), "network": {"mode": "isolated netns + unix-socket proxy", "allowed_hosts": [api_host]},
+        "container_user": "agent", "started": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+    }, indent=1))
     name = f"programbench-dsh-{iid[:20].replace('.', '-')}-{int(time.time()) % 100000}"
     r = sh(str(SHIM), "run", "-d", "--name", name, "-w", "/workspace", "--user", "agent", image, "sleep", "168h", env=env)
     if r.returncode:
@@ -70,6 +83,7 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
         status = "?"
         if (home / "result.json").exists():
             status = json.loads((home / "result.json").read_text())["exit_status"]
+        sh(sys.executable, str(HERE / "dsh_extract.py"), str(tdir))  # workflows/ + prompt record from the session log
         return f"{iid}: {status} in {(time.time() - t0) / 60:.0f} min"
     except subprocess.TimeoutExpired:
         sh(str(SHIM), "exec", name, "bash", "-lc", "tar -czf /tmp/_submission.tar.gz -C /workspace .", env=env)
