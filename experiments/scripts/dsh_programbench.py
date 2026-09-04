@@ -37,6 +37,9 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
     tdir = out / iid
     home = tdir / "dsh-home"
     keydir = tdir / "key"
+    if home.exists():  # a fresh home per episode: a reused one resumes the old session instead of starting anew
+        subprocess.run(["apptainer", "exec", "--cleanenv", "--fakeroot", "-B", f"{home}:/d",
+                        "/scratch/jundahe/pb-apptainer/toolbox/rootfs", "sh", "-c", "rm -rf /d/* /d/.[!.]*"], capture_output=True)
     for d in (home, keydir):
         d.mkdir(parents=True, exist_ok=True)
         d.chmod(0o777)  # written by uid 1000 (`agent`) inside the container

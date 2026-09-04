@@ -112,6 +112,17 @@ def main() -> None:
                          workflow_instruction=WORKFLOW_REQUIRED if args.workflow == "required" else "")
     os.environ["DSH_PERMISSION_MODE"] = "danger-full-access"  # the container is the sandbox
     out = {"instance_id": args.instance_id, "model": args.model, "started": time.time()}
+    notif_log = (args.dsh_home / "notifications.jsonl").open("a")
+
+    def on_notification(n) -> None:  # every JSON-RPC notification, incl. request errors the session log may not flush
+        payload = n.payload if isinstance(n.payload, dict) else {"payload": str(n.payload)}
+        ev = payload.get("event") if isinstance(payload.get("event"), dict) else None
+        rec = {"t": time.time(), "method": n.method, "type": ev.get("type") if ev else None, "status": payload.get("status")}
+        if ev and ev.get("type") not in ("assistant/chunk", "tool-call-chunks", "text-chunks"):
+            rec["data"] = json.dumps(ev.get("data"))[:4000]
+        notif_log.write(json.dumps(rec) + "\n")
+        notif_log.flush()
+
     try:
         with DeepSeekHarness(
             provider=args.provider,
@@ -124,9 +135,11 @@ def main() -> None:
             api_key=args.key_file.read_text().strip(),
             base_url=args.base_url or None,
             request_timeout_seconds=args.wall_time_seconds or None,
+            shutdown_timeout_seconds=60,
         ) as harness:
-            result = harness.run(prompt, session_id=args.instance_id)
-        out.update(exit_status="Submitted", final_response=result.final_response)
+            result = harness.run(prompt, session_id=args.instance_id, on_notification=on_notification)
+        out.update(exit_status=f"finished:{result.finish_reason}", finish_reason=result.finish_reason,
+                   final_response=result.final_response, n_events=len(result.events))
     except Exception as e:  # recorded, never swallowed: the runner reads exit_status
         out.update(exit_status=type(e).__name__, error=str(e), traceback=traceback.format_exc())
     out["finished"] = time.time()
