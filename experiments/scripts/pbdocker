@@ -21,6 +21,10 @@ Set PBDOCKER_HOST_NETWORK=1 to share the host network instead (old behaviour). `
 (mini-swe-agent) gives an isolated netns with no proxy. `--cpus` etc. are accepted and ignored
 (Slurm cgroups cap us).
 
+PBDOCKER_EXTRA_BINDS=/host/a:/ctr/a,... adds bind mounts (e.g. the dsh runtime for agent runs).
+PBDOCKER_TCP_RELAYS=host:port,... maps each host to 127.0.0.1 in /etc/hosts and tunnels that port
+through the proxy (for clients that ignore proxy env vars, e.g. the LLM API of an agent harness).
+
 PBDOCKER_EXPOSE_REFERENCE=1 copies /workspace/executable (the task's reference binary, which the eval
 wipes before compile.sh runs) to /opt/programbench-reference/executable at container start. Only for
 the gold run; never set it when an agent is inside the container.
@@ -144,13 +148,16 @@ def cmd_run(argv: list[str]) -> None:
         "cwd": cwd, "env": {**(PROXY_ENV if proxied else {}), **env}, "base": base, "image": image, "user": user,
     }))
     proxy_binds = ["-B", f"{ensure_proxy().parent}:/run/pbproxy", "-B", f"{PBPROXY}:/opt/pbproxy.py"] if proxied else []
+    for b in filter(None, os.environ.get("PBDOCKER_EXTRA_BINDS", "").split(",")):
+        proxy_binds += ["-B", b]
+    relays = [r for r in os.environ.get("PBDOCKER_TCP_RELAYS", "").split(",") if r] if proxied else []
     subprocess.run(
         [
             # --containall would mask $HOME and /tmp,/var/tmp with empty (64 MiB) session dirs; docker
             # semantics are the image's own /root (holds .gitconfig safe.directory) and unbounded tmp dirs.
             "apptainer", "instance", "start", "--fakeroot", "--containall", "--no-home",
             *([] if host_net else ["--net", "--network", "none"]),
-            "--no-mount", "/etc/resolv.conf", *proxy_binds,
+            "--no-mount", "/etc/resolv.conf", *(["--no-mount", "/etc/hosts"] if relays else []), *proxy_binds,
             "-B", f"{cdir / 'tmp'}:/tmp", "-B", f"{cdir / 'vartmp'}:/var/tmp", "--overlay", str(cdir),
             str(rootfs), name,
         ],
@@ -160,6 +167,14 @@ def cmd_run(argv: list[str]) -> None:
         instance_exec(
             name, "sh", "-c",
             f"nohup python3 /opt/pbproxy.py relay /run/pbproxy/proxy.sock {PROXY_PORT} >/dev/null 2>&1 &",
+            cwd="/", check=True,
+        )
+    for r in relays:
+        host, port = r.rsplit(":", 1)
+        instance_exec(
+            name, "sh", "-c",
+            f"printf '127.0.0.1 localhost\\n127.0.0.1 {host}\\n' > /etc/hosts && "
+            f"nohup python3 /opt/pbproxy.py tcprelay /run/pbproxy/proxy.sock {port} {r} >/dev/null 2>&1 &",
             cwd="/", check=True,
         )
     if not host_net:

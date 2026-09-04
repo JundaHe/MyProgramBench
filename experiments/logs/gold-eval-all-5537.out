@@ -233,4 +233,251 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 282762.07it/s]
 Evaluating:  50%|██████████████████████████                          | 2/4 [04:31<03:59, 120.00s/it]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 318865.22it/s]
-Evaluating:  75%|███████████████████████████████████████             | 3/4 [06:03<01:47, 107.15s/it]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [06:03<01:47, 107.15s/it]Evaluating: 100%|█████████████████████████████████████████████████| 4/4 [1:07:29<00:00, 1520.41s/it]                                                                                                    
+                 Evaluation Summary                  
+ Instance                         Score  Comment     
+ halitechallenge__halite.822cfb6     ✅  275 tests   
+ hatoo__oha.8dc6349                  86  1246 tests  
+ hooklift__gowsdl.2a06cec            98  405 tests   
+ hpjansson__chafa.dd4d4c1            ✅  1931 tests  
+ Average                             96  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:20:58 round: ^(jqlang__jq\.b33a763|jrnxf__thokr\.09375ef|junegunn__fzf\.b56d614|kaushiksrini__parqeye\.8072121)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 260662.96it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 293601.28it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:09<06:29, 129.77s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 315178.91it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:27<03:18, 99.11s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 307435.90it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:59<02:03, 123.20s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [07:44<00:00, 115.90s/it]                                                                                                    
+                Evaluation Summary                 
+ Instance                       Score  Comment     
+ jqlang__jq.b33a763               100  6074 tests  
+ jrnxf__thokr.09375ef              ✅  440 tests   
+ junegunn__fzf.b56d614             ✅  1856 tests  
+ kaushiksrini__parqeye.8072121     99  487 tests   
+ Average                          100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:28:43 round: ^(kisielk__errcheck\.dacab89|konradsz__igrep\.aa75630|ksxgithub__parallel\-disk\-usage\.96978ed|kyoh86__richgo\.313114f)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 285975.27it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 282128.07it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [04:28<13:26, 268.72s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 273541.57it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [04:32<03:45, 112.70s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 298072.37it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [07:13<02:15, 135.09s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [07:54<00:00, 97.86s/it]                                                                                                    
+                     Evaluation Summary                     
+ Instance                                Score  Comment     
+ kisielk__errcheck.dacab89                  ✅  357 tests   
+ konradsz__igrep.aa75630                    92  462 tests   
+ ksxgithub__parallel-disk-usage.96978ed     90  657 tests   
+ kyoh86__richgo.313114f                     ✅  546 tests   
+ Average                                    96  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:36:38 round: ^(kyoheiu__felix\.95df390|lfos__calcurse\.49180d5|lh3__seqtk\.94e7070|lua__lua\.c6b4848)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 307435.90it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 251658.24it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [08:23<25:09, 503.23s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 108240.10it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [08:38<07:12, 216.13s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 285476.19it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [11:31<03:16, 196.68s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [11:34<00:00, 120.11s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ kyoheiu__felix.95df390     98  525 tests   
+ lfos__calcurse.49180d5     ✅  666 tests   
+ lh3__seqtk.94e7070         ✅  429 tests   
+ lua__lua.c6b4848          100  1348 tests  
+ Average                    99  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:48:13 round: ^(lz4__lz4\.1519f46|madler__pigz\.fe4894f|mfridman__tparse\.2416b4b|mgdm__htmlq\.6e31bc8)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 337472.74it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 183024.17it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [00:53<02:41, 53.74s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 296068.52it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [01:44<01:43, 51.83s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 301387.11it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [02:41<00:54, 54.47s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [04:22<00:00, 72.73s/it]                                                                                                    
+              Evaluation Summary              
+ Instance                  Score  Comment     
+ lz4__lz4.1519f46             ✅  1496 tests  
+ madler__pigz.fe4894f         ✅  831 tests   
+ mfridman__tparse.2416b4b     ✅  425 tests   
+ mgdm__htmlq.6e31bc8          ✅  1455 tests  
+ Average                     100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:52:36 round: ^(mikefarah__yq\.602586d|miserlou__loop\.209927c|mkj__dropbear\.75f699b|mookid__diffr\.2152742)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 99273.47it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 267284.08it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [00:38<01:54, 38.08s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 249166.57it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [01:03<01:00, 30.42s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 336579.95it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [01:57<00:41, 41.35s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [05:01<00:00, 97.78s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ mikefarah__yq.602586d     100  2018 tests  
+ miserlou__loop.209927c     ✅  710 tests   
+ mkj__dropbear.75f699b     100  671 tests   
+ mookid__diffr.2152742      ✅  606 tests   
+ Average                   100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 15:57:38 round: ^(naggie__dstask\.ff57396|nikoladucak__caps\-log\.2cf2d1e|nikolassv__bartib\.6b9b5ce|ninja\-build__ninja\.cc60300)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 322638.77it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 304250.03it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:04<06:14, 124.71s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 332881.27it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:19<03:10, 95.37s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 349525.33it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:57<02:03, 123.98s/it]                                                                                                    [nikoladucak__caps-log.2cf2d1e] branch c0e6b8d64108: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [23:37<02:03, 123.98s/it]                                                                                                    [nikoladucak__caps-log.2cf2d1e] branch c0e6b8d64108 failed (results_read_failed), continuing with remaining branches
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [23:46<02:03, 123.98s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [27:51<00:00, 593.65s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                       Score  Comment                                  
+ naggie__dstask.ff57396            99  1305 tests                               
+ nikoladucak__caps-log.2cf2d1e     99  ERRORS: BRANCH: c0e6b8d64108:            
+                                       results_read_failed                      
+ nikolassv__bartib.6b9b5ce         ✅  721 tests                                
+ ninja-build__ninja.cc60300        ✅  1439 tests                               
+ Average                           99  4 instances                              
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 16:25:30 round: ^(o2sh__onefetch\.e5958ce|ogham__dog\.721440b|oppiliappan__eva\.41ae245|oppiliappan__statix\.e9df54c)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 313859.48it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 384.30it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [08:07<24:22, 487.56s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 11it [00:00, 25.91it/s][AFetching ... files: 11it [00:00, 25.91it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [11:44<10:56, 328.16s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 371647.19it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [14:09<04:04, 244.91s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [16:23<00:00, 200.97s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ o2sh__onefetch.e5958ce         100  1171 tests  
+ ogham__dog.721440b              72  2918 tests  
+ oppiliappan__eva.41ae245        ✅  913 tests   
+ oppiliappan__statix.e9df54c     ✅  815 tests   
+ Average                         93  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 16:41:54 round: ^(orf__gping\.26eb5b9|osgeo__gdal\.0847f12|osgeo__proj\.75d455c|paradigmxyz__solar\.5190d0e)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 130055.94it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 277768.48it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [05:24<16:14, 324.93s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  1.72it/s][AFetching ... files: 4it [00:00,  6.78it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [06:52<06:10, 185.10s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 290934.38it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [10:56<03:32, 212.25s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [13:12<00:00, 181.88s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ orf__gping.26eb5b9             93  392 tests   
+ osgeo__gdal.0847f12            ✅  657 tests   
+ osgeo__proj.75d455c            ✅  5319 tests  
+ paradigmxyz__solar.5190d0e    100  1983 tests  
+ Average                        98  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 16:55:06 round: ^(pemistahl__grex\.fa3e8ed|php__php\-src\.c891263|pier\-cli__pier\.5e1bde9|pls\-rs__pls\.4e1ae50)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+
+Fetching ... files: 0it [00:00, ?it/s][A[A
+Fetching ... files: 1it [00:00,  2.40it/s][A
+
+Fetching ... files: 1it [00:00,  3.13it/s][A[A
+Fetching ... files: 4it [00:00,  5.42it/s][AFetching ... files: 11it [00:00, 13.63it/s]
+
+
+Fetching ... files: 9it [00:00, 14.30it/s][A[AFetching ... files: 12it [00:00, 17.03it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [03:13<09:39, 193.01s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  1.60it/s][AFetching ... files: 10it [00:00, 16.02it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [10:58<11:46, 353.48s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 32.11it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [13:47<04:28, 268.91s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [16:30<00:00, 227.07s/it]                                                                                                    
+             Evaluation Summary              
+ Instance                 Score  Comment     
+ pemistahl__grex.fa3e8ed     ✅  1312 tests  
+ php__php-src.c891263       100  14293 tests 
+ pier-cli__pier.5e1bde9      ✅  692 tests   
+ pls-rs__pls.4e1ae50         96  363 tests   
+ Average                     99  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 17:11:37 round: ^(raviqqe__muffet\.a882908|rbakbashev__elfcat\.52f8cc7|rcoh__angle\-grinder\.9c2fc88|rhysd__kiro\-editor\.4157485)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+
+Fetching ... files: 0it [00:00, ?it/s][A[A
+
+Fetching ... files: 1it [00:00,  2.83it/s][A[AFetching ... files: 15it [00:00, 41.74it/s]
+
+Fetching ... files: 1it [00:00,  1.52it/s][AFetching ... files: 9it [00:00, 13.39it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [03:14<09:42, 194.04s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  3.18it/s][AFetching ... files: 4it [00:00, 12.51it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [05:24<05:13, 156.53s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  4.77it/s][AFetching ... files: 10it [00:00, 38.11it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [12:53<04:50, 290.35s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [13:27<00:00, 189.12s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ raviqqe__muffet.a882908        100  302 tests   
+ rbakbashev__elfcat.52f8cc7      ✅  567 tests   
+ rcoh__angle-grinder.9c2fc88    100  1130 tests  
+ rhysd__kiro-editor.4157485      ✅  594 tests   
+ Average                        100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 17:25:05 round: ^(rochacbruno__marmite\.7d4bc2d|rs__curlie\.5dfcbb1|rs__jplot\.2a54bcc|rust\-embedded__svd2rust\.1760b5e)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+
+Fetching ... files: 0it [00:00, ?it/s][A[A
+Fetching ... files: 3it [00:00, 19.69it/s][AFetching ... files: 12it [00:00, 54.36it/s]
+
+
+Fetching ... files: 1it [00:00,  7.21it/s][A[A
+
+Fetching ... files: 3it [00:00,  9.49it/s][A[AFetching ... files: 11it [00:00, 33.71it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [03:33<10:39, 213.11s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  6.23it/s][AFetching ... files: 10it [00:00, 50.21it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [04:13<03:42, 111.32s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  3.95it/s][AFetching ... files: 12it [00:00, 47.38it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [13:38<05:18, 318.43s/it]

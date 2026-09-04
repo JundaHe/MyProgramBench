@@ -13,7 +13,16 @@ denies here. Filesystem unix sockets cross network namespaces, so instead:
 The shim exports HTTP_PROXY/HTTPS_PROXY=http://127.0.0.1:<port> in the container, so pip, apt, curl,
 git, cargo, go and reqwest/requests-based test code reach the internet; raw sockets/DNS to the
 outside do not (they would not in a hermetic CI either).
+
+PBPROXY_ALLOW=host1,host2 (serve mode) restricts the proxy to those destination hosts — used for
+agent runs, where the harness inside the container may talk to its LLM API and nothing else.
+
+`pbproxy.py tcprelay <sock> <port> <host:port>` is a transparent variant for clients that ignore
+proxy environment variables: it listens on 127.0.0.1:<port> and tunnels every connection to one
+fixed upstream through the proxy's CONNECT, so with `127.0.0.1 api.example.com` in /etc/hosts a TLS
+client reaches api.example.com:443 unchanged (the certificate still matches the host name).
 """
+import os
 
 import socket
 import socketserver
@@ -54,6 +63,9 @@ def read_head(conn: socket.socket) -> bytes:
     return buf
 
 
+ALLOW = {h.strip().lower() for h in os.environ.get("PBPROXY_ALLOW", "").split(",") if h.strip()}
+
+
 class ProxyHandler(socketserver.BaseRequestHandler):
     def handle(self) -> None:
         head = read_head(self.request)
@@ -61,6 +73,10 @@ class ProxyHandler(socketserver.BaseRequestHandler):
             return
         line, _, rest = head.partition(b"\r\n")
         method, target, version = line.decode("latin1").split(" ", 2)
+        host = target.rsplit(":", 1)[0] if method == "CONNECT" else (urlsplit(target).hostname or "")
+        if ALLOW and host.lower() not in ALLOW:
+            self.request.sendall(f"HTTP/1.1 403 Forbidden\r\n\r\nproxy: {host} is not an allowed destination\r\n".encode())
+            return
         try:
             if method == "CONNECT":
                 host, port = target.rsplit(":", 1)
@@ -85,6 +101,11 @@ class RelayHandler(socketserver.BaseRequestHandler):
     def handle(self) -> None:
         up = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
         up.connect(self.server.sock_path)  # type: ignore[attr-defined]
+        if upstream := getattr(self.server, "upstream", None):
+            up.sendall(f"CONNECT {upstream} HTTP/1.1\r\nHost: {upstream}\r\n\r\n".encode())
+            if b" 200 " not in read_head(up).split(b"\r\n", 1)[0]:
+                up.close()
+                return
         bridge(self.request, up)
 
 
@@ -106,6 +127,8 @@ def main() -> None:
     else:
         srv = Threaded(("127.0.0.1", int(sys.argv[3])), RelayHandler)
         srv.sock_path = sock_path  # type: ignore[attr-defined]
+        if mode == "tcprelay":
+            srv.upstream = sys.argv[4]  # type: ignore[attr-defined]
     srv.serve_forever()
 
 
