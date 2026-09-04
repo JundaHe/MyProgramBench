@@ -3,3 +3,179 @@ HOST=pro5000-soar JOB=5538 CPUS=4 WORKERS=1 DOCKER_CPUS=4
 === 2026-09-04 12:39:22 round: ^(abishekvashok__cmatrix\.5c082c6|agourlay__zip\-password\-finder\.704700d)$
 Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 310689.19it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:50<02:50, 170.45s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 368280.35it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:16<00:00, 120.70s/it]                                                                                                    
+                    Evaluation Summary                     
+ Instance                               Score  Comment     
+ abishekvashok__cmatrix.5c082c6            ✅  506 tests   
+ agourlay__zip-password-finder.704700d     ✅  680 tests   
+ Average                                  100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 12:43:39 round: ^(ariga__atlas\.6d81150|arq5x__bedtools2\.dd57059)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 18it [00:00, 351151.03it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:55<01:55, 115.17s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 91180.52it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:25<00:00, 65.26s/it]                                                                                                    
+              Evaluation Summary              
+ Instance                  Score  Comment     
+ ariga__atlas.6d81150        100  1324 tests  
+ arq5x__bedtools2.dd57059     ✅  1053 tests  
+ Average                     100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 12:46:07 round: ^(arthursonzogni__json\-tui\.17a22b6|ast\-grep__ast\-grep\.dde0fe0)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 299593.14it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:24<03:24, 204.60s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 102300.10it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:59<00:00, 104.69s/it]                                                                                                    
+                  Evaluation Summary                  
+ Instance                          Score  Comment     
+ arthursonzogni__json-tui.17a22b6     ✅  755 tests   
+ ast-grep__ast-grep.dde0fe0           99  887 tests   
+ Average                             100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 12:50:07 round: ^(astaxie__bat\.17d1080|astro__deadnix\.d590041)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 17it [00:00, 337929.71it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [06:49<06:49, 409.09s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 16it [00:00, 316551.25it/s]
+                                                                                                    [astro__deadnix.d590041] branch 151142429bed: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  50%|██████████████████████████                          | 1/2 [07:15<06:49, 409.09s/it]                                                                                                    [astro__deadnix.d590041] branch 151142429bed failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|██████████████████████████                          | 1/2 [07:19<06:49, 409.09s/it]Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [07:48<00:00, 203.39s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                Score  Comment                                         
+ astaxie__bat.17d1080       99  1120 tests                                      
+ astro__deadnix.d590041    100  ERRORS: BRANCH: 151142429bed:                   
+                                results_read_failed                             
+ Average                    99  2 instances                                     
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 12:57:56 round: ^(blake3\-team__blake3\.15e83a5|bootandy__dust\.62bf1e1)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 93206.76it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:49<01:49, 109.54s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 320992.65it/s]
+                                                                                                    [bootandy__dust.62bf1e1] branch d42ad55b3a4b: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:26<01:49, 109.54s/it]                                                                                                    [bootandy__dust.62bf1e1] branch d42ad55b3a4b failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:31<01:49, 109.54s/it]Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:08<00:00, 126.75s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                     Score  Comment                                    
+ blake3-team__blake3.15e83a5     ✅  647 tests                                  
+ bootandy__dust.62bf1e1          87  ERRORS: BRANCH: d42ad55b3a4b:              
+                                     results_read_failed                        
+ Average                         93  2 instances                                
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 13:02:05 round: ^(boyter__scc\.515f91c|brocode__fblog\.3b54330)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 88612.06it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [00:24<00:24, 24.66s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 313007.76it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [01:25<00:00, 45.91s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ boyter__scc.515f91c       100  467 tests   
+ brocode__fblog.3b54330     ✅  978 tests   
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 13:03:31 round: ^(burntsushi__ripgrep\.3b7fd44|burntsushi__xsv\.f430466)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 325982.18it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:23<01:23, 83.43s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 274393.72it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:25<00:00, 70.74s/it]                                                                                                    
+               Evaluation Summary                
+ Instance                     Score  Comment     
+ burntsushi__ripgrep.3b7fd44     ✅  1992 tests  
+ burntsushi__xsv.f430466        100  1186 tests  
+ Average                        100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 13:05:57 round: ^(byron__dua\-cli\.8570c15|canop__broot\.d6c798e)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 15it [00:00, 298173.27it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:18<03:18, 198.28s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 252116.63it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [14:56<00:00, 492.55s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ byron__dua-cli.8570c15     96  765 tests   
+ canop__broot.d6c798e       99  550 tests   
+ Average                    98  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 13:20:54 round: ^(dalance__amber\.69a0f52|dandavison__delta\.acd758f)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 293601.28it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [04:03<04:03, 243.27s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 283989.33it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [05:54<00:00, 165.79s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ dalance__amber.69a0f52       100  567 tests   
+ dandavison__delta.acd758f     99  967 tests   
+ Average                       99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 13:26:49 round: ^(ducaale__xh\.4a6e44f|duckdb__duckdb\.bdb65ec)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 259198.56it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:14<02:14, 134.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 5it [00:00, 150874.24it/s]
+Evaluating: 100%|███████████████████████████████████████████████████| 2/2 [37:30<00:00, 1300.00s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ ducaale__xh.4a6e44f       100  1181 tests  
+ duckdb__duckdb.bdb65ec    100  5662 tests  
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 14:04:20 round: ^(filosottile__age\.706dfc1|foriequal0__git\-trim\.07c2f50)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 113359.57it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:11<01:11, 71.60s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 378840.36it/s]
+Evaluating: 100%|█████████████████████████████████████████████████████| 2/2 [02:11<00:00, 64.85s/it]                                                                                                    
+                Evaluation Summary                
+ Instance                      Score  Comment     
+ filosottile__age.706dfc1         ✅  676 tests   
+ foriequal0__git-trim.07c2f50     99  523 tests   
+ Average                          99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 14:06:33 round: ^(gabotechs__dep\-tree\.60a95a2|ggreer__the_silver_searcher\.a61f178)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 302681.73it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:38<02:38, 158.30s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 271853.04it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [04:05<00:00, 116.73s/it]                                                                                                    
+                   Evaluation Summary                    
+ Instance                             Score  Comment     
+ gabotechs__dep-tree.60a95a2             ✅  865 tests   
+ ggreer__the_silver_searcher.a61f178     98  1036 tests  
+ Average                                 99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 14:10:40 round: ^(guumaster__hostctl\.d6d9699|hairyhenderson__gomplate\.05eb3aa)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 317406.79it/s]
+Evaluating:  50%|██████████████████████████▌                          | 1/2 [01:22<01:22, 82.39s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 236775.23it/s]
