@@ -194,3 +194,8 @@
   227 tool calls in total, no compile.sh yet at 45 min. Per-task records: params.json, prompt.txt,
   notifications.jsonl, all session logs, extracted workflow scripts (`workflows/`), summary.json.
   Defaults set to 6 h wall-time per task + 6.5 h kill switch.
+- **dsh pilot started** (2026-09-04 19:40): 10 tasks (`configs/pilot10.json`: cmatrix, zoxide, scc, figlet,
+  entr, gron, hyperfine, fzf, tex-fmt, tokei), `deepseek/deepseek-v4-pro` via OpenRouter, 6 h/task,
+  two groups — `required` (prompt demands the workflow tool; job 5548) and `allowed` (control; job
+  5549). The `long` QoS allows one job per user, so 5549 (2 workers) runs first and 5548 queues;
+  to be consolidated into one job with 4 workers once the v3 gold pass (job 5537) releases its cores.

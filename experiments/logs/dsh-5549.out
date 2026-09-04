@@ -1,0 +1,2 @@
+HOST=pro5000-soar JOB=5549 MODEL=deepseek/deepseek-v4-pro BASE_URL=https://openrouter.ai/api/v1 OUT=/scratch/jundahe/pb-runs/dsh-pilot-pro-allowed FILTER= WORKERS=2
+10 tasks, 2 workers, model deepseek/deepseek-v4-pro

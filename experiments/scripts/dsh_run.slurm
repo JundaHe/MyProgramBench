@@ -16,6 +16,6 @@ export PBDOCKER_PROXY_DIR=/scratch/jundahe/pb-apptainer/proxy/$SLURM_JOB_ID
 S=/scratch/jundahe/ProgramBench/experiments/scripts
 echo "HOST=$(hostname) JOB=$SLURM_JOB_ID MODEL=${MODEL:-} BASE_URL=${BASE_URL:-} OUT=${OUT:-} FILTER=${FILTER:-} WORKERS=${WORKERS:-1}"
 python3 "$S/dsh_programbench.py" "${OUT:?}" --key-file "${KEY_FILE:-$HOME/.openrouter_key}" --model "${MODEL:-deepseek/deepseek-v4-flash}" \
-  ${BASE_URL:+--base-url "$BASE_URL"} ${FILTER:+--filter "$FILTER"} --workers "${WORKERS:-1}" \
+  ${BASE_URL:+--base-url "$BASE_URL"} ${FILTER:+--filter "$FILTER"} ${TASKS_FILE:+--tasks-file "$TASKS_FILE"} --workers "${WORKERS:-1}" \
   --workflow "${WORKFLOW:-required}" --wall-time-seconds "${WALL_TIME:-21600}" --hard-timeout-seconds "${HARD_TIMEOUT:-23400}" ${REDO:+--redo}
 echo "done $(date '+%F %T')"

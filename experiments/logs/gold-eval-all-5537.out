@@ -529,3 +529,94 @@ solved task.
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 180677.71it/s]
 
 Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 27915.50it/s]
+                                                                                                    [sqlite__sqlite.839433d] branch 4ee128ddea8e: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   0%|                                                           | 0/4 [1:01:23<?, ?it/s]                                                                                                    [skeema__skeema.6a76243] branch a903bacb7595: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   0%|                                                           | 0/4 [1:05:50<?, ?it/s]                                                                                                    [sqlite__sqlite.839433d] branch 4ee128ddea8e failed (results_read_failed), continuing with remaining branches
+Evaluating:   0%|                                                           | 0/4 [2:01:26<?, ?it/s]Evaluating:  25%|███████████▊                                   | 1/4 [2:01:27<6:04:21, 7287.09s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 160199.11it/s]
+Evaluating:  50%|███████████████████████▌                       | 2/4 [2:03:13<1:42:06, 3063.28s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 14it [00:00, 419430.40it/s]
+                                                                                                    [skeema__skeema.6a76243] branch a903bacb7595 failed (results_read_failed), continuing with remaining branches
+Evaluating:  50%|███████████████████████▌                       | 2/4 [2:05:53<1:42:06, 3063.28s/it]Evaluating:  75%|████████████████████████████████████▊            | 3/4 [2:07:02<29:28, 1769.00s/it]Evaluating: 100%|█████████████████████████████████████████████████| 4/4 [2:08:10<00:00, 1097.51s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                    Score  Comment                                     
+ skeema__skeema.6a76243         68  ERRORS: BRANCH: a903bacb7595:               
+                                    results_read_failed                         
+ sqlite__sqlite.839433d          2  ERRORS: BRANCH: 4ee128ddea8e:               
+                                    results_read_failed                         
+ sstadick__hck.b66c751          ✅  855 tests                                   
+ stacked-git__stgit.430027d     ✅  1488 tests                                  
+ Average                        68  4 instances                                 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 20:33:58 round: ^(stathissideris__ditaa\.f2286c4|stranger6667__jsonschema\.d52e881|svenstaro__genact\.16f96e3|svenstaro__miniserve\.8449e8b)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 132578.57it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 164482.51it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [03:00<09:00, 180.09s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 108473.38it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:16<02:47, 83.70s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 226163.45it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:20<01:42, 102.37s/it]Evaluating: 100%|█████████████████████████████████████████████████████| 4/4 [06:00<00:00, 77.73s/it]                                                                                                    
+                  Evaluation Summary                  
+ Instance                          Score  Comment     
+ stathissideris__ditaa.f2286c4        ✅  609 tests   
+ stranger6667__jsonschema.d52e881    100  2934 tests  
+ svenstaro__genact.16f96e3            ✅  231 tests   
+ svenstaro__miniserve.8449e8b         ✅  304 tests   
+ Average                             100  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 20:40:00 round: ^(tarka__xcp\.5e5b448|thezoraiz__ascii\-image\-converter\.d05a757|tinycc__tinycc\.9b8765d|tomarrell__wrapcheck\.c058da1)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 10it [00:00, 112750.11it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 331923.34it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [01:48<05:26, 108.75s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 103563.06it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [01:50<01:31, 45.98s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 331129.26it/s]
+Evaluating:  75%|███████████████████████████████████████▊             | 3/4 [03:32<01:11, 71.23s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [07:59<00:00, 148.50s/it]                                                                                                    
+                      Evaluation Summary                      
+ Instance                                  Score  Comment     
+ tarka__xcp.5e5b448                           98  1220 tests  
+ thezoraiz__ascii-image-converter.d05a757    100  467 tests   
+ tinycc__tinycc.9b8765d                       ✅  1978 tests  
+ tomarrell__wrapcheck.c058da1                 98  504 tests   
+ Average                                      99  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 20:47:59 round: ^(tomnomnom__gron\.88a6234|trasta298__keifu\.3331426|tree\-sitter__tree\-sitter\.5e23cca|tstack__lnav\.ee34494)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 322638.77it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 80145.94it/s]
+Evaluating:  25%|█████████████▎                                       | 1/4 [00:42<02:06, 42.13s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 290031.66it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [04:50<05:27, 163.69s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 3it [00:00, 27235.74it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:52<01:57, 117.04s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [18:45<00:00, 376.22s/it]                                                                                                    
+                  Evaluation Summary                  
+ Instance                          Score  Comment     
+ tomnomnom__gron.88a6234              94  256 tests   
+ trasta298__keifu.3331426             ✅  262 tests   
+ tree-sitter__tree-sitter.5e23cca    100  1238 tests  
+ tstack__lnav.ee34494                 95  1097 tests  
+ Average                              97  4 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 21:06:45 round: ^(tukaani\-project__xz\.1007bf0|typst__typst\.88356d0|unhappychoice__gittype\.34b72d0|universal\-ctags__ctags\.243595e)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 12it [00:00, 285975.27it/s]
+
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 324910.87it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:43<08:09, 163.01s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 11it [00:00, 311738.81it/s]
+Evaluating:  50%|██████████████████████████▌                          | 2/4 [03:31<03:11, 95.93s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 91180.52it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [05:35<01:48, 108.51s/it]
