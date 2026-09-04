@@ -427,3 +427,86 @@ solved task.
 Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
 Fetching ... files: 0it [00:00, ?it/s][A
 Fetching ... files: 3it [00:00, 16.27it/s][AFetching ... files: 14it [00:00, 67.34it/s]
+                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:   0%|                                                             | 0/2 [07:59<?, ?it/s]                                                                                                    [rvben__rumdl.2d75c4d] branch 75b32744b65c failed (results_read_failed), continuing with remaining branches
+Evaluating:   0%|                                                             | 0/2 [08:10<?, ?it/s]Evaluating:  50%|██████████████████████████                          | 1/2 [08:33<08:33, 513.81s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  2.29it/s][A
+Fetching ... files: 2it [00:00,  2.54it/s][AFetching ... files: 4it [00:00,  5.00it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [12:49<00:00, 361.80s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                    Score  Comment                                     
+ rvben__rumdl.2d75c4d          100  ERRORS: BRANCH: 75b32744b65c:               
+                                    results_read_failed                         
+ samtools__samtools.aa823b5     ✅  1425 tests                                  
+ Average                       100  2 instances                                 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 17:47:53 round: ^(sharkdp__fd\.40d8eb3|sharkdp__hexyl\.2e26437)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  2.57it/s][AFetching ... files: 12it [00:00, 30.51it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [03:34<03:34, 214.94s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 1184.45it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [08:15<00:00, 253.71s/it]                                                                                                    
+             Evaluation Summary             
+ Instance                Score  Comment     
+ sharkdp__fd.40d8eb3        ✅  1235 tests  
+ sharkdp__hexyl.2e26437     ✅  906 tests   
+ Average                   100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 17:56:09 round: ^(sharkdp__hyperfine\.327d5f4|sharkdp__pastel\.b60e899)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  9.68it/s][AFetching ... files: 3it [00:00, 28.83it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:48<02:48, 168.64s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 163.98it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [06:40<00:00, 205.77s/it]                                                                                                    
+               Evaluation Summary               
+ Instance                    Score  Comment     
+ sharkdp__hyperfine.327d5f4     ✅  291 tests   
+ sharkdp__pastel.b60e899        ✅  1114 tests  
+ Average                       100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 18:02:50 round: ^(shashwatah__jot\.a92aad8|sheepla__pingu\.926d475)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 5it [00:00, 18.63it/s][AFetching ... files: 12it [00:00, 44.67it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:00<02:00, 120.13s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  2.08it/s][AFetching ... files: 10it [00:00, 20.76it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [08:44<00:00, 287.44s/it]                                                                                                    
+             Evaluation Summary              
+ Instance                 Score  Comment     
+ shashwatah__jot.a92aad8     99  762 tests   
+ sheepla__pingu.926d475      99  388 tests   
+ Average                     99  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 18:11:35 round: ^(sibprogrammer__xq\.b89f681|sigoden__argc\.04a08f1)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 13it [00:00, 402.50it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [01:59<01:59, 119.72s/it]
+Fetching ... files: 0it [00:00, ?it/s][AFetching ... files: 4it [00:00, 40.04it/s]
+Evaluating: 100%|████████████████████████████████████████████████████| 2/2 [03:40<00:00, 108.59s/it]                                                                                                    
+              Evaluation Summary               
+ Instance                   Score  Comment     
+ sibprogrammer__xq.b89f681     ✅  792 tests   
+ sigoden__argc.04a08f1         ✅  995 tests   
+ Average                      100  2 instances 
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 2 pending
+=== 2026-09-04 18:15:16 round: ^(simeg__eureka\.df3796c|sirwart__ripsecrets\.34c9e03)$
+Evaluating:   0%|                                                             | 0/2 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  6.10it/s][AFetching ... files: 14it [00:00, 54.36it/s]
+Evaluating:  50%|██████████████████████████                          | 1/2 [02:58<02:58, 178.50s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  9.99it/s][AFetching ... files: 12it [00:00, 115.96it/s]

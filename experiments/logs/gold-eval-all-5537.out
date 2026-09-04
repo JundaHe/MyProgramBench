@@ -480,4 +480,37 @@ solved task.
 Evaluating:  50%|██████████████████████████                          | 2/4 [04:13<03:42, 111.32s/it]
 Fetching ... files: 0it [00:00, ?it/s][A
 Fetching ... files: 1it [00:00,  3.95it/s][AFetching ... files: 12it [00:00, 47.38it/s]
-Evaluating:  75%|███████████████████████████████████████             | 3/4 [13:38<05:18, 318.43s/it]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [13:38<05:18, 318.43s/it]                                                                                                    [rust-embedded__svd2rust.1760b5e] branch c1c694f9aa4f: attempt failed (results_read_failed); retrying (1 left)
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [20:37<05:18, 318.43s/it]                                                                                                    [rust-embedded__svd2rust.1760b5e] branch c1c694f9aa4f failed (results_read_failed), continuing with remaining branches
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [20:51<05:18, 318.43s/it]Evaluating: 100%|████████████████████████████████████████████████████| 4/4 [21:37<00:00, 381.97s/it]                                                                                                    
+                               Evaluation Summary                               
+ Instance                         Score  Comment                                
+ rochacbruno__marmite.7d4bc2d        ✅  669 tests                              
+ rs__curlie.5dfcbb1                 100  699 tests                              
+ rs__jplot.2a54bcc                  100  587 tests                              
+ rust-embedded__svd2rust.1760b5e     98  ERRORS: BRANCH: c1c694f9aa4f:          
+                                         results_read_failed                    
+ Average                             99  4 instances                            
+Note: A score of 100 does not mean solved (due to rounding). Only ✅ indicates a
+solved task.
+# 4 pending
+=== 2026-09-04 17:46:43 round: ^(sayanarijit__xplr\.1751065|sclevine__yj\.8016400|segmentio__chamber\.5f93f5f|sharkdp__bat\.f822bd0)$
+Evaluating:   0%|                                                             | 0/4 [00:00<?, ?it/s]
+Fetching ... files: 0it [00:00, ?it/s][A
+
+Fetching ... files: 0it [00:00, ?it/s][A[A
+
+Fetching ... files: 1it [00:00,  6.02it/s][A[A
+Fetching ... files: 1it [00:00,  3.82it/s][A
+
+Fetching ... files: 3it [00:00,  5.47it/s][A[AFetching ... files: 10it [00:00, 18.38it/s]
+
+Fetching ... files: 3it [00:00,  4.92it/s][AFetching ... files: 11it [00:00, 17.54it/s]
+Evaluating:  25%|█████████████                                       | 1/4 [02:23<07:10, 143.46s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 1it [00:00,  3.04it/s][A
+Fetching ... files: 3it [00:00,  4.95it/s][AFetching ... files: 13it [00:00, 19.99it/s]
+Evaluating:  50%|██████████████████████████                          | 2/4 [06:22<06:39, 199.68s/it]
+Fetching ... files: 0it [00:00, ?it/s][A
+Fetching ... files: 2it [00:00,  6.08it/s][AFetching ... files: 4it [00:00, 12.15it/s]
+Evaluating:  75%|███████████████████████████████████████             | 3/4 [08:08<02:36, 156.79s/it]

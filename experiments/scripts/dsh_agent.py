@@ -64,11 +64,32 @@ See the full rules in the system prompt. Key points:
 You have no step limit. Work until `./compile.sh` builds `./executable` from your own sources and its
 behavior matches the original as closely as you can verify; then commit and finish with a short summary.
 If you stop with known gaps, write them to `AGENT_REPORT.md` first.
-
+{workflow_instruction}
 <system_information>
 {system} {release} {version} {machine}
 </system_information>
 """
+
+
+WORKFLOW_REQUIRED = """
+## Orchestration requirement
+
+You MUST use the `workflow` tool (dynamic workflows) to organize this work as a multi-agent script —
+this is an explicit request. Write a workflow script that fans the work out across subagents, for
+example: (1) parallel exploration agents that each probe one area of the executable's behavior
+(help/usage, each subcommand or flag group, error handling, edge cases) and return structured
+findings; (2) implementation agents for independent modules; (3) verification agents that compare
+your build against the original on concrete inputs and report mismatches; iterate with further
+workflow runs until the behavior matches. Do the bulk of the work through workflow runs; use direct
+tool calls only for small glue steps and the final commit.
+"""
+
+
+def used_workflow(dsh_home: Path) -> int:
+    n = 0
+    for f in dsh_home.glob("sessions/**/*.jsonl"):
+        n += sum(1 for line in f.read_text(errors="replace").splitlines() if '"tool-workflow/run-start"' in line)
+    return n
 
 
 def main() -> None:
@@ -77,13 +98,17 @@ def main() -> None:
     ap.add_argument("--key-file", type=Path, required=True)
     ap.add_argument("--model", default="deepseek-v4-flash")
     ap.add_argument("--provider", default="deepseek-official")
+    ap.add_argument("--base-url", default="", help="OpenAI-compatible endpoint override (e.g. https://openrouter.ai/api/v1)")
     ap.add_argument("--max-tokens", type=int, default=49_152)
     ap.add_argument("--wall-time-seconds", type=int, default=0, help="0 = unlimited (model-card setting)")
     ap.add_argument("--instance-id", default="task")
     ap.add_argument("--patch", default="/opt/pb/dsh-programbench.patch.yml")
+    ap.add_argument("--workflow", choices=["required", "allowed"], default="required",
+                    help="required: the prompt explicitly demands the workflow tool (dsh only offers it on explicit request)")
     args = ap.parse_args()
     u = platform.uname()
-    prompt = TASK.format(system=u.system, release=u.release, version=u.version, machine=u.machine)
+    prompt = TASK.format(system=u.system, release=u.release, version=u.version, machine=u.machine,
+                         workflow_instruction=WORKFLOW_REQUIRED if args.workflow == "required" else "")
     out = {"instance_id": args.instance_id, "model": args.model, "started": time.time()}
     try:
         with DeepSeekHarness(
@@ -95,6 +120,7 @@ def main() -> None:
             profile="sdk",
             patches=(args.patch,),
             api_key=args.key_file.read_text().strip(),
+            base_url=args.base_url or None,
             request_timeout_seconds=args.wall_time_seconds or None,
         ) as harness:
             result = harness.run(prompt, session_id=args.instance_id)
@@ -102,8 +128,9 @@ def main() -> None:
     except Exception as e:  # recorded, never swallowed: the runner reads exit_status
         out.update(exit_status=type(e).__name__, error=str(e), traceback=traceback.format_exc())
     out["finished"] = time.time()
+    out["workflow_runs"] = used_workflow(args.dsh_home)  # from the session log's tool-workflow/run-start records
     (args.dsh_home / "result.json").write_text(json.dumps(out, indent=1))
-    print(json.dumps({k: out[k] for k in ("instance_id", "exit_status")}))
+    print(json.dumps({k: out[k] for k in ("instance_id", "exit_status", "workflow_runs")}))
 
 
 if __name__ == "__main__":

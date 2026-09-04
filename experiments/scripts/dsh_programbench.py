@@ -20,6 +20,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from urllib.parse import urlsplit
 
 HERE = Path(__file__).resolve().parent
 SHIM = HERE / "pbdocker"
@@ -40,11 +41,12 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
         d.chmod(0o777)  # written by uid 1000 (`agent`) inside the container
     (keydir / "key").write_bytes(args.key_file.read_bytes())
     (keydir / "key").chmod(0o644)
+    api_host = urlsplit(args.base_url).hostname if args.base_url else "api.deepseek.com"
     env = {
         **os.environ,
         "PBDOCKER_EXTRA_BINDS": f"{RUNTIME}:/opt/dsh:ro,{HERE}:/opt/pb/scripts:ro,{HERE.parent / 'configs'}:/opt/pb:ro,{home}:/dsh-home,{keydir}:/run/pbagent:ro",
-        "PBDOCKER_TCP_RELAYS": "api.deepseek.com:443",
-        "PBPROXY_ALLOW": "api.deepseek.com",
+        "PBDOCKER_TCP_RELAYS": f"{api_host}:443",
+        "PBPROXY_ALLOW": api_host,
     }
     env.pop("PBDOCKER_EXPOSE_REFERENCE", None)
     image = f"programbench/{iid.replace('__', '_1776_')}:task_cleanroom_v6"
@@ -57,7 +59,8 @@ def run_task(iid: str, out: Path, args: argparse.Namespace) -> str:
            'git config user.name "dsh" && git config user.email "dsh@local"', env=env)
         cmd = (
             f"PYTHONPATH=/opt/dsh python3 /opt/pb/scripts/dsh_agent.py --dsh-home /dsh-home --key-file /run/pbagent/key "
-            f"--model {args.model} --wall-time-seconds {args.wall_time_seconds} --instance-id {iid} --patch /opt/pb/dsh-programbench.patch.yml"
+            f"--model {args.model} --wall-time-seconds {args.wall_time_seconds} --instance-id {iid} --patch /opt/pb/dsh-programbench.patch.yml "
+            f"--workflow {args.workflow}" + (f" --base-url {args.base_url}" if args.base_url else "")
         )
         t0 = time.time()
         r = sh(str(SHIM), "exec", name, "bash", "-lc", cmd, env=env, timeout=args.hard_timeout_seconds or None)
@@ -82,6 +85,8 @@ def main() -> None:
     ap.add_argument("out_dir", type=Path)
     ap.add_argument("--key-file", type=Path, required=True)
     ap.add_argument("--model", default="deepseek-v4-flash")
+    ap.add_argument("--base-url", default="", help="e.g. https://openrouter.ai/api/v1 (then --model in OpenRouter form)")
+    ap.add_argument("--workflow", choices=["required", "allowed"], default="required")
     ap.add_argument("--filter", default="")
     ap.add_argument("--tasks-file", type=Path, help="JSON list of instance ids (default: all non-excluded tasks in results/v2)")
     ap.add_argument("--workers", type=int, default=1)

@@ -83,3 +83,9 @@
       - Running the executable with any inputs, flags, and arguments to observe its behavior
       - Reading any documentation files bundled in the workspace
       </RULES>
+
+# uncompressed session logs so trajectories (and tool-workflow/* records) can be read without zstd
+- id: session-persistence-jsonl
+  config:
+    root: !!js dshHomePath('sessions')
+    compression: none
