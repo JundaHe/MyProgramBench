@@ -182,3 +182,15 @@
   Started **v3** (jobs 5537/5538): an exact repeat of the v2 configuration into `gold-eval-v3`, to
   measure run-to-run variance directly. Proposed robust rule (pending user's OK): exclude a task if
   its raw rate is < 0.9 in *any* run; mask = tests passing in *all* runs.
+- dsh (DeepSeek Harness) integration, 2026-09-04 afternoon — see `docs/05-dsh-agent.md`. Runtime =
+  Python SDK wheel with bundled Node, bind-mounted into the task container; agent runs as `agent`
+  inside an isolated netns whose only reachable host is the LLM API (OpenRouter) via a transparent
+  TLS relay; profile patch disables web tools/telemetry and pins danger-full-access. Two boot fixes
+  (permission preset must be stated explicitly; a reused dsh-home resumes the old session). Smoke
+  test on cmatrix with deepseek-v4-flash via OpenRouter (job 5547, 45 min hard cap): the parent
+  launched one `workflow` run (`explore-cmatrix`, 5 parallel child agents) at 1.6 min; three
+  children finished by 10 min, the last two (tmux / escape-sequence exploration) kept working —
+  writing implementation files — until the cap, with the parent blocked inside the workflow tool.
+  227 tool calls in total, no compile.sh yet at 45 min. Per-task records: params.json, prompt.txt,
+  notifications.jsonl, all session logs, extracted workflow scripts (`workflows/`), summary.json.
+  Defaults set to 6 h wall-time per task + 6.5 h kill switch.
